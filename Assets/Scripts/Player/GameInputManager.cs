@@ -30,6 +30,8 @@ public class GameInputManager : MonoBehaviour
         inputActions.Enable();
 
         inputActions.Player.Move.performed += Move_performed;
+        inputActions.Player.Move.canceled += Move_performed;
+
         inputActions.Player.Interact.performed += Interact_performed;
         inputActions.Player.Dash.performed += Dash_performed;
         inputActions.Player.Pause.performed += Pause_performed;
@@ -40,7 +42,14 @@ public class GameInputManager : MonoBehaviour
     private void Move_performed(InputAction.CallbackContext obj)
     {
         if (obj.performed) OnMove?.Invoke(obj.ReadValue<Vector2>().normalized);
+        else if (obj.canceled)
+        {
+            OnMove?.Invoke(Vector2.zero);
+        }
     }
+
+   
+    
 
     private void Interact_performed(InputAction.CallbackContext context)
     {
@@ -65,6 +74,8 @@ public class GameInputManager : MonoBehaviour
     void OnDisable()
     {
         inputActions.Player.Move.performed -= Move_performed;
+        inputActions.Player.Move.canceled -= Move_performed;
+
         inputActions.Player.Interact.performed -= Interact_performed;
         inputActions.Player.Dash.performed -= Dash_performed;
         inputActions.Player.Pause.performed -= Pause_performed;
