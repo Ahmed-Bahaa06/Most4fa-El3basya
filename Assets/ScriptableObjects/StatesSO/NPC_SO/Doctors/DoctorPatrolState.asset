@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.PatrolStateSO
   stateColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   patrolDuration: 4
-  sightRange: 10
+  sightRange: 8
   stateWhenFinished: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
   stateWhenPlayerSpotted: {fileID: 11400000, guid: 802d17ec0acaecc458fdb9d8f0b6c36d, type: 2}

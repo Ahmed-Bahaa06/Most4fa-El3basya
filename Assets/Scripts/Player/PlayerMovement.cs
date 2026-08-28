@@ -3,21 +3,25 @@ using KhosaryCode.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
-
+    [Header("Movement")]
     [SerializeField] private float baseMoveSpeed = 5f;
     [SerializeField] private float currentMoveSpeed;  
-    [SerializeField] private float dashForce = 10f;
-    [SerializeField] private float dashCooldown = 1f;
+    
+    [Header("References")]
     [SerializeField] private AdrenalinSystem adrenalinSystem;
+    [SerializeField] private Animator animator;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private float lastDashTime;
+    public Vector2 FacingDirection { get; private set; } = Vector2.down;
+    
+    private PlayerDash playerDash;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerDash = GetComponent<PlayerDash>();
+        if (animator == null) animator = GetComponentInChildren<Animator>();
         currentMoveSpeed = baseMoveSpeed;
     }
 
@@ -26,9 +30,7 @@ public class PlayerMovement : MonoBehaviour
         if (GameInputManager.Instance != null)
         {
             GameInputManager.Instance.OnMove += HandleMove;
-            GameInputManager.Instance.OnDash += HandleDash;
             GameInputManager.Instance.OnInteract += HandleInteract;
-            
         }
     }
 
@@ -37,39 +39,50 @@ public class PlayerMovement : MonoBehaviour
         if (GameInputManager.Instance != null)
         {
             GameInputManager.Instance.OnMove -= HandleMove;
-            GameInputManager.Instance.OnDash -= HandleDash;
             GameInputManager.Instance.OnInteract -= HandleInteract;
-            
         }
     }
 
     private void HandleMove(Vector2 input)
     {
         moveInput = input;
-    }
-
-    private void HandleDash()
-    {
-        if (Time.time >= lastDashTime + dashCooldown)
+        
+        // Don't change facing if we are currently dashing or recovering
+        bool canTurn = true;
+        if (playerDash != null && (playerDash.IsDashing || playerDash.IsRecovering))
         {
-            if (moveInput != Vector2.zero)
+            canTurn = false;
+        }
+
+        if (moveInput.sqrMagnitude > 0.01f && canTurn)
+        {
+            if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
             {
-                Vector3 dashDir = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
-                rb.AddForce(dashDir * dashForce, ForceMode2D.Impulse);
-                lastDashTime = Time.time;
+                FacingDirection = moveInput.x > 0 ? Vector2.right : Vector2.left;
+            }
+            else
+            {
+                FacingDirection = moveInput.y > 0 ? Vector2.up : Vector2.down;
+            }
+            
+            if (animator != null)
+            {
+                animator.SetFloat("DirX", FacingDirection.x);
+                animator.SetFloat("DirY", FacingDirection.y);
             }
         }
     }
 
     private void HandleInteract()
     {
+        if (playerDash != null && (playerDash.IsDashing || playerDash.IsRecovering)) return;
+        
         float interactRange = 2f;
-        // استخدام Physics2D عشان المشروع 2D
-        Collider2D[] colliderArray = Physics2D.OverlapCircleAll(transform.position, interactRange);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, interactRange);
 
-        foreach (Collider2D collider in colliderArray)
+        foreach (Collider2D col in colliders)
         {
-            if (collider.TryGetComponent(out IInteractable interactable))
+            if (col.TryGetComponent(out IInteractable interactable))
             {
                 interactable.Interact();
                 break;
@@ -79,12 +92,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        bool canMove = true;
+        if (playerDash != null && (playerDash.IsDashing || playerDash.IsRecovering))
+        {
+            canMove = false;
+        }
+
+        if (canMove)
+        {
+            Move();
+        }
     }
 
     private void Move()
     {
-        currentMoveSpeed = baseMoveSpeed * adrenalinSystem.CurrentSpeedMultiplier;
+        if (adrenalinSystem != null)
+        {
+            currentMoveSpeed = baseMoveSpeed * adrenalinSystem.CurrentSpeedMultiplier;
+        }
         rb.linearVelocity = moveInput * currentMoveSpeed;
     }
 }
