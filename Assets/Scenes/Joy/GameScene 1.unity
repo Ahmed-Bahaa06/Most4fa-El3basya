@@ -170,8 +170,10 @@ GameObject:
   - component: {fileID: 56086752}
   - component: {fileID: 56086751}
   - component: {fileID: 56086754}
+  - component: {fileID: 56086761}
   - component: {fileID: 56086758}
   - component: {fileID: 56086759}
+  - component: {fileID: 56086760}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -270,12 +272,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb4eefc1ff0b4d9d8b0cac59279953f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 5
   baseMoveSpeed: 5
   currentMoveSpeed: 0
-  dashForce: 10
-  dashCooldown: 1
   adrenalinSystem: {fileID: 56086758}
+  animator: {fileID: 56086760}
 --- !u!212 &56086755
 SpriteRenderer:
   serializedVersion: 3
@@ -397,6 +397,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &56086760
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56086750}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a5995f003b4c4e42b01b9ed7e9529ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &56086761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56086750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0425c96f5ee875343be1c76674628cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  dashVelocity: 15
+  dashDuration: 0.1
+  dashCooldown: 1
+  dashRecoveryTime: 1
+  dashHitboxSize: {x: 1, y: 1}
+  dashHitAdrenalineReward: 20
+  adrenalinSystem: {fileID: 56086758}
+  animator: {fileID: 56086760}
 --- !u!1 &89214879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,18 +1910,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1057338038879333058, guid: a60c9b993e856314d8e591710d451e9f, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057338038879333058, guid: a60c9b993e856314d8e591710d451e9f, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057338038879333058, guid: a60c9b993e856314d8e591710d451e9f, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1690422249
-      objectReference: {fileID: 0}
     - target: {fileID: 6185430870069082074, guid: a60c9b993e856314d8e591710d451e9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.49
@@ -19272,18 +19302,6 @@ PrefabInstance:
     - target: {fileID: 2158081566848578465, guid: 481c038bb630dcd4b86002d36e868455, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9094969131337938382, guid: 481c038bb630dcd4b86002d36e868455, type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9094969131337938382, guid: 481c038bb630dcd4b86002d36e868455, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9094969131337938382, guid: 481c038bb630dcd4b86002d36e868455, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1690422249
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

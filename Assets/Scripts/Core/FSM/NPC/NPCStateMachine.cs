@@ -42,6 +42,17 @@ namespace KhosaryCode.AI
             CurrentState?.OnEnter(this);
         }
 
+        [Header("States")]
+        [SerializeField] private NPCStateSO _knockedOutStateSO;
+
+        public void KnockOut()
+        {
+            if (CurrentState != _knockedOutStateSO && _knockedOutStateSO != null)
+            {
+                ChangeState(_knockedOutStateSO);
+            }
+        }
+
         protected virtual void Update()
         {
             StateTimer += Time.deltaTime;
