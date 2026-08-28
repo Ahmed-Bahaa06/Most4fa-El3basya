@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fbcd7c969d92d40b95cffd85fc42a5, type: 3}
+  m_Name: GameManagerComaState
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Core.FSM.GameManager.States.ComaStateSO
+  _onTimeEnded: {fileID: 11400000, guid: 9174e2f2fe8d91d44a80717cc23eb7e9, type: 2}

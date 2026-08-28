@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d653294f15133074198cff1377992fef, type: 3}
+  m_Name: DoctorPatrolState
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.PatrolStateSO
+  patrolDuration: 4
+  sightRange: 10
+  stateWhenFinished: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
+  stateWhenPlayerSpotted: {fileID: 11400000, guid: 802d17ec0acaecc458fdb9d8f0b6c36d, type: 2}

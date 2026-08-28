@@ -7,6 +7,7 @@ namespace KhosaryCode.Core
     {
         [Header("Settings")]
         [SerializeField] private float _initialTime = 300f; // Default 5 minutes
+        [SerializeField] private bool _autoStart = false;
 
         [Header("Broadcasting Channels")]
         [SerializeField] private FloatEventChannelSO _onTimeUpdated;
@@ -14,10 +15,17 @@ namespace KhosaryCode.Core
 
         private float _currentTime;
         private bool _isRunning;
+        private int _lastBroadcastedSecond = -1;
 
         private void Start()
         {
             _currentTime = _initialTime;
+            
+            if (_autoStart)
+            {
+                StartTimer();
+            }
+
             // Broadcast initial time
             if (_onTimeUpdated != null)
             {
@@ -54,9 +62,17 @@ namespace KhosaryCode.Core
                     }
                 }
                 
-                if (_onTimeUpdated != null)
+                // PERFORMANCE OPTIMIZATION: 
+                // Only broadcast the event when the visual second changes.
+                // This prevents the TimerUI from causing String Allocations every single frame!
+                int currentSecond = Mathf.CeilToInt(_currentTime);
+                if (currentSecond != _lastBroadcastedSecond)
                 {
-                    _onTimeUpdated.RaiseEvent(_currentTime);
+                    _lastBroadcastedSecond = currentSecond;
+                    if (_onTimeUpdated != null)
+                    {
+                        _onTimeUpdated.RaiseEvent(_currentTime);
+                    }
                 }
             }
         }

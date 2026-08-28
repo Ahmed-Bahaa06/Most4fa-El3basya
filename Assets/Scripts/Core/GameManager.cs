@@ -1,5 +1,5 @@
 using UnityEngine;
-using KhosaryCode.Core.FSM;
+using KhosaryCode.Core.FSM.GameManager;
 
 namespace KhosaryCode.Core
 {
