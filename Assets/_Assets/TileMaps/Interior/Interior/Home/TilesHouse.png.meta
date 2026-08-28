@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 67f5201e37a71ea4f98f5f5f7aa840ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3240860898861361994
+    second: TilesHouse_0
+  - first:
+      213: 3720323392952959507
+    second: TilesHouse_1
+  - first:
+      213: -8059359752629269350
+    second: TilesHouse_2
+  - first:
+      213: -947705454802233853
+    second: TilesHouse_3
+  - first:
+      213: 7033818433146226618
+    second: TilesHouse_4
+  - first:
+      213: 2523632311011565648
+    second: TilesHouse_5
+  - first:
+      213: -3040562585494089371
+    second: TilesHouse_6
+  - first:
+      213: 7202475373422332601
+    second: TilesHouse_7
+  - first:
+      213: -3936834024466026089
+    second: TilesHouse_8
+  - first:
+      213: 3859529831545909218
+    second: TilesHouse_9
+  - first:
+      213: 5693099993117518720
+    second: TilesHouse_10
+  - first:
+      213: -5092546635759014047
+    second: TilesHouse_11
+  - first:
+      213: 9180823657073809927
+    second: TilesHouse_12
+  - first:
+      213: -172870043811506212
+    second: TilesHouse_13
+  - first:
+      213: 7564991353889520083
+    second: TilesHouse_14
+  - first:
+      213: -5077207580342687847
+    second: TilesHouse_15
+  - first:
+      213: -469919545528281345
+    second: TilesHouse_16
+  - first:
+      213: 8748061453170455042
+    second: TilesHouse_17
+  - first:
+      213: -8538171858958072092
+    second: TilesHouse_18
+  - first:
+      213: 3572801494548706407
+    second: TilesHouse_19
+  - first:
+      213: -6382892866995203972
+    second: TilesHouse_20
+  - first:
+      213: -8783848061149544270
+    second: TilesHouse_21
+  - first:
+      213: -7694918225639698011
+    second: TilesHouse_22
+  - first:
+      213: 4506744963167671615
+    second: TilesHouse_23
+  - first:
+      213: -6594201233605621576
+    second: TilesHouse_24
+  - first:
+      213: 6186952267427604600
+    second: TilesHouse_25
+  - first:
+      213: -7222041614327153244
+    second: TilesHouse_26
+  - first:
+      213: -3408215967109686465
+    second: TilesHouse_27
+  - first:
+      213: -6929815529173914582
+    second: TilesHouse_28
+  - first:
+      213: 5948879216463275128
+    second: TilesHouse_29
+  - first:
+      213: -1147567729891533382
+    second: TilesHouse_30
+  - first:
+      213: -4450252943447905602
+    second: TilesHouse_31
+  - first:
+      213: -7463140036973180079
+    second: TilesHouse_32
+  - first:
+      213: -2969676681154243997
+    second: TilesHouse_33
+  - first:
+      213: -746464915458256721
+    second: TilesHouse_34
+  - first:
+      213: -4062025782768229997
+    second: TilesHouse_35
+  - first:
+      213: 3802948047543675458
+    second: TilesHouse_36
+  - first:
+      213: -4273657404721911338
+    second: TilesHouse_37
+  - first:
+      213: 5704960038213528213
+    second: TilesHouse_38
+  - first:
+      213: 4681041732755460168
+    second: TilesHouse_39
+  - first:
+      213: 3797482957162946433
+    second: TilesHouse_40
+  - first:
+      213: 3163033022653680972
+    second: TilesHouse_41
+  - first:
+      213: 4120973426758256207
+    second: TilesHouse_42
+  - first:
+      213: 6488527015467991316
+    second: TilesHouse_43
+  - first:
+      213: 6445047258557642582
+    second: TilesHouse_44
+  - first:
+      213: -7566514422735858313
+    second: TilesHouse_45
+  - first:
+      213: 2510947541633471475
+    second: TilesHouse_46
+  - first:
+      213: -7268675619761309493
+    second: TilesHouse_47
+  - first:
+      213: 6503886489205139566
+    second: TilesHouse_48
+  - first:
+      213: -2418643114650052059
+    second: TilesHouse_49
+  - first:
+      213: -3473412845455509116
+    second: TilesHouse_50
+  - first:
+      213: -3162391166751622148
+    second: TilesHouse_51
+  - first:
+      213: -528661882241202283
+    second: TilesHouse_52
+  - first:
+      213: -8513158367835162794
+    second: TilesHouse_53
+  - first:
+      213: -6337468251305626887
+    second: TilesHouse_54
+  - first:
+      213: -4338210891583586048
+    second: TilesHouse_55
+  - first:
+      213: -8249826685590032842
+    second: TilesHouse_56
+  - first:
+      213: 1771632414589229029
+    second: TilesHouse_57
+  - first:
+      213: -8702652569434240133
+    second: TilesHouse_58
+  - first:
+      213: 7504246231533340360
+    second: TilesHouse_59
+  - first:
+      213: 6818442528068491095
+    second: TilesHouse_60
+  - first:
+      213: -8510155047232678519
+    second: TilesHouse_61
+  - first:
+      213: -4986489721222586849
+    second: TilesHouse_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilesHouse_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 351
+        width: 146
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ba51311d9d9fc20800000000000000
+      internalID: 3240860898861361994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 467
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312898e2a6e31a330800000000000000
+      internalID: 3720323392952959507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 467
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cc37b5107672090800000000000000
+      internalID: -8059359752629269350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 467
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30610d6f8e219d2f0800000000000000
+      internalID: -947705454802233853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 447
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7864229942d9160800000000000000
+      internalID: 7033818433146226618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_5
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 447
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050ea81573eb50320800000000000000
+      internalID: 2523632311011565648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 7
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56118462070cdc5d0800000000000000
+      internalID: -3040562585494089371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 383
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba4658113554f360800000000000000
+      internalID: 7202475373422332601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 351
+        width: 8
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791f700205e8d59c0800000000000000
+      internalID: -3936834024466026089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 351
+        width: 8
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef2151eeedcf8530800000000000000
+      internalID: 3859529831545909218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 351
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b6c88c744f10f40800000000000000
+      internalID: 5693099993117518720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 351
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f2975f0d3a359b0800000000000000
+      internalID: -5092546635759014047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 350
+        width: 8
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a13695976d86f70800000000000000
+      internalID: 9180823657073809927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 367
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd71f4e6c97d99df0800000000000000
+      internalID: -172870043811506212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_14
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 367
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d97c792e8f3cf860800000000000000
+      internalID: 7564991353889520083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 303
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997e0ca1b922a89b0800000000000000
+      internalID: -5077207580342687847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff616cfb9a28a79f0800000000000000
+      internalID: -469919545528281345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 303
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202338dda8b576970800000000000000
+      internalID: 8748061453170455042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 303
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e641937ee1528980800000000000000
+      internalID: -8538171858958072092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7647f8f9704259130800000000000000
+      internalID: 3572801494548706407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70506761c86b67a0800000000000000
+      internalID: -6382892866995203972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b08d2a2ab0891680800000000000000
+      internalID: -8783848061149544270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 319
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a11119a4a8263590800000000000000
+      internalID: -7694918225639698011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 287
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35d3ee8aac2b8e30800000000000000
+      internalID: 4506744963167671615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_24
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 287
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b88e756ae0bc74a0800000000000000
+      internalID: -6594201233605621576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e15eae487cd550800000000000000
+      internalID: 6186952267427604600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adf0f07a6726cb90800000000000000
+      internalID: -7222041614327153244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bdc9aa2a593b0d0800000000000000
+      internalID: -3408215967109686465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c6a90fd7954df90800000000000000
+      internalID: -6929815529173914582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_29
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 207
+        width: 8
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8746ffcf02aae8250800000000000000
+      internalID: 5948879216463275128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_30
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 207
+        width: 8
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd1d10da350310f0800000000000000
+      internalID: -1147567729891533382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 271
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaa621c6868d32c0800000000000000
+      internalID: -4450252943447905602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 271
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bc7338da99d6890800000000000000
+      internalID: -7463140036973180079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 207
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3625a02eac699c6d0800000000000000
+      internalID: -2969676681154243997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_34
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 207
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa091d44d1604a5f0800000000000000
+      internalID: -746464915458256721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_35
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 207
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3912f957219c0a7c0800000000000000
+      internalID: -4062025782768229997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a2b11b919c6c430800000000000000
+      internalID: 3802948047543675458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 239
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d925d3bb3be0b4c0800000000000000
+      internalID: -4273657404721911338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 239
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a2487bde61c2f40800000000000000
+      internalID: 5704960038213528213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8401bab97a666f040800000000000000
+      internalID: 4681041732755460168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 82
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f1c4e21ae53b430800000000000000
+      internalID: 3797482957162946433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 198
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d4a1096c955eb20800000000000000
+      internalID: 3163033022653680972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_42
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4600ce6f73a03930800000000000000
+      internalID: 4120973426758256207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_43
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 127
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411ce7061f0eb0a50800000000000000
+      internalID: 6488527015467991316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657fee69558617950800000000000000
+      internalID: 6445047258557642582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77595fcb8375ef690800000000000000
+      internalID: -7566514422735858313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 127
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f314bc4c7da8d220800000000000000
+      internalID: 2510947541633471475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 143
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8b590f80a702b90800000000000000
+      internalID: -7268675619761309493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_48
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 127
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68e8888d42724a50800000000000000
+      internalID: 6503886489205139566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_49
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 127
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ad6d8d6e04f6ed0800000000000000
+      internalID: -2418643114650052059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 143
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48978548b65fbcfc0800000000000000
+      internalID: -3473412845455509116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_51
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 127
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbbfe82dfdec14d0800000000000000
+      internalID: -3162391166751622148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_52
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 127
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59749bea1d0d9a8f0800000000000000
+      internalID: -528661882241202283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_53
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 143
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6577a80b19f2bd980800000000000000
+      internalID: -8513158367835162794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_54
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 127
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2bc99e33acc08a0800000000000000
+      internalID: -6337468251305626887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 162
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0010e6ecd249bc3c0800000000000000
+      internalID: -4338210891583586048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_56
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 79
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e2ed2c65ab28d80800000000000000
+      internalID: -8249826685590032842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e798286b4a169810800000000000000
+      internalID: 1771632414589229029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_58
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b4b33c897f93780800000000000000
+      internalID: -8702652569434240133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_59
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 31
+        width: 178
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6cb993030742860800000000000000
+      internalID: 7504246231533340360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_60
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 95
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75750f68a59ff9e50800000000000000
+      internalID: 6818442528068491095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_61
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985d232c21bd5e980800000000000000
+      internalID: -8510155047232678519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesHouse_62
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 31
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e1462a40e6ccab0800000000000000
+      internalID: -4986489721222586849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TilesHouse_0: 3240860898861361994
+      TilesHouse_1: 3720323392952959507
+      TilesHouse_10: 5693099993117518720
+      TilesHouse_11: -5092546635759014047
+      TilesHouse_12: 9180823657073809927
+      TilesHouse_13: -172870043811506212
+      TilesHouse_14: 7564991353889520083
+      TilesHouse_15: -5077207580342687847
+      TilesHouse_16: -469919545528281345
+      TilesHouse_17: 8748061453170455042
+      TilesHouse_18: -8538171858958072092
+      TilesHouse_19: 3572801494548706407
+      TilesHouse_2: -8059359752629269350
+      TilesHouse_20: -6382892866995203972
+      TilesHouse_21: -8783848061149544270
+      TilesHouse_22: -7694918225639698011
+      TilesHouse_23: 4506744963167671615
+      TilesHouse_24: -6594201233605621576
+      TilesHouse_25: 6186952267427604600
+      TilesHouse_26: -7222041614327153244
+      TilesHouse_27: -3408215967109686465
+      TilesHouse_28: -6929815529173914582
+      TilesHouse_29: 5948879216463275128
+      TilesHouse_3: -947705454802233853
+      TilesHouse_30: -1147567729891533382
+      TilesHouse_31: -4450252943447905602
+      TilesHouse_32: -7463140036973180079
+      TilesHouse_33: -2969676681154243997
+      TilesHouse_34: -746464915458256721
+      TilesHouse_35: -4062025782768229997
+      TilesHouse_36: 3802948047543675458
+      TilesHouse_37: -4273657404721911338
+      TilesHouse_38: 5704960038213528213
+      TilesHouse_39: 4681041732755460168
+      TilesHouse_4: 7033818433146226618
+      TilesHouse_40: 3797482957162946433
+      TilesHouse_41: 3163033022653680972
+      TilesHouse_42: 4120973426758256207
+      TilesHouse_43: 6488527015467991316
+      TilesHouse_44: 6445047258557642582
+      TilesHouse_45: -7566514422735858313
+      TilesHouse_46: 2510947541633471475
+      TilesHouse_47: -7268675619761309493
+      TilesHouse_48: 6503886489205139566
+      TilesHouse_49: -2418643114650052059
+      TilesHouse_5: 2523632311011565648
+      TilesHouse_50: -3473412845455509116
+      TilesHouse_51: -3162391166751622148
+      TilesHouse_52: -528661882241202283
+      TilesHouse_53: -8513158367835162794
+      TilesHouse_54: -6337468251305626887
+      TilesHouse_55: -4338210891583586048
+      TilesHouse_56: -8249826685590032842
+      TilesHouse_57: 1771632414589229029
+      TilesHouse_58: -8702652569434240133
+      TilesHouse_59: 7504246231533340360
+      TilesHouse_6: -3040562585494089371
+      TilesHouse_60: 6818442528068491095
+      TilesHouse_61: -8510155047232678519
+      TilesHouse_62: -4986489721222586849
+      TilesHouse_7: 7202475373422332601
+      TilesHouse_8: -3936834024466026089
+      TilesHouse_9: 3859529831545909218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3289 @@
+fileFormatVersion: 2
+guid: b4abc0644fb4219469bd6ece91aedac8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2528347859072039517
+    second: Suit1_0
+  - first:
+      213: -7692956076444418475
+    second: Suit1_1
+  - first:
+      213: -871668321571380725
+    second: Suit1_2
+  - first:
+      213: 9222971784436104639
+    second: Suit1_3
+  - first:
+      213: 2746024958877658438
+    second: Suit1_4
+  - first:
+      213: -8207576886015061336
+    second: Suit1_5
+  - first:
+      213: -5940109064260449701
+    second: Suit1_6
+  - first:
+      213: -4384914908777272486
+    second: Suit1_7
+  - first:
+      213: -5267411171730460805
+    second: Suit1_8
+  - first:
+      213: -7974984870802901794
+    second: Suit1_9
+  - first:
+      213: 3366160053031553414
+    second: Suit1_10
+  - first:
+      213: 7404845564158530865
+    second: Suit1_11
+  - first:
+      213: 2302809552428735443
+    second: Suit1_12
+  - first:
+      213: 2298448545668271785
+    second: Suit1_13
+  - first:
+      213: -5325232768623682657
+    second: Suit1_14
+  - first:
+      213: -7152855146096630535
+    second: Suit1_15
+  - first:
+      213: -3431980841175848701
+    second: Suit1_16
+  - first:
+      213: -8413003217956307989
+    second: Suit1_17
+  - first:
+      213: -6081384959332413109
+    second: Suit1_18
+  - first:
+      213: 852719183554154275
+    second: Suit1_19
+  - first:
+      213: 8245462299655507145
+    second: Suit1_20
+  - first:
+      213: 7972729562031894174
+    second: Suit1_21
+  - first:
+      213: -7523721671966678239
+    second: Suit1_22
+  - first:
+      213: -8712294992707614578
+    second: Suit1_23
+  - first:
+      213: -3608188074870824652
+    second: Suit1_24
+  - first:
+      213: -8184215666742006770
+    second: Suit1_25
+  - first:
+      213: -2626019001899084612
+    second: Suit1_26
+  - first:
+      213: -6664537315423134469
+    second: Suit1_27
+  - first:
+      213: -7706784994803259370
+    second: Suit1_28
+  - first:
+      213: 7149160890104944617
+    second: Suit1_29
+  - first:
+      213: -7598310293074798492
+    second: Suit1_30
+  - first:
+      213: 17663003561419221
+    second: Suit1_31
+  - first:
+      213: -5302402135245795088
+    second: Suit1_32
+  - first:
+      213: 1047299244088135496
+    second: Suit1_33
+  - first:
+      213: -5865879166248817021
+    second: Suit1_34
+  - first:
+      213: -5413962157170634198
+    second: Suit1_35
+  - first:
+      213: 7986113355225025462
+    second: Suit1_36
+  - first:
+      213: -5314535423127464472
+    second: Suit1_37
+  - first:
+      213: -2687928397234745772
+    second: Suit1_38
+  - first:
+      213: -4869453552764610316
+    second: Suit1_39
+  - first:
+      213: -1085647140742801306
+    second: Suit1_40
+  - first:
+      213: -7139416598397483642
+    second: Suit1_41
+  - first:
+      213: 1861663154750933536
+    second: Suit1_42
+  - first:
+      213: -4839789430422160773
+    second: Suit1_43
+  - first:
+      213: -5776656638317861511
+    second: Suit1_44
+  - first:
+      213: 6541468061253878106
+    second: Suit1_45
+  - first:
+      213: -4613213522532453860
+    second: Suit1_46
+  - first:
+      213: -8755086968369305900
+    second: Suit1_47
+  - first:
+      213: -5775718769156520909
+    second: Suit1_48
+  - first:
+      213: 8596911866260387394
+    second: Suit1_49
+  - first:
+      213: 6470966032066108539
+    second: Suit1_50
+  - first:
+      213: -5155896225620157782
+    second: Suit1_51
+  - first:
+      213: 5148107874613622112
+    second: Suit1_52
+  - first:
+      213: 3907736831565347765
+    second: Suit1_53
+  - first:
+      213: 6240747953932133070
+    second: Suit1_54
+  - first:
+      213: 8010708926944593306
+    second: Suit1_55
+  - first:
+      213: 8530517923706541987
+    second: Suit1_56
+  - first:
+      213: -1639498377231933405
+    second: Suit1_57
+  - first:
+      213: -3896012424136837812
+    second: Suit1_58
+  - first:
+      213: -7928008892122738453
+    second: Suit1_59
+  - first:
+      213: -2746328048895843736
+    second: Suit1_60
+  - first:
+      213: -8997323819505324171
+    second: Suit1_61
+  - first:
+      213: -4435981500735869650
+    second: Suit1_62
+  - first:
+      213: -6623252988373892906
+    second: Suit1_63
+  - first:
+      213: -1625841847213905309
+    second: Suit1_64
+  - first:
+      213: 1990049719954981538
+    second: Suit1_65
+  - first:
+      213: 7599551223973181738
+    second: Suit1_66
+  - first:
+      213: -1531212127674993334
+    second: Suit1_67
+  - first:
+      213: 7627567822633076127
+    second: Suit1_68
+  - first:
+      213: 1905756403534716896
+    second: Suit1_69
+  - first:
+      213: -3510425886597388129
+    second: Suit1_70
+  - first:
+      213: -5202130733560267303
+    second: Suit1_71
+  - first:
+      213: 5442440876876271892
+    second: Suit1_72
+  - first:
+      213: 5383641550300533967
+    second: Suit1_73
+  - first:
+      213: 2400270380678637563
+    second: Suit1_74
+  - first:
+      213: 6601363701523122645
+    second: Suit1_75
+  - first:
+      213: -1065400291145068494
+    second: Suit1_76
+  - first:
+      213: -2354739491420694693
+    second: Suit1_77
+  - first:
+      213: 4675760588438262810
+    second: Suit1_78
+  - first:
+      213: 7214901444015235337
+    second: Suit1_79
+  - first:
+      213: -1363080419713494714
+    second: Suit1_80
+  - first:
+      213: -1909602744915401786
+    second: Suit1_81
+  - first:
+      213: 6823572280394384
+    second: Suit1_82
+  - first:
+      213: 8179115467139886285
+    second: Suit1_83
+  - first:
+      213: 1893705452289136324
+    second: Suit1_84
+  - first:
+      213: 5643867411484383614
+    second: Suit1_85
+  - first:
+      213: -4054897131595752889
+    second: Suit1_86
+  - first:
+      213: -2347695260754915743
+    second: Suit1_87
+  - first:
+      213: 1546711755660404884
+    second: Suit1_88
+  - first:
+      213: 7641682831434615320
+    second: Suit1_89
+  - first:
+      213: -6228811278174256146
+    second: Suit1_90
+  - first:
+      213: -5788540191238177687
+    second: Suit1_91
+  - first:
+      213: 5589670126226547259
+    second: Suit1_92
+  - first:
+      213: -2872257152972418855
+    second: Suit1_93
+  - first:
+      213: 585893155234204814
+    second: Suit1_94
+  - first:
+      213: 8346322995824057689
+    second: Suit1_95
+  - first:
+      213: 2748244836714777468
+    second: Suit1_96
+  - first:
+      213: 3514361424990151645
+    second: Suit1_97
+  - first:
+      213: -5303690820297925519
+    second: Suit1_98
+  - first:
+      213: -3073529783106052893
+    second: Suit1_99
+  - first:
+      213: -7260738573146409738
+    second: Suit1_100
+  - first:
+      213: 7327332831562844376
+    second: Suit1_101
+  - first:
+      213: 173629584288923682
+    second: Suit1_102
+  - first:
+      213: -545403698760826977
+    second: Suit1_103
+  - first:
+      213: 6589190058581395266
+    second: Suit1_104
+  - first:
+      213: -7536569820866496901
+    second: Suit1_105
+  - first:
+      213: 6190114514589765398
+    second: Suit1_106
+  - first:
+      213: 8478825080455628751
+    second: Suit1_107
+  - first:
+      213: -6296021138500452717
+    second: Suit1_108
+  - first:
+      213: -6284102700542188671
+    second: Suit1_109
+  - first:
+      213: 7247022720606234546
+    second: Suit1_110
+  - first:
+      213: -8385936485134081691
+    second: Suit1_111
+  - first:
+      213: 163375980960692634
+    second: Suit1_112
+  - first:
+      213: 4574473135302345114
+    second: Suit1_113
+  - first:
+      213: -8822549621927312694
+    second: Suit1_114
+  - first:
+      213: 4610245736621245590
+    second: Suit1_115
+  - first:
+      213: 1889368114850332525
+    second: Suit1_116
+  - first:
+      213: -7490053340197977715
+    second: Suit1_117
+  - first:
+      213: -2258766213609188969
+    second: Suit1_118
+  - first:
+      213: -5846422824437423346
+    second: Suit1_119
+  - first:
+      213: 5430751238915142496
+    second: Suit1_120
+  - first:
+      213: -8065594983138099189
+    second: Suit1_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Suit1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5abb986bfe761320800000000000000
+      internalID: 2528347859072039517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ef8de15312d3590800000000000000
+      internalID: -7692956076444418475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02e6c2a74637e3f0800000000000000
+      internalID: -871668321571380725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdb3c8f8f39eff70800000000000000
+      internalID: 9222971784436104639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d624aa627db1620800000000000000
+      internalID: 2746024958877658438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a29d5ace44d81e80800000000000000
+      internalID: -8207576886015061336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 128
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a8da1374e709da0800000000000000
+      internalID: -5940109064260449701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 130
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b240c6f17a523c0800000000000000
+      internalID: -4384914908777272486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 130
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fe41f727566e6b0800000000000000
+      internalID: -5267411171730460805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 128
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4bda66389235190800000000000000
+      internalID: -7974984870802901794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 130
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6894e0acbb007be20800000000000000
+      internalID: 3366160053031553414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 131
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135db4cdecb43c660800000000000000
+      internalID: 7404845564158530865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db14ed461935ff10800000000000000
+      internalID: 2302809552428735443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae021b46cab5ef10800000000000000
+      internalID: 2298448545668271785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b5aefd209f816b0800000000000000
+      internalID: -5325232768623682657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_15
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4e51f5424fbbc90800000000000000
+      internalID: -7152855146096630535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30964cdbb972f50d0800000000000000
+      internalID: -3431980841175848701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 129
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebfe73b5220f3b80800000000000000
+      internalID: -8413003217956307989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_18
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 128
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41969c99949a9ba0800000000000000
+      internalID: -6081384959332413109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_19
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 130
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f08ec549775db00800000000000000
+      internalID: 852719183554154275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_20
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 130
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc87d37644cd6270800000000000000
+      internalID: 8245462299655507145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_21
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 128
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9eaa2b9b43d4ae60800000000000000
+      internalID: 7972729562031894174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_22
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 130
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123a481700f569790800000000000000
+      internalID: -7523721671966678239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_23
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 131
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e888f352dd5b71780800000000000000
+      internalID: -8712294992707614578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431268a10142dedc0800000000000000
+      internalID: -3608188074870824652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ce7a28633db6e80800000000000000
+      internalID: -8184215666742006770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4116a81a18e8bd0800000000000000
+      internalID: -2626019001899084612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc5ed13f9ec283a0800000000000000
+      internalID: -6664537315423134469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618e07821effb0590800000000000000
+      internalID: -7706784994803259370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e712d0a3fbe63360800000000000000
+      internalID: 7149160890104944617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 96
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4681518cb016d8690800000000000000
+      internalID: -7598310293074798492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 98
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1e1fc7860ce3000800000000000000
+      internalID: 17663003561419221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_32
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0d660f9551a66b0800000000000000
+      internalID: -5302402135245795088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_33
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 96
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f88691d11c88e00800000000000000
+      internalID: 1047299244088135496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_34
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 98
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eef502af5389ea0800000000000000
+      internalID: -5865879166248817021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_35
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22df6a3a1ebdd4b0800000000000000
+      internalID: -5413962157170634198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_36
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbc03ac8cf54de60800000000000000
+      internalID: 7986113355225025462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_37
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5d146b03afe36b0800000000000000
+      internalID: -5314535423127464472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_38
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e432d2d5f82bad0800000000000000
+      internalID: -2687928397234745772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_39
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f893311bc93c6cb0800000000000000
+      internalID: -4869453552764610316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_40
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685b907da10fe0f0800000000000000
+      internalID: -1085647140742801306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_41
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6858df41e62bbec90800000000000000
+      internalID: -7139416598397483642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_42
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 97
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02acc5696c4f5d910800000000000000
+      internalID: 1861663154750933536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_43
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 96
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a3ff3c72d95dcb0800000000000000
+      internalID: -4839789430422160773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_44
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 98
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97569abb46135dfa0800000000000000
+      internalID: -5776656638317861511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_45
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51c9942b86f7ca50800000000000000
+      internalID: 6541468061253878106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_46
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 96
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12bc6c3eb29affb0800000000000000
+      internalID: -4613213522532453860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_47
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 98
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d622b8e9ceaf7680800000000000000
+      internalID: -8755086968369305900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_48
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348ed9616688dfa0800000000000000
+      internalID: -5775718769156520909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_49
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2467ac14bcd5e4770800000000000000
+      internalID: 8596911866260387394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c5bee425d7dc950800000000000000
+      internalID: 6470966032066108539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_51
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa122d23b39278b0800000000000000
+      internalID: -5155896225620157782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_52
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0657cbb06d0c17740800000000000000
+      internalID: 5148107874613622112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_53
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbb929b1f11b3630800000000000000
+      internalID: 3907736831565347765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2eedef2379b9650800000000000000
+      internalID: 6240747953932133070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9545959351cb2f60800000000000000
+      internalID: 8010708926944593306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_56
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 64
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a791a0eadc726670800000000000000
+      internalID: 8530517923706541987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_57
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 66
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320e24f89e45f39e0800000000000000
+      internalID: -1639498377231933405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_58
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45b0da97559ee9c0800000000000000
+      internalID: -3896012424136837812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_59
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 64
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0d2e0caed0af190800000000000000
+      internalID: -7928008892122738453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_60
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8622fd0b03513e9d0800000000000000
+      internalID: -2746328048895843736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_61
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 67
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f6931f7a5132380800000000000000
+      internalID: -8997323819505324171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_62
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d2f62f35a3072c0800000000000000
+      internalID: -4435981500735869650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_63
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d00e62af7a7514a0800000000000000
+      internalID: -6623252988373892906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_64
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aa9db3479df69e0800000000000000
+      internalID: -1625841847213905309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_65
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a248433da31e9b10800000000000000
+      internalID: 1990049719954981538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_66
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a297e45f297077960800000000000000
+      internalID: 7599551223973181738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_67
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 65
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45792ebeaa00cae0800000000000000
+      internalID: -1531212127674993334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_68
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 64
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f958e38a5809ad960800000000000000
+      internalID: 7627567822633076127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_69
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 66
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efdc151a5b927a10800000000000000
+      internalID: 1905756403534716896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_70
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98e6035146784fc0800000000000000
+      internalID: -3510425886597388129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_71
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 64
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd7ffee8a15ec7b0800000000000000
+      internalID: -5202130733560267303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_72
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4119649642f678b40800000000000000
+      internalID: 5442440876876271892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_73
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 67
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc452bb577986ba40800000000000000
+      internalID: 5383641550300533967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_74
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7ed3da1397f4120800000000000000
+      internalID: 2400270380678637563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_75
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9817e9f41cc9b50800000000000000
+      internalID: 6601363701523122645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_76
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23053b67410f631f0800000000000000
+      internalID: -1065400291145068494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_77
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57194398e8425fd0800000000000000
+      internalID: -2354739491420694693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_78
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1452a06b73a3e040800000000000000
+      internalID: 4675760588438262810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_79
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9012bfb13aa702460800000000000000
+      internalID: 7214901444015235337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_80
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 32
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641dfa6849d551de0800000000000000
+      internalID: -1363080419713494714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_81
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 34
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3e437cb6abf75e0800000000000000
+      internalID: -1909602744915401786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_82
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0924fd9b00e381000800000000000000
+      internalID: 6823572280394384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_83
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 32
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcca6cbbe2e028170800000000000000
+      internalID: 8179115467139886285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_84
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c61ae8531bc74a10800000000000000
+      internalID: 1893705452289136324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_85
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 35
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791eec128b035e40800000000000000
+      internalID: 5643867411484383614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_86
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a1c76ea8c1ab7c0800000000000000
+      internalID: -4054897131595752889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_87
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ec5d5599f4b6fd0800000000000000
+      internalID: -2347695260754915743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_88
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4982f0e9526077510800000000000000
+      internalID: 1546711755660404884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_89
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a8cdd3c06bc0a60800000000000000
+      internalID: 7641682831434615320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_90
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee30a77e421de89a0800000000000000
+      internalID: -6228811278174256146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_91
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 33
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c3d257d59faafa0800000000000000
+      internalID: -5788540191238177687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_92
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 32
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32a85d4d5f729d40800000000000000
+      internalID: 5589670126226547259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_93
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 34
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d011855651b328d0800000000000000
+      internalID: -2872257152972418855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_94
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 34
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c411278b2812800800000000000000
+      internalID: 585893155234204814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_95
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 32
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d54c24b8814d370800000000000000
+      internalID: 8346322995824057689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_96
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b8f204e1ab32620800000000000000
+      internalID: 2748244836714777468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_97
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 35
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3afdc981585c030800000000000000
+      internalID: 3514361424990151645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_98
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c54a19c418566b0800000000000000
+      internalID: -5303690820297925519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_99
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec516f42f0a855d0800000000000000
+      internalID: -3073529783106052893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_100
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4b1ac9cbcac3b90800000000000000
+      internalID: -7260738573146409738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_101
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d84c50736aefa560800000000000000
+      internalID: 7327332831562844376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_102
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2204a0edf2bd86200800000000000000
+      internalID: 173629584288923682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_103
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f3d24c9365e68f0800000000000000
+      internalID: -545403698760826977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_104
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247874f7271817b50800000000000000
+      internalID: 6589190058581395266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_105
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76b25aada9b86790800000000000000
+      internalID: -7536569820866496901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fcc19ba54b7e550800000000000000
+      internalID: 6190114514589765398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_107
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc70b39ec76daa570800000000000000
+      internalID: 8478825080455628751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_108
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e745dd12a00a8a0800000000000000
+      internalID: -6296021138500452717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_109
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 3
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1832c1273e16ac8a0800000000000000
+      internalID: -6284102700542188671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_110
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b76bec94c8929460800000000000000
+      internalID: 7247022720606234546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_111
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5616896823b2f9b80800000000000000
+      internalID: -8385936485134081691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_112
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a993efdc69d644200800000000000000
+      internalID: 163375980960692634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_113
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918348741bcb7f30800000000000000
+      internalID: 4574473135302345114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_114
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac204cbdcd1009580800000000000000
+      internalID: -8822549621927312694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_115
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69481924212eaff30800000000000000
+      internalID: 4610245736621245590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_116
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f7a974a42683a10800000000000000
+      internalID: 1889368114850332525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_117
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 2
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8185cccb2cfd0890800000000000000
+      internalID: -7490053340197977715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_118
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7919b2f981047a0e0800000000000000
+      internalID: -2258766213609188969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_119
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03eba6ba655ddea0800000000000000
+      internalID: -5846422824437423346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_120
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063bc0b7a77ed5b40800000000000000
+      internalID: 5430751238915142496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit1_121
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 3
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0081ef9810411090800000000000000
+      internalID: -8065594983138099189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Suit1_0: 2528347859072039517
+      Suit1_1: -7692956076444418475
+      Suit1_10: 3366160053031553414
+      Suit1_100: -7260738573146409738
+      Suit1_101: 7327332831562844376
+      Suit1_102: 173629584288923682
+      Suit1_103: -545403698760826977
+      Suit1_104: 6589190058581395266
+      Suit1_105: -7536569820866496901
+      Suit1_106: 6190114514589765398
+      Suit1_107: 8478825080455628751
+      Suit1_108: -6296021138500452717
+      Suit1_109: -6284102700542188671
+      Suit1_11: 7404845564158530865
+      Suit1_110: 7247022720606234546
+      Suit1_111: -8385936485134081691
+      Suit1_112: 163375980960692634
+      Suit1_113: 4574473135302345114
+      Suit1_114: -8822549621927312694
+      Suit1_115: 4610245736621245590
+      Suit1_116: 1889368114850332525
+      Suit1_117: -7490053340197977715
+      Suit1_118: -2258766213609188969
+      Suit1_119: -5846422824437423346
+      Suit1_12: 2302809552428735443
+      Suit1_120: 5430751238915142496
+      Suit1_121: -8065594983138099189
+      Suit1_13: 2298448545668271785
+      Suit1_14: -5325232768623682657
+      Suit1_15: -7152855146096630535
+      Suit1_16: -3431980841175848701
+      Suit1_17: -8413003217956307989
+      Suit1_18: -6081384959332413109
+      Suit1_19: 852719183554154275
+      Suit1_2: -871668321571380725
+      Suit1_20: 8245462299655507145
+      Suit1_21: 7972729562031894174
+      Suit1_22: -7523721671966678239
+      Suit1_23: -8712294992707614578
+      Suit1_24: -3608188074870824652
+      Suit1_25: -8184215666742006770
+      Suit1_26: -2626019001899084612
+      Suit1_27: -6664537315423134469
+      Suit1_28: -7706784994803259370
+      Suit1_29: 7149160890104944617
+      Suit1_3: 9222971784436104639
+      Suit1_30: -7598310293074798492
+      Suit1_31: 17663003561419221
+      Suit1_32: -5302402135245795088
+      Suit1_33: 1047299244088135496
+      Suit1_34: -5865879166248817021
+      Suit1_35: -5413962157170634198
+      Suit1_36: 7986113355225025462
+      Suit1_37: -5314535423127464472
+      Suit1_38: -2687928397234745772
+      Suit1_39: -4869453552764610316
+      Suit1_4: 2746024958877658438
+      Suit1_40: -1085647140742801306
+      Suit1_41: -7139416598397483642
+      Suit1_42: 1861663154750933536
+      Suit1_43: -4839789430422160773
+      Suit1_44: -5776656638317861511
+      Suit1_45: 6541468061253878106
+      Suit1_46: -4613213522532453860
+      Suit1_47: -8755086968369305900
+      Suit1_48: -5775718769156520909
+      Suit1_49: 8596911866260387394
+      Suit1_5: -8207576886015061336
+      Suit1_50: 6470966032066108539
+      Suit1_51: -5155896225620157782
+      Suit1_52: 5148107874613622112
+      Suit1_53: 3907736831565347765
+      Suit1_54: 6240747953932133070
+      Suit1_55: 8010708926944593306
+      Suit1_56: 8530517923706541987
+      Suit1_57: -1639498377231933405
+      Suit1_58: -3896012424136837812
+      Suit1_59: -7928008892122738453
+      Suit1_6: -5940109064260449701
+      Suit1_60: -2746328048895843736
+      Suit1_61: -8997323819505324171
+      Suit1_62: -4435981500735869650
+      Suit1_63: -6623252988373892906
+      Suit1_64: -1625841847213905309
+      Suit1_65: 1990049719954981538
+      Suit1_66: 7599551223973181738
+      Suit1_67: -1531212127674993334
+      Suit1_68: 7627567822633076127
+      Suit1_69: 1905756403534716896
+      Suit1_7: -4384914908777272486
+      Suit1_70: -3510425886597388129
+      Suit1_71: -5202130733560267303
+      Suit1_72: 5442440876876271892
+      Suit1_73: 5383641550300533967
+      Suit1_74: 2400270380678637563
+      Suit1_75: 6601363701523122645
+      Suit1_76: -1065400291145068494
+      Suit1_77: -2354739491420694693
+      Suit1_78: 4675760588438262810
+      Suit1_79: 7214901444015235337
+      Suit1_8: -5267411171730460805
+      Suit1_80: -1363080419713494714
+      Suit1_81: -1909602744915401786
+      Suit1_82: 6823572280394384
+      Suit1_83: 8179115467139886285
+      Suit1_84: 1893705452289136324
+      Suit1_85: 5643867411484383614
+      Suit1_86: -4054897131595752889
+      Suit1_87: -2347695260754915743
+      Suit1_88: 1546711755660404884
+      Suit1_89: 7641682831434615320
+      Suit1_9: -7974984870802901794
+      Suit1_90: -6228811278174256146
+      Suit1_91: -5788540191238177687
+      Suit1_92: 5589670126226547259
+      Suit1_93: -2872257152972418855
+      Suit1_94: 585893155234204814
+      Suit1_95: 8346322995824057689
+      Suit1_96: 2748244836714777468
+      Suit1_97: 3514361424990151645
+      Suit1_98: -5303690820297925519
+      Suit1_99: -3073529783106052893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
