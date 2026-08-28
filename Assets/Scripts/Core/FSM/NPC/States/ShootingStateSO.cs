@@ -14,6 +14,7 @@ namespace KhosaryCode.AI
 
         public override void OnEnter(NPCStateMachine npc)
         {
+            base.OnEnter(npc);
             if (npc.Agent != null && npc.Agent.isActiveAndEnabled)
             {
                 npc.Agent.isStopped = true; 
@@ -24,7 +25,8 @@ namespace KhosaryCode.AI
         {
             if (npc.Target != null)
             {
-                float distance = Vector3.Distance(npc.transform.position, npc.Target.position);
+                // Use Vector2 for 2D distance
+                float distance = Vector2.Distance(npc.transform.position, npc.Target.position);
                 
                 if (distance > attackRange && stateWhenPlayerLost != null)
                 {
@@ -32,7 +34,8 @@ namespace KhosaryCode.AI
                     return;
                 }
 
-                npc.transform.LookAt(new Vector3(npc.Target.position.x, npc.transform.position.y, npc.Target.position.z));
+                // Removed the 3D LookAt() because it rotates the sprite along the Y/X axis, 
+                // making it invisible to a 2D Orthographic camera!
 
                 // Using the stateless ActionTimer stored on the NPC Context
                 if (npc.ActionTimer >= fireRate)

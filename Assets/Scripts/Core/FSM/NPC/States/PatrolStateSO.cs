@@ -1,4 +1,5 @@
 using UnityEngine;
+using Pathfinding;
 
 namespace KhosaryCode.AI
 {
@@ -15,9 +16,29 @@ namespace KhosaryCode.AI
 
         public override void OnEnter(NPCStateMachine npc)
         {
+            base.OnEnter(npc);
             if (npc.Agent != null && npc.Agent.isActiveAndEnabled)
             {
                 npc.Agent.isStopped = false;
+                Vector2 randomDirection = Random.insideUnitCircle.normalized;
+                Vector3 desiredDestination = (Vector2)npc.transform.position + randomDirection * 5f;
+                
+                if (AstarPath.active != null)
+                {
+                    NNInfo nnInfo = AstarPath.active.GetNearest(desiredDestination, NNConstraint.Default);
+                    if (nnInfo.node != null)
+                    {
+                        npc.Agent.destination = (Vector3)nnInfo.position;
+                    }
+                    else
+                    {
+                        npc.Agent.destination = desiredDestination;
+                    }
+                }
+                else
+                {
+                    npc.Agent.destination = desiredDestination;
+                }
             }
         }
 
@@ -25,7 +46,7 @@ namespace KhosaryCode.AI
         {
             if (npc.Target != null)
             {
-                float distance = Vector3.Distance(npc.transform.position, npc.Target.position);
+                float distance = Vector2.Distance(npc.transform.position, npc.Target.position);
                 if (distance <= sightRange && stateWhenPlayerSpotted != null)
                 {
                     npc.ChangeState(stateWhenPlayerSpotted);

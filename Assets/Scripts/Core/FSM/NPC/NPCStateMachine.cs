@@ -7,6 +7,7 @@ namespace KhosaryCode.AI
     public abstract class NPCStateMachine : MonoBehaviour
     {
         public AIPath Agent { get; private set; }
+        public SpriteRenderer SpriteRenderer { get; private set; }
         
         [Header("References")]
         [SerializeField] private Transform _target; // Exposed for testing
@@ -21,6 +22,7 @@ namespace KhosaryCode.AI
         protected virtual void Awake()
         {
             Agent = GetComponent<AIPath>();
+            SpriteRenderer = GetComponentInChildren<SpriteRenderer>();
         }
 
         public void Initialize(NPCStateSO startingState)

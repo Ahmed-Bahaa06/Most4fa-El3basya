@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5037dd5491d4efd40a0a4be8529f9f9e, type: 3}
   m_Name: DoctorRunningState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.RunningStateSO
+  stateColor: {r: 1, g: 0, b: 0, a: 1}
   safeDistance: 15
   stateWhenPlayerLost: {fileID: 11400000, guid: df1271a6c941a884bbb50f798255797f, type: 2}

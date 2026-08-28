@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983ecc26ff83c4b4ab90aa73f14e0a70, type: 3}
   m_Name: DoctorIdleState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.IdleStateSO
-  idleDuration: 2
+  stateColor: {r: 1, g: 1, b: 1, a: 1}
+  idleDuration: 1
   sightRange: 10
   stateWhenFinished: {fileID: 11400000, guid: df1271a6c941a884bbb50f798255797f, type: 2}
   stateWhenPlayerSpotted: {fileID: 11400000, guid: 802d17ec0acaecc458fdb9d8f0b6c36d, type: 2}

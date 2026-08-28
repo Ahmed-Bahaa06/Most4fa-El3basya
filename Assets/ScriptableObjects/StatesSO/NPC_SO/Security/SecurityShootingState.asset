@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e292271a6e757e4284f5a7b060a8ddf, type: 3}
   m_Name: SecurityShootingState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.ShootingStateSO
+  stateColor: {r: 0, g: 1, b: 0, a: 1}
   attackRange: 10
   fireRate: 1
   stateWhenPlayerLost: {fileID: 11400000, guid: f5a79c3dc2864b04fa280272dc9d56e6, type: 2}

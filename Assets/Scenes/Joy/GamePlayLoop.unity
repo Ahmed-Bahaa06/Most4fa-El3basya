@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAQIezzNetmUwIAABEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMmS2jAQ/RVK55BiGWpCbolhmBwYqCGpufgiW22sQpZcWliLf09LXodULtDV73X360W+ES5NCalVeqU5WysG5PuAeJt8GXTgK5zpXskdv0LD+eDM5p5EA+edWq7QP/ZhRhVgNU9/yL3w5BE6neSZ0sWS7SFSxhp0Z1QYQEgr66Mlum4Dcsa/4dyHXNCaPHvritZ8NLijmYK0oDtqQ2xoFcvJVNCiBOYld+Rxwx5XNInN1AwvPFVCcFMrIfZShk4jWhqHfSCBcYqdhfKenwPf59ar7AdvssyArSVpellwjQOqspKfqppaQc2h0nWkwkErvEq5/gcdjgOcaVW8NlXHI1/B5jw9vNNLSo3tDbXvXnyW7eSJigNNBHzkIN/USisnGYJWOx/qDEwWvVRtZ1EO6aHjVVofnK78/258E/fQ/DkSvEg89PWpcuyECuMOmweNi/mFisNdmDoFer2KPwZ+033/gGrghWtjEarblF5eopz2VLIMQ/PdOBspLSG4a9ElSCrsZYtp7OMGH7Be2QfkhfqnUhevseYFPIQEd8cfjR6grTq12zK5Oq3B5BtnBZfQifbAG84pUlJWB9afSRO2czqjaS9s7zj7fFtk9m2azZIJfZ5OkzlLRsNZgr/ZjE5hNn0aJwkJx8cl9knFthJajwe3JrvkEg+t+YIMVpqW4diZpqcVvxaqN3IuM7VLNYDcVBla4aCxCD5KtmQcB7QDa7kM+ya3mAiVHoDFbaI4dLo8W03jLktMSn5U1ntiEoVPRky8u73lrYYjh5Mv3iS7k/tfUEsDBBQAAAgIAAAQIexdU3M7bAAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSqYVxmmmSUaK5sXGSZUqSga5pEpBMM000TjU1NjFMSlKKBaovqSxI9UvMTYXoCUgsyUjLzEvJzEvXcy/KTHEHGa0UWwsAUEsBAi0AFAAACAgAABAh7PM162ZTAgAAEQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7F1TcztsAAAAeAAAAAkAJAAAAAAAAAAAAAAAoAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABXAwAAAAA=
+    dataString: UEsDBBQAAAgIAAAQIexEWd96VAIAABAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE2P2jAQ/SvI51IBWbSltzawbA8saGm1l1yceEIsHDvyB5/iv3fsJCRL1Qs4772ZeTOe5Eq4NBVkVuml5mylGJDvA+LP5MugI1/hRHdKbvkFWs0HZ7bwIho079RyhfjYhxlVgtU8+yF3wotHCDrJc6XLBdtBrIw1COdUGEBKK+ujJULXATnh33DmQ854mjz70wVPs9HghscMpAXdSVthK6tVTmaClhUwb7kTR606qmUSm2kU3nimhOCmcULsuQqdxrQyDvtAAeMUOwvlvb4Aviusd9kPXue5AdtY0vQ85xoHVGclP1U9tZKafe3rQIWDu/E65eofdjgOdK5V+dpWHY98BVvwbP9Ozxk1tjfUPjz/bNvJIxV7mgr4KEC+qaVWTjIkrXY+1BmYzLvHe2NxAdm+w2urD6Cr/n81vodb6P0UC16mnvr6VANbocK0w8WDxnv5hYbDWpgmBaLexR8Dv+muvz8N8cK1sUg1XUpvL1VOeylZhJn5bpyNlZYQ4MZ0BZIKe95gGvt4gQ9cr+wD80L9m9IUb7j2BXgICXCnH40eqI063i/LFOq4AlOsnRVcQmfaE284p1hJWe9XfyZt2NbpnGa9sJ3j7PNqkem3KJ+mE/ocRemMpaPhNMXffEojmEZP4zQlYfe4xD6p2NRGm/HgrckuucQ9az8gg6WmVdh1pulxyS+l6o2cy1xtMw0g13WGu3HQWATfSbZgHAe0BWu5DPdNrgkRKtsDS+6JktDp4mQ1TbosCan4QVmPJCQOX4yEePi+yxsNBw5HX7xNdiO3v1BLAwQUAAAICAAAECHsXVNzO2wAAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0kqmFcZppklGiubFxkmVKkoGuaRKQTDNNNE41NTYxTEpSigWqL6ksSPVLzE2F6AlILMlIy8xLycxL13MvykxxBxmtFFsLAFBLAQItABQAAAgIAAAQIexEWd96VAIAABAFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAQIexdU3M7bAAAAHgAAAAJACQAAAAAAAAAAAAAAKECAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAWAMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -272,7 +272,7 @@ MonoBehaviour:
   height: 2
   canMove: 1
   maxSpeed: 1
-  gravity: {x: NaN, y: NaN, z: NaN}
+  gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -626,8 +626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f0a9c64af1b14bfa869cdaeea18238d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthUI
-  slider: {fileID: 454401634}
-  OnPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
 --- !u!114 &454401638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,7 +1047,7 @@ MonoBehaviour:
   height: 2
   canMove: 1
   maxSpeed: 1
-  gravity: {x: NaN, y: NaN, z: NaN}
+  gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2080,8 +2078,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
+  baseMoveSpeed: 5
+  currentMoveSpeed: 0
   dashForce: 10
   dashCooldown: 1
+  adrenalinSystem: {fileID: 0}
 --- !u!212 &1546371241
 SpriteRenderer:
   serializedVersion: 3

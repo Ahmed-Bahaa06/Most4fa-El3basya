@@ -15,6 +15,7 @@ namespace KhosaryCode.AI
 
         public override void OnEnter(NPCStateMachine npc)
         {
+            base.OnEnter(npc);
             if (npc.Agent != null && npc.Agent.isActiveAndEnabled)
             {
                 npc.Agent.isStopped = true;
@@ -25,7 +26,7 @@ namespace KhosaryCode.AI
         {
             if (npc.Target != null)
             {
-                float distance = Vector3.Distance(npc.transform.position, npc.Target.position);
+                float distance = Vector2.Distance(npc.transform.position, npc.Target.position);
                 if (distance <= sightRange && stateWhenPlayerSpotted != null)
                 {
                     npc.ChangeState(stateWhenPlayerSpotted);
