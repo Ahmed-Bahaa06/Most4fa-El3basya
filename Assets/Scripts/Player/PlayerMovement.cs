@@ -1,10 +1,15 @@
 using UnityEngine;
+using KhosaryCode.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+
+    [SerializeField] private float baseMoveSpeed = 5f;
+    [SerializeField] private float currentMoveSpeed;  
     [SerializeField] private float dashForce = 10f;
     [SerializeField] private float dashCooldown = 1f;
+    [SerializeField] private AdrenalinSystem adrenalinSystem;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -13,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        currentMoveSpeed = baseMoveSpeed;
     }
 
     private void OnEnable()
@@ -56,19 +62,22 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void HandleInteract()
-    {
-        float interactRange = 2f;
-        Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+{
+    float interactRange = 2f;
+    // استخدام Physics2D عشان المشروع 2D
+    Collider2D[] colliderArray = Physics2D.OverlapCircleAll(transform.position, interactRange);
 
-        foreach (Collider collider in colliderArray)
+    foreach (Collider2D collider in colliderArray)
+    {
+        if (collider.TryGetComponent(out IInteractable interactable))
         {
-            if (collider.TryGetComponent(out IInteractable interactable))
-            {
-                interactable.Interact();
-                break;
-            }
+            interactable.Interact();
+            break;
         }
     }
+}
+
+
 
 
 
@@ -80,8 +89,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        rb.linearVelocity = moveInput * moveSpeed;
+        rb.linearVelocity = moveInput * currentMoveSpeed;
     }
+
+
+    public void HandleAdrenalineChanged(float adrenalineRatio)
+    {
+        if (adrenalinSystem != null)
+        {
+            currentMoveSpeed = baseMoveSpeed * adrenalinSystem.CurrentSpeedMultiplier;
+        }
+    }
+
 }
 
 

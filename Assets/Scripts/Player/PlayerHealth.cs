@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour , IDamagable
 
 
 
+
     private void Start()
     {
         health = new Health(maxHealth);
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour , IDamagable
     public void TakeDamage(float damageAmount)
     {
         health.Damage(damageAmount);
+        Debug.Log("Current Health is: " + health.GetHealth());
     
         OnTakeDamage?.Invoke(health.GetHealth());
 
