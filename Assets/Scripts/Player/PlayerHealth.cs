@@ -29,6 +29,7 @@ public class PlayerHealth : MonoBehaviour , IDamagable
         if (health.GetHealth() <= 0)
         {
             Die();
+            Debug.Log("Player died");
         }
     }
 
