@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1181b10bce71d2a489d800f1ff008400
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4187674058164460872
+    second: Beds-Sheet_0
+  - first:
+      213: -950534947130967570
+    second: Beds-Sheet_1
+  - first:
+      213: -7065618728067155976
+    second: Beds-Sheet_2
+  - first:
+      213: 4585158585463292631
+    second: Beds-Sheet_3
+  - first:
+      213: 1003526359838550445
+    second: Beds-Sheet_4
+  - first:
+      213: 8830375274739181350
+    second: Beds-Sheet_5
+  - first:
+      213: 7343485324629086166
+    second: Beds-Sheet_6
+  - first:
+      213: -2286025558270331852
+    second: Beds-Sheet_7
+  - first:
+      213: 1367551164232559378
+    second: Beds-Sheet_8
+  - first:
+      213: 1896853886452198111
+    second: Beds-Sheet_9
+  - first:
+      213: 6034771922129585293
+    second: Beds-Sheet_10
+  - first:
+      213: 2501520533640910724
+    second: Beds-Sheet_11
+  - first:
+      213: 3017605959428258153
+    second: Beds-Sheet_12
+  - first:
+      213: 980436824439639775
+    second: Beds-Sheet_13
+  - first:
+      213: -3315661269495139497
+    second: Beds-Sheet_14
+  - first:
+      213: -2155484318621685464
+    second: Beds-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Beds-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dd2006e5b9d1a30800000000000000
+      internalID: 4187674058164460872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 206
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9f9a170850fc2f0800000000000000
+      internalID: -950534947130967570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 206
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7b53bb331e1fd90800000000000000
+      internalID: -7065618728067155976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 206
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d24f55b071c1af30800000000000000
+      internalID: 4585158585463292631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 142
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9eae848ed3ded00800000000000000
+      internalID: 1003526359838550445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 142
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627a83ce68bcb8a70800000000000000
+      internalID: 8830375274739181350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 142
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df8fcbcefc49e560800000000000000
+      internalID: 7343485324629086166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 142
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43435dbddd76640e0800000000000000
+      internalID: -2286025558270331852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 78
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21be04cc9848af210800000000000000
+      internalID: 1367551164232559378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 78
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda6dcc4f8af25a10800000000000000
+      internalID: 1896853886452198111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 78
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84090fe611dfb350800000000000000
+      internalID: 6034771922129585293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 78
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4871306fbaf27b220800000000000000
+      internalID: 2501520533640910724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969b2d3d1a0b0e920800000000000000
+      internalID: 3017605959428258153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 14
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdecf65e8163b9d00800000000000000
+      internalID: 980436824439639775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 14
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753b83c74a76cf1d0800000000000000
+      internalID: -3315661269495139497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beds-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 14
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82921a5be6e2612e0800000000000000
+      internalID: -2155484318621685464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Beds-Sheet_0: 4187674058164460872
+      Beds-Sheet_1: -950534947130967570
+      Beds-Sheet_10: 6034771922129585293
+      Beds-Sheet_11: 2501520533640910724
+      Beds-Sheet_12: 3017605959428258153
+      Beds-Sheet_13: 980436824439639775
+      Beds-Sheet_14: -3315661269495139497
+      Beds-Sheet_15: -2155484318621685464
+      Beds-Sheet_2: -7065618728067155976
+      Beds-Sheet_3: 4585158585463292631
+      Beds-Sheet_4: 1003526359838550445
+      Beds-Sheet_5: 8830375274739181350
+      Beds-Sheet_6: 7343485324629086166
+      Beds-Sheet_7: -2286025558270331852
+      Beds-Sheet_8: 1367551164232559378
+      Beds-Sheet_9: 1896853886452198111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
