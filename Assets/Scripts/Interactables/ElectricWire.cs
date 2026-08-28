@@ -1,3 +1,4 @@
+using KhosaryCode.Events;
 using UnityEngine;
 
 public class ElectricWire : MonoBehaviour,IInteractable
@@ -9,32 +10,37 @@ public class ElectricWire : MonoBehaviour,IInteractable
     [Header("Interaction Type")]
     [SerializeField] private bool pickupOnTouch = true;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (pickupOnTouch && collision.CompareTag("Player"))
-        {
-            ApplyShock(collision.gameObject);
-        }
-    }
+    [SerializeField] private FloatEventChannelSO _onPlayerDamaged;
+    [SerializeField] private FloatEventChannelSO _onAdrenalinIncrease;
+
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if (pickupOnTouch && collision.CompareTag("Player"))
+    //     {
+    //         ApplyShock();
+    //     }
+    // }
 
     public void Interact()
     {
         GameObject player = GameObject.FindWithTag("Player");
         if (player != null)
         {
-            ApplyShock(player);
+            ApplyShock();
         }
     }
 
-    private void ApplyShock(GameObject player)
-    {
-        AdrenalinSystem adrenalinSystem = player.GetComponent<AdrenalinSystem>();
+    private void ApplyShock()
+     {
+    //     AdrenalinSystem adrenalinSystem = player.GetComponent<AdrenalinSystem>();
 
-        if (adrenalinSystem != null)
-        {
-            adrenalinSystem.TriggerElectricShock(adrenalineBoost, healthDamage);
-        }
+    //     if (adrenalinSystem != null)
+    //     {
+    //         adrenalinSystem.TriggerElectricShock(adrenalineBoost, healthDamage);
+    //     }
 
+        _onPlayerDamaged?.Invoke(healthDamage);
+        _onAdrenalinIncrease?.Invoke(adrenalineBoost);
         Destroy(gameObject);
     }
 }

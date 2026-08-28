@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb50e1580d7396d4286989ca2926eb2d, type: 3}
   m_Name: OnPlayerDamaged
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.FloatEventChannelSO
-  _testingValue: 99
+  _testingValue: -10

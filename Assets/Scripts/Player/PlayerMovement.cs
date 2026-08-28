@@ -62,25 +62,20 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void HandleInteract()
-{
-    float interactRange = 2f;
-    // استخدام Physics2D عشان المشروع 2D
-    Collider2D[] colliderArray = Physics2D.OverlapCircleAll(transform.position, interactRange);
-
-    foreach (Collider2D collider in colliderArray)
     {
-        if (collider.TryGetComponent(out IInteractable interactable))
+        float interactRange = 2f;
+        // استخدام Physics2D عشان المشروع 2D
+        Collider2D[] colliderArray = Physics2D.OverlapCircleAll(transform.position, interactRange);
+
+        foreach (Collider2D collider in colliderArray)
         {
-            interactable.Interact();
-            break;
+            if (collider.TryGetComponent(out IInteractable interactable))
+            {
+                interactable.Interact();
+                break;
+            }
         }
     }
-}
-
-
-
-
-
 
     private void FixedUpdate()
     {
@@ -89,19 +84,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
+        currentMoveSpeed = baseMoveSpeed * adrenalinSystem.CurrentSpeedMultiplier;
         rb.linearVelocity = moveInput * currentMoveSpeed;
     }
-
-
-    public void HandleAdrenalineChanged(float adrenalineRatio)
-    {
-        if (adrenalinSystem != null)
-        {
-            currentMoveSpeed = baseMoveSpeed * adrenalinSystem.CurrentSpeedMultiplier;
-        }
-    }
-
 }
-
-
-

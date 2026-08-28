@@ -14,8 +14,8 @@ public class AdrenalinSystem : MonoBehaviour
     public float baseMoveSpeed = 6f;
     public float maxSpeedMultiplier = 1.8f;
 
-    [Header("Health Reference")]
-    public PlayerHealth playerHealth;
+    // [Header("Health Reference")]
+    // public PlayerHealth playerHealth;
 
     [SerializeField] private FloatEventChannelSO OnAdrenalineChanged;
 
@@ -40,20 +40,29 @@ public class AdrenalinSystem : MonoBehaviour
         }
     }
 
-    public void TriggerElectricShock(float adrenalineBoost, float healthDamage)
-    {
-        currentAdrenaline = Mathf.Min(currentAdrenaline + adrenalineBoost, maxAdrenaline);
+    // public void TriggerElectricShock(float adrenalineBoost, float healthDamage)
+    // {
+    //     currentAdrenaline = Mathf.Min(currentAdrenaline + adrenalineBoost, maxAdrenaline);
 
-        if (playerHealth != null)
-        {
-            playerHealth.TakeDamage(healthDamage);
-        }
-        NotifyUI();
-        Debug.Log($"[Shock!] Adrenaline boosted to: {currentAdrenaline}.");
-    }
+    //     if (playerHealth != null)
+    //     {
+    //         playerHealth.TakeDamage(healthDamage);
+    //     }
+    //     NotifyUI();
+    //     Debug.Log($"[Shock!] Adrenaline boosted to: {currentAdrenaline}.");
+    // }
 
     private void NotifyUI()
     {
         OnAdrenalineChanged?.Invoke(currentAdrenaline);
+    }
+
+    public void SetCurrentAdrenaline(float newValue)
+    {
+        currentAdrenaline = newValue;        
+    }
+    public void IncreaseCurrentAdrenaline(float newValue)
+    {
+        currentAdrenaline = Mathf.Min(currentAdrenaline + newValue, maxAdrenaline);      
     }
 }

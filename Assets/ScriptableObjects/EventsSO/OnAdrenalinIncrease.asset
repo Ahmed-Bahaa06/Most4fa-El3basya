@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb50e1580d7396d4286989ca2926eb2d, type: 3}
-  m_Name: OnAdrenalinChanged
+  m_Name: OnAdrenalinIncrease
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.FloatEventChannelSO
-  _testingValue: 88
+  _testingValue: 0

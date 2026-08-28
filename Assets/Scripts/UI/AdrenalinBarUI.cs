@@ -3,13 +3,13 @@ using UnityEngine.UI;
 
 public class AdrenalinBarUI : MonoBehaviour
 {
-     [SerializeField] private Slider _adrenalinSlider; 
+        [SerializeField] private Slider _adrenalinSlider; 
 
-     public void UpdateAdrenalin(float currenteAdrenalin)
+        public void UpdateAdrenalin(float currenteAdrenalin)
         {
-            if (_adrenalinSlider != null)
-            {
-                    _adrenalinSlider.value = currenteAdrenalin;
-            }
+                if (_adrenalinSlider != null)
+                {
+                         _adrenalinSlider.value = currenteAdrenalin;
+                }
         }
 }
