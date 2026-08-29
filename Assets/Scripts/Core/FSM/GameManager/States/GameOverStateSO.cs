@@ -11,6 +11,7 @@ namespace KhosaryCode.Core.FSM.GameManager.States
         public override void Enter()
         {
             Debug.Log("[GameOverState] Entered. Player has died.");
+            Time.timeScale = 0f;
             if (_onPlayerDie != null)
             {
                 _onPlayerDie.RaiseEvent();

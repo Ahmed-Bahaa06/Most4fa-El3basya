@@ -55,6 +55,40 @@ namespace KhosaryCode.AI
 
         protected virtual void Update()
         {
+            bool isPausedOrDead = (Time.timeScale == 0f) || (CurrentState == _knockedOutStateSO);
+
+            if (Agent != null)
+            {
+                Agent.isStopped = isPausedOrDead;
+                Agent.canMove = !isPausedOrDead;
+            }
+
+            if (isPausedOrDead)
+            {
+                var rb = GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    rb.linearVelocity = Vector2.zero;
+                    rb.angularVelocity = 0f;
+                }
+
+                if (SpriteRenderer != null)
+                {
+                    var anim = GetComponentInChildren<Animator>();
+                    if (anim != null) anim.speed = 0f;
+                }
+                
+                if (Time.timeScale == 0f) return;
+            }
+            else
+            {
+                if (SpriteRenderer != null)
+                {
+                    var anim = GetComponentInChildren<Animator>();
+                    if (anim != null) anim.speed = 1f;
+                }
+            }
+
             StateTimer += Time.deltaTime;
             CurrentState?.OnUpdate(this);
         }

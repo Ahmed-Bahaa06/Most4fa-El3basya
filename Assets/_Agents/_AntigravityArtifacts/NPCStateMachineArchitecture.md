@@ -36,6 +36,7 @@ classDiagram
     class RunningStateSO
     class ShootingStateSO
     class HidingStateSO
+    class SecurityChaseStateSO
     
     NPCStateMachine --|> MonoBehaviour
     DoctorStateMachine --|> NPCStateMachine
@@ -47,6 +48,7 @@ classDiagram
     RunningStateSO --|> NPCStateSO
     ShootingStateSO --|> NPCStateSO
     HidingStateSO --|> NPCStateSO
+    SecurityChaseStateSO --|> NPCStateSO
     
     NPCStateMachine --> NPCStateSO : CurrentState
 ```
@@ -72,8 +74,12 @@ stateDiagram-v2
     Guard_Idle --> Guard_Patrol : Timer Ends
     Guard_Patrol --> Guard_Idle : Timer Ends
     
-    Guard_Idle --> Guard_Shooting : Player Spotted
-    Guard_Patrol --> Guard_Shooting : Player Spotted
+    Guard_Idle --> Guard_Shooting : Player Spotted (Far)
+    Guard_Patrol --> Guard_Shooting : Player Spotted (Far)
+    
+    Guard_Idle --> Guard_SecurityChase : Player Spotted (Near)
+    Guard_Patrol --> Guard_SecurityChase : Player Spotted (Near)
     
     Guard_Shooting --> Guard_Patrol : Player Lost
+    Guard_SecurityChase --> Guard_Patrol : Player Lost
 ```

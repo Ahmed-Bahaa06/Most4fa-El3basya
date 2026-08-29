@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: DoctorKnockedOutState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.KnockedOutStateSO
   stateColor: {r: 0, g: 0, b: 0, a: 1}
+  _onDoctorKnockedOutChannel: {fileID: 11400000, guid: 55d2f82ecb12ee5468e0aa9db102d4f1, type: 2}
