@@ -19,8 +19,7 @@ public class PlayerDash : MonoBehaviour
     
     [Header("References")]
     [SerializeField] private AdrenalinSystem adrenalinSystem;
-    [SerializeField] private Animator animator;
-     [SerializeField] private VoidEventChannelSO OnPlayerDash;
+    [SerializeField] private VoidEventChannelSO OnPlayerDash;
 
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
@@ -34,7 +33,6 @@ public class PlayerDash : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerMovement = GetComponent<PlayerMovement>();
-        if (animator == null) animator = GetComponentInChildren<Animator>();
     }
 
     private void OnEnable()
@@ -67,11 +65,6 @@ public class PlayerDash : MonoBehaviour
         OnPlayerDash?.Invoke(new Empty());
         lastDashTime = Time.time;
         
-        if (animator != null)
-        {
-            animator.SetTrigger("Dash");
-        }
-
         float startTime = Time.time;
         bool hitNPC = false;
         Vector2 direction = playerMovement.FacingDirection;

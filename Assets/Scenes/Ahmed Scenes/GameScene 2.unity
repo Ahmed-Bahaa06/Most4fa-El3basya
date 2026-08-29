@@ -1377,6 +1377,7 @@ MonoBehaviour:
   _gamePauseHUD: {fileID: 937337436}
   _comaHUD: {fileID: 33868221}
   _gameOverHUD: {fileID: 941672071}
+  _gameWinHUD: {fileID: 0}
 --- !u!1001 &336933682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30039,6 +30040,30 @@ PrefabInstance:
     - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573126226684396842, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573126226684396842, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573126226684396842, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573126226684396842, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573126226684396842, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746381763106501156, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: wallLayerMask.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

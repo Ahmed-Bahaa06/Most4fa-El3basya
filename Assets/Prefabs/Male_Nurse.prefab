@@ -88,7 +88,7 @@ MonoBehaviour:
   repathRateCompatibility: NaN
   canSearchCompability: 0
   orientation: 1
-  enableRotation: 1
+  enableRotation: 0
   autoRepath:
     mode: 2
     interval: 0.5
@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.DoctorStateMachine
   _target: {fileID: 0}
+  _knockedOutStateSO: {fileID: 0}
   _initialState: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
 --- !u!1 &4025935669823011741
 GameObject:
