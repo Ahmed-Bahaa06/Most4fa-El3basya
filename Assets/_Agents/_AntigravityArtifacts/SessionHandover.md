@@ -35,6 +35,13 @@ We have laid the architectural foundations for the core systems, prioritizing mo
    - Created `SceneLoader` and `Bootstrapper` managers to handle persistent background loading and the initial flow from Bootstrapper -> MainMenu -> Gameplay.
    - Updated `MainMenuUI` to decouple it from `SceneManager` and instead trigger the `LoadEventChannelSO`.
 
+7. **Gameplay Loop & State Management**:
+   - Wired up the core gameplay loop (Game Start, Pause, Game Over, Time Up, Game Win) via `VoidEventChannelSO` assets.
+   - Enhanced `GameManager` to dynamically track manually placed doctors (`FindObjectsOfType<DoctorStateMachine>`) and broadcast the remaining count to a new `DoctorCounterUI` using an `IntEventChannelSO`.
+   - Updated `KnockedOutStateSO` to broadcast a `DoctorKnockedOutEvent` to the `GameManager` upon a doctor's death, fully decoupling AI from game management.
+   - Integrated a failsafe in `HUDManager.cs` to explicitly force `Time.timeScale = 0f` when any menu (Pause, Win, Game Over, Coma) appears, and restore it to `1f` when panels are hidden.
+   - Hardened `NPCStateMachine` and `KnockedOutStateSO` to stop A* Pathfinding sliding issues by forcefully zeroing Rigidbody velocities, setting `isKinematic = true`, freezing `Animator.speed`, and disabling `AIPath.canMove` whenever time is paused or the agent dies.
+
 ## What Needs To Be Done Next
 1. **AI Polish**:
    - Implement actual waypoint logic for the `PatrolStateSO`.
