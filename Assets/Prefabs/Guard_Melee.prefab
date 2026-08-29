@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8655709102402427754}
   - component: {fileID: 6990819463398658479}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Guard_Melee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: 4adeaf2d2b1c7417e89f026626d8264f, type: 3}
-  m_Color: {r: 1, g: 0.9792701, b: 0, a: 1}
+  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Color: {r: 0.39483398, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -214,6 +214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08383b6448d095419a777b492c6e97e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.SecurityStateMachine
-  _target: {fileID: 0}
+  _target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
   _knockedOutStateSO: {fileID: 11400000, guid: 60e0a787da8b38b4cbc1d7814ccb05ef, type: 2}
   _initialState: {fileID: 11400000, guid: 8819a18c65cc97c4a943718506b23798, type: 2}

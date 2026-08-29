@@ -1,4 +1,5 @@
 using UnityEngine;
+using KhosaryCode.Combat;
 
 namespace KhosaryCode.AI
 {
@@ -34,13 +35,20 @@ namespace KhosaryCode.AI
                     return;
                 }
 
-                // Removed the 3D LookAt() because it rotates the sprite along the Y/X axis, 
-                // making it invisible to a 2D Orthographic camera!
-
                 // Using the stateless ActionTimer stored on the NPC Context
                 if (npc.ActionTimer >= fireRate)
                 {
-                    Debug.Log($"[{npc.gameObject.name}] Shoots at the Player!");
+                    Vector2 direction = ((Vector2)npc.Target.position - (Vector2)npc.transform.position).normalized;
+                    
+                    if (npc is SecurityStateMachine guard && guard.Weapon != null)
+                    {
+                        guard.Weapon.Fire(direction);
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"[{npc.gameObject.name}] Cannot shoot: Missing ProjectileWeapon on SecurityStateMachine!");
+                    }
+
                     npc.ActionTimer = 0f;
                 }
                 else

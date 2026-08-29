@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 983ecc26ff83c4b4ab90aa73f14e0a70, type: 3}
-  m_Name: SecurityIdleState
+  m_Name: Melee_SecurityIdleState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.IdleStateSO
   stateColor: {r: 1, g: 0, b: 0, a: 1}
   idleDuration: 2
   sightRange: 10
-  stateWhenFinished: {fileID: 11400000, guid: f5a79c3dc2864b04fa280272dc9d56e6, type: 2}
-  stateWhenPlayerSpotted: {fileID: 11400000, guid: 8e7e151b18ff200428882c76d378b1df, type: 2}
+  stateWhenFinished: {fileID: 11400000, guid: 2da0da557ba10d34eb336f801b31b237, type: 2}
+  stateWhenPlayerSpotted: {fileID: 11400000, guid: 8eeebdd492c72024495e85baef64a81a, type: 2}

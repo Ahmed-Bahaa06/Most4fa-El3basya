@@ -10,13 +10,9 @@ public class PlayerHealth : MonoBehaviour , IDamagable
     [SerializeField] private FloatEventChannelSO OnTakeDamage;
     [SerializeField] private VoidEventChannelSO OnDie;
 
-
-
-
     private void Start()
     {
         health = new Health(maxHealth);
-        
     }
 
     public void TakeDamage(float damageAmount)
@@ -24,7 +20,7 @@ public class PlayerHealth : MonoBehaviour , IDamagable
         health.Damage(damageAmount);
         Debug.Log("Current Health is: " + health.GetHealth());
     
-        OnTakeDamage?.Invoke(health.GetHealth());
+        OnTakeDamage?.Invoke(damageAmount);
 
         if (health.GetHealth() <= 0)
         {
@@ -35,6 +31,6 @@ public class PlayerHealth : MonoBehaviour , IDamagable
 
     private void Die()
     {
-          OnDie?.Invoke(new Empty());
+        OnDie?.Invoke(new Empty());
     }
 }
