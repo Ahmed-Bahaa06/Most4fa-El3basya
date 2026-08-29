@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 434a79cc661cae24884b3b50cf741419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.DoctorStateMachine
-  _target: {fileID: 0}
+  _target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
   _knockedOutStateSO: {fileID: 11400000, guid: e8c39fe09d678044bab3ae80f9f200ec, type: 2}
   _initialState: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
 --- !u!1 &6132074527622217863

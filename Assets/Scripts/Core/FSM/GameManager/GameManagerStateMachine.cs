@@ -12,12 +12,21 @@ namespace KhosaryCode.Core.FSM.GameManager
         [SerializeField] private GameStateSO _pauseState;
         [SerializeField] private GameStateSO _gameOverState;
         [SerializeField] private GameStateSO _comaState;
+        [SerializeField] private GameStateSO _winState;
 
         private void Start()
         {
             if (_initialState != null)
             {
                 Initialize(_initialState);
+            }
+        }
+
+        public void TransitionToWin()
+        {
+            if (CurrentState == _playingState)
+            {
+                ChangeState(_winState);
             }
         }
 

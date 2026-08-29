@@ -10,6 +10,8 @@ namespace KhosaryCode.Events
 
         private readonly HashSet<GenericEventListener<T>> _listeners = new HashSet<GenericEventListener<T>>();
 
+        public event System.Action<T> OnEventRaised;
+
         public void Register(GenericEventListener<T> listener)
         {
             _listeners.Add(listener); // HashSet automatically handles duplicates
@@ -26,6 +28,7 @@ namespace KhosaryCode.Events
             {
                 listener.Listen(value);
             }
+            OnEventRaised?.Invoke(value);
         }
     }
 }

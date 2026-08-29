@@ -11,6 +11,7 @@ namespace KhosaryCode.Core.FSM.GameManager.States
         public override void Enter()
         {
             Debug.Log("[ComaState] Entered. Time is up, player passed out.");
+            Time.timeScale = 0f;
             if (_onTimeEnded != null)
             {
                 _onTimeEnded.RaiseEvent();

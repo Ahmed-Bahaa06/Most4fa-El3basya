@@ -11,6 +11,7 @@ namespace KhosaryCode.Core.FSM.GameManager.States
         public override void Enter()
         {
             Debug.Log("[PlayingState] Entered. Starting Game...");
+            Time.timeScale = 1f;
             if (_onGameStarted != null)
             {
                 _onGameStarted.RaiseEvent();
