@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using KhosaryCode.AI;
+using KhosaryCode.Events;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(PlayerMovement))]
 public class PlayerDash : MonoBehaviour
@@ -12,12 +13,14 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float dashRecoveryTime = 1f;
     [SerializeField] private Vector2 dashHitboxSize = new Vector2(1f, 1f);
     
+    
     [Header("Adrenaline Reward")]
     [SerializeField] private float dashHitAdrenalineReward = 20f;
     
     [Header("References")]
     [SerializeField] private AdrenalinSystem adrenalinSystem;
     [SerializeField] private Animator animator;
+     [SerializeField] private VoidEventChannelSO OnPlayerDash;
 
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
@@ -61,6 +64,7 @@ public class PlayerDash : MonoBehaviour
     private IEnumerator DashRoutine()
     {
         IsDashing = true;
+        OnPlayerDash?.Invoke(new Empty());
         lastDashTime = Time.time;
         
         if (animator != null)

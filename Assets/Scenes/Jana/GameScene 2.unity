@@ -261,6 +261,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1820, y: 980}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &51578066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 245461697210295281, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: OnPlayerDash
+      value: 
+      objectReference: {fileID: 11400000, guid: 8925b5c2ff5ce4fefa34864bd4a85d4c, type: 2}
+    - target: {fileID: 933524616202708916, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_Name
+      value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
 --- !u!1 &56086750
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &56086751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,12 +436,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb4eefc1ff0b4d9d8b0cac59279953f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 5
   baseMoveSpeed: 5
   currentMoveSpeed: 0
-  dashForce: 10
-  dashCooldown: 1
   adrenalinSystem: {fileID: 56086758}
+  animator: {fileID: 0}
 --- !u!212 &56086755
 SpriteRenderer:
   serializedVersion: 3
@@ -2620,9 +2679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &472907813
 SpriteRenderer:
   serializedVersion: 3
@@ -20112,9 +20170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &1195273305
 SpriteRenderer:
   serializedVersion: 3
@@ -20291,7 +20348,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 56086756}
+    TrackingTarget: {fileID: 1730359676}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -20521,9 +20578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &1479587316
 SpriteRenderer:
   serializedVersion: 3
@@ -21270,6 +21326,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2017599930}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1730359676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
+  m_PrefabInstance: {fileID: 51578066}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1760001717
 GameObject:
   m_ObjectHideFlags: 0
@@ -30942,9 +31003,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &1869631089
 SpriteRenderer:
   serializedVersion: 3
@@ -31016,8 +31076,12 @@ GameObject:
   - component: {fileID: 1879030319}
   - component: {fileID: 1879030323}
   - component: {fileID: 1879030322}
+  - component: {fileID: 1879030326}
+  - component: {fileID: 1879030325}
   - component: {fileID: 1879030321}
   - component: {fileID: 1879030320}
+  - component: {fileID: 1879030324}
+  - component: {fileID: 1879030327}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -31175,6 +31239,108 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1879030324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879030318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b3545f5f56640e887964245bb6eb99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleCameraShake
+  intensity: 100
+  time: 0.5
+--- !u!114 &1879030325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879030318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBasicMultiChannelPerlin
+  NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  PivotOffset: {x: 0, y: 0, z: 0}
+  AmplitudeGain: 1
+  FrequencyGain: 1
+  m_NoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!114 &1879030326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879030318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 0}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 40
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!114 &1879030327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879030318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5606786775ef334e913be3958a083d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.VoidEventListener
+  _eventToListen: {fileID: 11400000, guid: 8925b5c2ff5ce4fefa34864bd4a85d4c, type: 2}
+  _onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1879030324}
+        m_TargetAssemblyTypeName: CameraShake, Assembly-CSharp
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1886920717
 GameObject:
   m_ObjectHideFlags: 0
@@ -31316,9 +31482,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &1886920722
 SpriteRenderer:
   serializedVersion: 3
@@ -31459,9 +31624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &1907516650
 SpriteRenderer:
   serializedVersion: 3
@@ -32009,9 +32173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
   healthDamage: 15
-  pickupOnTouch: 0
-  _onPlayerDamaged: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
+  _onPlayerDamage: {fileID: 0}
 --- !u!212 &1999077395
 SpriteRenderer:
   serializedVersion: 3
@@ -32444,3 +32607,4 @@ SceneRoots:
   - {fileID: 1263067784}
   - {fileID: 392312111}
   - {fileID: 2035147097}
+  - {fileID: 51578066}
