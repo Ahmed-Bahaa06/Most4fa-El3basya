@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3573126226684396842}
   - component: {fileID: 5865096298158003834}
+  - component: {fileID: 3385968347214365242}
   - component: {fileID: 3667601024646017616}
   m_Layer: 0
   m_Name: PlayerVisual
@@ -93,6 +94,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &3385968347214365242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814497500921633253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd692f88257b9494ebc066c0802802fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerVisual
 --- !u!95 &3667601024646017616
 Animator:
   serializedVersion: 7
@@ -131,6 +144,8 @@ GameObject:
   - component: {fileID: 245461697210295281}
   - component: {fileID: 4723328702408991658}
   - component: {fileID: 4297923159972697721}
+  - component: {fileID: 8274126999308960827}
+  - component: {fileID: 6392877790116251234}
   - component: {fileID: 1307052269179307776}
   m_Layer: 0
   m_Name: Player
@@ -249,7 +264,9 @@ MonoBehaviour:
   baseMoveSpeed: 5
   currentMoveSpeed: 0
   adrenalinSystem: {fileID: 4723328702408991658}
-  animator: {fileID: 1307052269179307776}
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &245461697210295281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,7 +286,7 @@ MonoBehaviour:
   dashHitboxSize: {x: 1, y: 1}
   dashHitAdrenalineReward: 20
   adrenalinSystem: {fileID: 4723328702408991658}
-  animator: {fileID: 1307052269179307776}
+  OnPlayerDash: {fileID: 11400000, guid: 8925b5c2ff5ce4fefa34864bd4a85d4c, type: 2}
 --- !u!114 &4723328702408991658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +325,62 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: AdrenalinSystem, Assembly-CSharp
         m_MethodName: IncreaseCurrentAdrenaline
         m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8274126999308960827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933524616202708916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5606786775ef334e913be3958a083d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.VoidEventListener
+  _eventToListen: {fileID: 11400000, guid: 8925b5c2ff5ce4fefa34864bd4a85d4c, type: 2}
+  _onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3385968347214365242}
+        m_TargetAssemblyTypeName: PlayerVisual, Assembly-CSharp
+        m_MethodName: PlayDashAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6392877790116251234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933524616202708916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5606786775ef334e913be3958a083d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.VoidEventListener
+  _eventToListen: {fileID: 11400000, guid: 3ee82a462143b473c924ceb230e26d09, type: 2}
+  _onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3385968347214365242}
+        m_TargetAssemblyTypeName: PlayerVisual, Assembly-CSharp
+        m_MethodName: PlayHurtAnimation
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
