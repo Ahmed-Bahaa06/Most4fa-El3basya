@@ -9,11 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2158081566848578465}
-<<<<<<< Updated upstream
   - component: {fileID: 9094969131337938382}
   - component: {fileID: 5708112749180962407}
-=======
->>>>>>> Stashed changes
   - component: {fileID: 6422916556601681642}
   - component: {fileID: 4778726721035324195}
   - component: {fileID: 167561587416033910}
@@ -34,13 +31,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1542423603303003415}
+  - {fileID: 2595102179474120343}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
 --- !u!212 &9094969131337938382
 SpriteRenderer:
   serializedVersion: 3
@@ -147,8 +143,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-=======
->>>>>>> Stashed changes
 --- !u!114 &6422916556601681642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,7 +228,7 @@ MonoBehaviour:
   _target: {fileID: 0}
   _knockedOutStateSO: {fileID: 11400000, guid: e8c39fe09d678044bab3ae80f9f200ec, type: 2}
   _initialState: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
---- !u!1 &4025935669823011741
+--- !u!1 &6132074527622217863
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,39 +236,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1542423603303003415}
-  - component: {fileID: 3964825103587715211}
-  - component: {fileID: 2125445878178868482}
+  - component: {fileID: 2595102179474120343}
+  - component: {fileID: 7204668064494322696}
+  - component: {fileID: 950000997520484173}
   m_Layer: 0
-  m_Name: DoctorVisual
+  m_Name: Doctor_Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1542423603303003415
+--- !u!4 &2595102179474120343
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4025935669823011741}
+  m_GameObject: {fileID: 6132074527622217863}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2158081566848578465}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3964825103587715211
+--- !u!212 &7204668064494322696
 SpriteRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4025935669823011741}
+  m_GameObject: {fileID: 6132074527622217863}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -314,7 +308,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1690422249
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 379d98783d267ce478e069e6f64c893e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -327,14 +321,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &2125445878178868482
+--- !u!95 &950000997520484173
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4025935669823011741}
+  m_GameObject: {fileID: 6132074527622217863}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 99a2c6ab28fe50345b9263354cd43825, type: 2}
