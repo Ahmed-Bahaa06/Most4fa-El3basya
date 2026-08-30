@@ -15,7 +15,7 @@ MonoBehaviour:
   stateColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   movementSpeed: 3
   chaseDistance: 15
-  meleeAttackRange: 1.5
+  meleeAttackRange: 1.3
   meleeAttackRate: 1
   meleeDamage: 8
   stateWhenPlayerLost: {fileID: 11400000, guid: 2da0da557ba10d34eb336f801b31b237, type: 2}
