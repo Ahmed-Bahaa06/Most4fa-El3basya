@@ -17,6 +17,7 @@ public class ElectricWire : MonoBehaviour,IInteractable
 
     private void ApplyShock()
      {
+        KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.ElectricWireShock, transform.position);
         _onAdrenalinIncrease?.Invoke(adrenalineBoost);
         _onPlayerDamage?.Invoke(healthDamage);
         Destroy(gameObject);

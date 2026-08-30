@@ -63,6 +63,7 @@ namespace KhosaryCode.AI
             if (damagable != null)
             {
                 damagable.TakeDamage(meleeDamage);
+                KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.MeleeHit, npc.Target.position);
                 Debug.Log($"[{npc.gameObject.name}] melee attacked Player for {meleeDamage} damage!");
 
                 var officerVisual = npc.GetComponentInChildren<OfficerVisual>();

@@ -76,6 +76,8 @@ namespace KhosaryCode.Combat
             {
                 proj.transform.position = _firePoint.position;
                 proj.Initialize(direction, _projectilePool);
+                
+                KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.GunFire, _firePoint.position);
             }
         }
     }

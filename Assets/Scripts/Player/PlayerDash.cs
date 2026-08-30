@@ -65,6 +65,8 @@ public class PlayerDash : MonoBehaviour
         OnPlayerDash?.Invoke(new Empty());
         lastDashTime = Time.time;
         
+        KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.PlayerDash, transform.position);
+        
         float startTime = Time.time;
         bool hitNPC = false;
         Vector2 direction = playerMovement.FacingDirection;

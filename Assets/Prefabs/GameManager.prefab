@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1674800461927220617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7788072057943298415}
+  - component: {fileID: 8481300849629857885}
+  - component: {fileID: 2118009092810114214}
+  - component: {fileID: 4554536344600787959}
+  - component: {fileID: 1163604517210396978}
+  - component: {fileID: 3117784396421351551}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7788072057943298415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674800461927220617}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4472, y: 0.74201, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8481300849629857885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674800461927220617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5699d23332b968e4eacd8e120fd10f5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Core.FSM.GameManager.GameManagerStateMachine
+  _initialState: {fileID: 11400000, guid: 40aa4ab51fe85a0439df2b31ff1b47cb, type: 2}
+  _playingState: {fileID: 11400000, guid: 593e2eda90f80e747bf6a28fcc85fc79, type: 2}
+  _pauseState: {fileID: 11400000, guid: 40aa4ab51fe85a0439df2b31ff1b47cb, type: 2}
+  _gameOverState: {fileID: 11400000, guid: 3940570ab884d5148ae5c627d75d9e63, type: 2}
+  _comaState: {fileID: 11400000, guid: fe593a271b10a084e836b7d757f0fdc0, type: 2}
+  _winState: {fileID: 11400000, guid: 3bbef2949f45fae408e5ab95bb66a7f9, type: 2}
+--- !u!114 &2118009092810114214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674800461927220617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5123a1f470e03a4a8a2ea9e8699f968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Core.GameManager
+  _onGameStartChannel: {fileID: 11400000, guid: 074a35eafb036f348b78f44021351aae, type: 2}
+  _onGamePausedChannel: {fileID: 11400000, guid: 5d87e1b04a2bf034bb49beb4859b653e, type: 2}
+  _onGameOverChannel: {fileID: 11400000, guid: 0741423044acc4045b9cf310e6d434b0, type: 2}
+  _onGameWinChannel: {fileID: 11400000, guid: dfe3aeb1c5f8bd2469b4804388854849, type: 2}
+  _onDoctorCountChangedChannel: {fileID: 11400000, guid: 5b3166353af916943af0a2e486fae06c, type: 2}
+  _onGuardCountChangedChannel: {fileID: 11400000, guid: 223f696972b61f2489633f78a162c12a, type: 2}
+--- !u!114 &4554536344600787959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674800461927220617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5606786775ef334e913be3958a083d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.VoidEventListener
+  _eventToListen: {fileID: 11400000, guid: 3ee82a462143b473c924ceb230e26d09, type: 2}
+  _onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118009092810114214}
+        m_TargetAssemblyTypeName: KhosaryCode.Core.GameManager, Assembly-CSharp
+        m_MethodName: HandlePlayerDead
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1163604517210396978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674800461927220617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26eb90e242a3bb045a75334e3a1b8d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.DoctorDeathEventListener
+  _eventToListen: {fileID: 11400000, guid: fad9d5503d4aab049b37b25266a9b91a, type: 2}
+  _onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118009092810114214}
+        m_TargetAssemblyTypeName: KhosaryCode.Core.GameManager, Assembly-CSharp
+        m_MethodName: HandleDoctorKnockedOut
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3117784396421351551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674800461927220617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3cc305a34381e04dbf479c2efe360df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Events.OfficerDeathEventListener
+  _eventToListen: {fileID: 11400000, guid: 024079773262f8345a5440e5b13329a8, type: 2}
+  _onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118009092810114214}
+        m_TargetAssemblyTypeName: KhosaryCode.Core.GameManager, Assembly-CSharp
+        m_MethodName: HandleGuardKnockedOut
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

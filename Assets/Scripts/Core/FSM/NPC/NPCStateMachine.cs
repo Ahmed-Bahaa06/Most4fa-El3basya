@@ -79,6 +79,8 @@ namespace KhosaryCode.AI
                 else
                     KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.MaleNPCDie, transform.position);
 
+                KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.NPCDie, transform.position);
+
                 ChangeState(_knockedOutStateSO);
             }
         }

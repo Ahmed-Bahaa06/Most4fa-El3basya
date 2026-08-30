@@ -15,10 +15,14 @@ namespace KhosaryCode.Core
         [SerializeField] private VoidEventChannelSO _onGameOverChannel;
         [SerializeField] private VoidEventChannelSO _onGameWinChannel;
         [SerializeField] private IntEventChannelSO _onDoctorCountChangedChannel;
+        [SerializeField] private IntEventChannelSO _onGuardCountChangedChannel;
 
         private GameManagerStateMachine _stateMachine;
         private int _totalDoctors;
         private int _remainingDoctors;
+        
+        private int _totalGuards;
+        private int _remainingGuards;
 
         private void Awake()
         {
@@ -37,6 +41,16 @@ namespace KhosaryCode.Core
                 _onDoctorCountChangedChannel.RaiseEvent(_remainingDoctors);
             }
 
+            // Initialize Guards
+            SecurityStateMachine[] guards = FindObjectsByType<SecurityStateMachine>();
+            _totalGuards = guards.Length;
+            _remainingGuards = _totalGuards;
+
+            if (_onGuardCountChangedChannel != null)
+            {
+                _onGuardCountChangedChannel.RaiseEvent(_remainingGuards);
+            }
+
             StartGame();
         }
 
@@ -51,6 +65,7 @@ namespace KhosaryCode.Core
         public void HandleDoctorKnockedOut()
         {
             _remainingDoctors--;
+            Debug.Log($"[GameManager] Doctor knocked out. Remaining: {_remainingDoctors}");
             if (_onDoctorCountChangedChannel != null)
             {
                 _onDoctorCountChangedChannel.RaiseEvent(_remainingDoctors);
@@ -61,6 +76,22 @@ namespace KhosaryCode.Core
                 HandleGameWin();
             }
         }
+        
+        public void HandleDoctorKnockedOut(GameObject doctor) => HandleDoctorKnockedOut();
+        public void HandleDoctorKnockedOut(DoctorDeathData data) => HandleDoctorKnockedOut();
+
+        public void HandleGuardKnockedOut()
+        {
+            _remainingGuards--;
+            Debug.Log($"[GameManager] Guard knocked out. Remaining: {_remainingGuards}");
+            if (_onGuardCountChangedChannel != null)
+            {
+                _onGuardCountChangedChannel.RaiseEvent(_remainingGuards);
+            }
+        }
+
+        public void HandleGuardKnockedOut(GameObject guard) => HandleGuardKnockedOut();
+        public void HandleGuardKnockedOut(OfficerDeathData data) => HandleGuardKnockedOut();
 
         public void HandleTimeUp()
         {
