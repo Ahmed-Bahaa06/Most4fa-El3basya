@@ -319,6 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.SecurityStateMachine
   _target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
   _knockedOutStateSO: {fileID: 11400000, guid: 60e0a787da8b38b4cbc1d7814ccb05ef, type: 2}
+  _isFemale: 0
   _initialState: {fileID: 11400000, guid: 8819a18c65cc97c4a943718506b23798, type: 2}
 --- !u!114 &7857412376150255907
 MonoBehaviour:
