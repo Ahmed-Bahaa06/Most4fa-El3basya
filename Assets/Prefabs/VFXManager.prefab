@@ -54,7 +54,7 @@ MonoBehaviour:
     PoolSize: 2
     Pool: []
   - Type: 2
-    Prefab: {fileID: 7177991128484655658, guid: 59a35ab9f68edff40b6e5332bed330f5, type: 3}
+    Prefab: {fileID: 8194992990867289333, guid: 97f3a74fc11f382488af1ff2e28ebbdf, type: 3}
     PoolSize: 2
     Pool: []
   - Type: 3
