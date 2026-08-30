@@ -9,6 +9,8 @@ namespace KhosaryCode.Combat
         [SerializeField] private float speed = 15f;
         [SerializeField] private float damage = 10f;
         [SerializeField] private float lifetime = 3f;
+        [Tooltip("Add an offset (e.g., -90 or 180) if your sprite is not drawn pointing exactly RIGHT.")]
+        [SerializeField] private float rotationOffset = 0f;
 
         private Vector2 _direction;
         private float _lifetimeTimer;
@@ -28,9 +30,9 @@ namespace KhosaryCode.Combat
             _pool = pool;
             _lifetimeTimer = 0f;
             
-            // Rotate to face direction
+            // Rotate to face direction. Atan2 assumes 0 degrees is pointing RIGHT.
             float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
+            transform.rotation = Quaternion.Euler(0, 0, angle + rotationOffset);
         }
 
         private void Update()
