@@ -51,9 +51,9 @@ MonoBehaviour:
     rid: -2
   m_SelectionSources:
     rid: 6702511399732248900
-  m_FalloffIntensity: 0.571
+  m_FalloffIntensity: 0.532
   m_Color: {r: 0.8039216, g: 0.52156866, b: 0.24705882, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.55
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000f34fd65e8b4ad49e17343e9b051367779162d4e8
@@ -77,7 +77,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 4.18
+  m_PointLightOuterRadius: 2.72
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -144,8 +144,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -902.4624, y: -536.8847, z: 0}
-  m_LocalScale: {x: 4.2, y: 0.7392, z: 3.36}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 2.15, y: 0.7392, z: 3.36}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8451006700781393371}
   - {fileID: 2273912443268060939}
@@ -488,6 +488,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448408, guid: 24c4f75140285de47a21f52f0d16bb55, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 448408, guid: 24c4f75140285de47a21f52f0d16bb55, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11449782, guid: 24c4f75140285de47a21f52f0d16bb55, type: 3}
