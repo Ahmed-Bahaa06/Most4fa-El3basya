@@ -22,6 +22,8 @@ namespace KhosaryCode.AI
                 npc.Agent.isStopped = false;
                 npc.ActionTimer = meleeAttackRate; // Ready to attack immediately when in range
             }
+            
+            KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.GuardMeleeSpotPlayer, npc.transform.position);
         }
 
         public override void OnUpdate(NPCStateMachine npc)

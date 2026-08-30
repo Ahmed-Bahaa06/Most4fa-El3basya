@@ -20,6 +20,8 @@ namespace KhosaryCode.AI
             {
                 npc.Agent.isStopped = true; 
             }
+            
+            KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.GuardRangedSpotPlayer, npc.transform.position);
         }
 
         public override void OnUpdate(NPCStateMachine npc)

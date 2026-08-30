@@ -85,6 +85,8 @@ public class PlayerDash : MonoBehaviour
                         adrenalinSystem.IncreaseCurrentAdrenaline(dashHitAdrenalineReward);
                     }
                     
+                    KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.PlayerKnockoutHit, transform.position);
+                    
                     hitNPC = true;
                     break;
                 }

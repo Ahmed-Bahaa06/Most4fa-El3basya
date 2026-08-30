@@ -22,6 +22,11 @@ namespace KhosaryCode.AI
                 npc.Agent.isStopped = false;
                 npc.ActionTimer = updateInterval; // Force immediate update
             }
+            
+            if (npc.IsFemale)
+                KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.FemaleDoctorSpotPlayer, npc.transform.position);
+            else
+                KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.DoctorSpotPlayer, npc.transform.position);
         }
 
         public override void OnUpdate(NPCStateMachine npc)
