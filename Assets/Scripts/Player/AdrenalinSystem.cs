@@ -29,6 +29,11 @@ public class AdrenalinSystem : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        NotifyUI();
+    }
+
     private void Update()
     {
         if (currentAdrenaline > 0f)
@@ -59,10 +64,12 @@ public class AdrenalinSystem : MonoBehaviour
 
     public void SetCurrentAdrenaline(float newValue)
     {
-        currentAdrenaline = newValue;        
+        currentAdrenaline = Mathf.Clamp(newValue, 0f, maxAdrenaline);        
+        NotifyUI();
     }
     public void IncreaseCurrentAdrenaline(float newValue)
     {
-        currentAdrenaline = Mathf.Min(currentAdrenaline + newValue, maxAdrenaline);      
+        currentAdrenaline = Mathf.Clamp(currentAdrenaline + newValue, 0f, maxAdrenaline);      
+        NotifyUI();
     }
 }

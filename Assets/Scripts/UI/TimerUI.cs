@@ -19,7 +19,7 @@ namespace KhosaryCode.UI
             int minutes = Mathf.FloorToInt(timeInSeconds / 60f);
             int seconds = Mathf.FloorToInt(timeInSeconds % 60f);
             
-            _timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            _timerText.text = "Time: " + string.Format("{00:00}:{01:00}", minutes, seconds);
         }
     }
 }
