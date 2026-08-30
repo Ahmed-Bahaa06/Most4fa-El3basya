@@ -205,6 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2595102179474120343}
   - component: {fileID: 7204668064494322696}
+  - component: {fileID: 4338356318917120704}
   - component: {fileID: 950000997520484173}
   m_Layer: 0
   m_Name: Doctor_Visual
@@ -288,6 +289,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &4338356318917120704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6132074527622217863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45506686ae3c18f40b29a554c8457ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.DoctorVisual
+  onDoctorKnockedOut: {fileID: 11400000, guid: fad9d5503d4aab049b37b25266a9b91a, type: 2}
 --- !u!95 &950000997520484173
 Animator:
   serializedVersion: 7

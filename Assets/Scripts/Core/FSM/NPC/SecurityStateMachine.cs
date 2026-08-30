@@ -15,8 +15,9 @@ namespace KhosaryCode.AI
             Weapon = GetComponentInChildren<ProjectileWeapon>();
         }
 
-        private void Start()
+        protected override void Start()
         {
+            base.Start();
             if (_initialState != null) 
             {
                 Initialize(_initialState);

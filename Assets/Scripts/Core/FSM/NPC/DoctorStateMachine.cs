@@ -6,8 +6,9 @@ namespace KhosaryCode.AI
     {
         [SerializeField] private NPCStateSO _initialState;
 
-        private void Start()
+        protected override void Start()
         {
+            base.Start();
             if (_initialState != null) 
             {
                 Initialize(_initialState);

@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace KhosaryCode.Events
 {
     /// <summary>
@@ -5,4 +7,8 @@ namespace KhosaryCode.Events
     /// </summary>
     [System.Serializable]
     public struct Empty { }
+    public struct DoctorDeathData
+    {
+        public GameObject Instance;
+    }
 }
