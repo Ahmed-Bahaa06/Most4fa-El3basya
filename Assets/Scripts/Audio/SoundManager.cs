@@ -9,24 +9,34 @@ namespace KhosaryCode.Audio
         public static SoundManager Instance { get; private set; }
 
         [Header("Audio Source Pool")]
-        [SerializeField] private int _poolSize = 10;
+        [SerializeField] private int _poolSize = 15;
         [SerializeField] private GameObject _audioSourcePrefab;
         private List<AudioSource> _pool = new List<AudioSource>();
 
         [Header("Player Sounds")]
-        [SerializeField] private SoundGroup _playerAction = new SoundGroup(1f);
-        [SerializeField] private SoundGroup _playerKnockdown = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _playerFootstep = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _playerKnockoutHit = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _playerHurt = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _playerDie = new SoundGroup(1f);
 
-        [Header("Guard Sounds")]
-        [SerializeField] private SoundGroup _guardMeleeSpot = new SoundGroup(1f);
-        [SerializeField] private SoundGroup _guardRangedSpot = new SoundGroup(1f);
+        [Header("NPC Sounds (Movement)")]
+        [SerializeField] private SoundGroup _npcIdleStep = new SoundGroup(0.7f);
+        [SerializeField] private SoundGroup _npcRunStep = new SoundGroup(1f);
 
-        [Header("Doctor Sounds")]
-        [SerializeField] private SoundGroup _doctorSpot = new SoundGroup(1f);
-        [SerializeField] private SoundGroup _femaleDoctorSpot = new SoundGroup(1f);
+        [Header("NPC Sounds (Male Voices)")]
+        [SerializeField] private SoundGroup _maleNpcHurt = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _maleNpcDie = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _doctorSpotPlayer = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _guardMeleeSpotPlayer = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _guardRangedSpotPlayer = new SoundGroup(1f);
 
-        [Header("Other Sounds")]
-        [SerializeField] private SoundGroup _uiSounds = new SoundGroup(1f);
+        [Header("NPC Sounds (Female Voices)")]
+        [SerializeField] private SoundGroup _femaleNpcHurt = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _femaleNpcDie = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _femaleDoctorSpotPlayer = new SoundGroup(1f);
+
+        [Header("UI & VFX Sounds")]
+        [SerializeField] private SoundGroup _uiButtonClick = new SoundGroup(1f);
         [SerializeField] private SoundGroup _vfxSounds = new SoundGroup(1f);
 
         private void Awake()
@@ -65,7 +75,6 @@ namespace KhosaryCode.Audio
 
         private AudioSource GetAvailableSource()
         {
-            // Find an inactive source in the pool
             for (int i = 0; i < _pool.Count; i++)
             {
                 if (!_pool[i].gameObject.activeInHierarchy)
@@ -74,7 +83,6 @@ namespace KhosaryCode.Audio
                 }
             }
 
-            // Expand pool if necessary
             GameObject obj = Instantiate(_audioSourcePrefab, transform);
             AudioSource newSource = obj.GetComponent<AudioSource>();
             newSource.playOnAwake = false;
@@ -84,8 +92,9 @@ namespace KhosaryCode.Audio
 
         /// <summary>
         /// Plays a sound from the specified category at the given world position.
+        /// You can pass a maxDuration to force the sound to stop early (e.g. cutting a 6-second footstep clip down to 0.3s).
         /// </summary>
-        public void PlaySound(SoundType type, Vector3 position)
+        public void PlaySound(SoundType type, Vector3 position = default, float maxDuration = -1f)
         {
             SoundGroup group = GetSoundGroup(type);
             AudioClip clip = group.GetRandomClip();
@@ -100,27 +109,25 @@ namespace KhosaryCode.Audio
             source.volume = group.Volume;
             source.pitch = Random.Range(group.PitchRange.x, group.PitchRange.y);
             
-            // For UI Sounds, we typically don't want 3D spatialization.
-            // If the prefab has spatialBlend = 1, we can override it for UI.
-            if (type == SoundType.UI)
+            if (type == SoundType.UIButtonClick)
             {
-                source.spatialBlend = 0f;
+                source.spatialBlend = 0f; // 2D sound for UI
             }
             else
             {
-                // Assuming standard 3D sound is set in the prefab, but let's enforce it
-                source.spatialBlend = 1f;
+                source.spatialBlend = 1f; // 3D sound for everything else
             }
 
             source.Play();
 
-            // Return to pool after playing
-            StartCoroutine(ReturnToPoolRoutine(source, clip.length));
+            float playTime = (maxDuration > 0f && maxDuration < clip.length) ? maxDuration : clip.length;
+            StartCoroutine(ReturnToPoolRoutine(source, playTime));
         }
 
         private IEnumerator ReturnToPoolRoutine(AudioSource source, float delay)
         {
             yield return new WaitForSeconds(delay);
+            if (source.isPlaying) source.Stop();
             source.gameObject.SetActive(false);
         }
 
@@ -128,14 +135,27 @@ namespace KhosaryCode.Audio
         {
             switch (type)
             {
-                case SoundType.PlayerAction: return _playerAction;
-                case SoundType.PlayerKnockdown: return _playerKnockdown;
-                case SoundType.GuardMeleeSpot: return _guardMeleeSpot;
-                case SoundType.GuardRangedSpot: return _guardRangedSpot;
-                case SoundType.DoctorSpot: return _doctorSpot;
-                case SoundType.FemaleDoctorSpot: return _femaleDoctorSpot;
-                case SoundType.UI: return _uiSounds;
+                case SoundType.PlayerFootstep: return _playerFootstep;
+                case SoundType.PlayerKnockoutHit: return _playerKnockoutHit;
+                case SoundType.PlayerHurt: return _playerHurt;
+                case SoundType.PlayerDie: return _playerDie;
+
+                case SoundType.NPCIdleStep: return _npcIdleStep;
+                case SoundType.NPCRunStep: return _npcRunStep;
+                
+                case SoundType.MaleNPCHurt: return _maleNpcHurt;
+                case SoundType.MaleNPCDie: return _maleNpcDie;
+                case SoundType.DoctorSpotPlayer: return _doctorSpotPlayer;
+                case SoundType.GuardMeleeSpotPlayer: return _guardMeleeSpotPlayer;
+                case SoundType.GuardRangedSpotPlayer: return _guardRangedSpotPlayer;
+
+                case SoundType.FemaleNPCHurt: return _femaleNpcHurt;
+                case SoundType.FemaleNPCDie: return _femaleNpcDie;
+                case SoundType.FemaleDoctorSpotPlayer: return _femaleDoctorSpotPlayer;
+
+                case SoundType.UIButtonClick: return _uiButtonClick;
                 case SoundType.VFX: return _vfxSounds;
+                
                 default: return default;
             }
         }

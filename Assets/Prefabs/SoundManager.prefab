@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &796283132448022999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8819637876142719395}
+  - component: {fileID: 1426338902690363803}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8819637876142719395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796283132448022999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.17782, y: -4.81489, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1426338902690363803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796283132448022999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7387b9900d0c23547bfa26cfc9372006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Audio.SoundManager
+  _poolSize: 15
+  _audioSourcePrefab: {fileID: 0}
+  _playerFootstep:
+    Clips:
+    - {fileID: 8300000, guid: 1f168324732c8a64ca6f7e33d5147bce, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _playerKnockoutHit:
+    Clips: []
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _playerHurt:
+    Clips:
+    - {fileID: 8300000, guid: 0fed1d004f035b2488997a413fd5f99d, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _playerDie:
+    Clips:
+    - {fileID: 8300000, guid: b167901712f95c84dae99aa9c53b8239, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _npcIdleStep:
+    Clips:
+    - {fileID: 8300000, guid: 1f168324732c8a64ca6f7e33d5147bce, type: 3}
+    Volume: 0.7
+    PitchRange: {x: 0.95, y: 1.05}
+  _npcRunStep:
+    Clips:
+    - {fileID: 8300000, guid: 779112b939e381b4294a649ee8c60767, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _maleNpcHurt:
+    Clips:
+    - {fileID: 8300000, guid: 94ed61e39eba1754198524fe96da7740, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _maleNpcDie:
+    Clips:
+    - {fileID: 8300000, guid: f6c3a9d7714ad234bba5f4170c0f289d, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _doctorSpotPlayer:
+    Clips:
+    - {fileID: 8300000, guid: a0919f72425a24c4d800b2d11c903165, type: 3}
+    - {fileID: 8300000, guid: 64328da1905188242945b6e4ba36edd1, type: 3}
+    - {fileID: 8300000, guid: 087d09a875c54fb41b4a876381b3a5d8, type: 3}
+    - {fileID: 8300000, guid: 70472d9e16873c149b5afdbb1fc8f09b, type: 3}
+    - {fileID: 8300000, guid: 1462e9f510ee6de4ab262fec6c8af9b9, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _guardMeleeSpotPlayer:
+    Clips:
+    - {fileID: 8300000, guid: 072ac56096f2f3f48a854c14b0d26446, type: 3}
+    - {fileID: 8300000, guid: f55de948d44d1e44db44ba1a9b514985, type: 3}
+    - {fileID: 8300000, guid: e422799f664336643ab54dea702f4208, type: 3}
+    - {fileID: 8300000, guid: 325eed66aabfbf64186119abfc0d1f81, type: 3}
+    - {fileID: 8300000, guid: 4ef923ecaba6be243a916af4a4768afa, type: 3}
+    - {fileID: 8300000, guid: e79ba492695d3124fb309375fcb2966f, type: 3}
+    - {fileID: 8300000, guid: 4bad355b695cf3443870833fc12caa7e, type: 3}
+    - {fileID: 8300000, guid: 15890479fd5bc814fb8d1c1f2d3448d2, type: 3}
+    - {fileID: 8300000, guid: 6e5688d84bd26e8428973aae3d7f4d30, type: 3}
+    - {fileID: 8300000, guid: e637e8f915b7f2845ad8ffdc376dc369, type: 3}
+    - {fileID: 8300000, guid: d368a06b09cb4a14cb73059f1970dbac, type: 3}
+    - {fileID: 8300000, guid: f094fd984b6e2594a927ad13c34c80cd, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _guardRangedSpotPlayer:
+    Clips:
+    - {fileID: 8300000, guid: cd1f98fe6c5df25469a99139c1afeb56, type: 3}
+    - {fileID: 8300000, guid: e3c0c55470ea5dd4aa1cda5bc33ba891, type: 3}
+    - {fileID: 8300000, guid: 1d1f7e4dcbd04154191b03597e2bf5cd, type: 3}
+    - {fileID: 8300000, guid: a189a0b001967b648ba962ba0c9cf13d, type: 3}
+    - {fileID: 8300000, guid: e86ebe5f02bbd8144b58751def4462bb, type: 3}
+    - {fileID: 8300000, guid: f91bdec1ff39a78439253e73a62b400f, type: 3}
+    - {fileID: 8300000, guid: eb2ee3aa3bad37a4098e3e72d56572e7, type: 3}
+    - {fileID: 8300000, guid: 44c266144193b5f4cb0984a227159e3b, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _femaleNpcHurt:
+    Clips:
+    - {fileID: 8300000, guid: 5de13aa7d8dcfef40a6e67066b26f529, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _femaleNpcDie:
+    Clips:
+    - {fileID: 8300000, guid: d2fe377249722614196a497c7a899641, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _femaleDoctorSpotPlayer:
+    Clips:
+    - {fileID: 8300000, guid: 663f03e8d3a896c4fa6c43788f00622a, type: 3}
+    - {fileID: 8300000, guid: f60f70f4b2481404bb6998b451bfb581, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _uiButtonClick:
+    Clips:
+    - {fileID: 8300000, guid: aac212d7c5752da4ab74b0f7e107aa51, type: 3}
+    - {fileID: 8300000, guid: 6f7b8342b12cfff469908e9ef978ba31, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _vfxSounds:
+    Clips:
+    - {fileID: 8300000, guid: f69ed58e0680f4c33920ceb16a815127, type: 3}
+    - {fileID: 8300000, guid: 336cdf467b9feae48add8552a6eede20, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}

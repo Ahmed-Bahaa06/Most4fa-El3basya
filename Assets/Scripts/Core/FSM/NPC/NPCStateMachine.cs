@@ -58,10 +58,27 @@ namespace KhosaryCode.AI
         [Header("States")]
         [SerializeField] private NPCStateSO _knockedOutStateSO;
 
+        [Header("Audio")]
+        [SerializeField] private bool _isFemale = false;
+        public bool IsFemale => _isFemale;
+
+        public void PlayHurtSound()
+        {
+            if (_isFemale)
+                KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.FemaleNPCHurt, transform.position);
+            else
+                KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.MaleNPCHurt, transform.position);
+        }
+
         public void KnockOut()
         {
             if (CurrentState != _knockedOutStateSO && _knockedOutStateSO != null)
             {
+                if (_isFemale)
+                    KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.FemaleNPCDie, transform.position);
+                else
+                    KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.MaleNPCDie, transform.position);
+
                 ChangeState(_knockedOutStateSO);
             }
         }

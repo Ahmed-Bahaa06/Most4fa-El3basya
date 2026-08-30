@@ -14,6 +14,7 @@ public class MainMenuUI : MonoBehaviour
 
     public void PlayGame()
     {
+        KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.UIButtonClick);
         if (_gameplayScene != null && _loadEventChannel != null)
         {
             _loadEventChannel.Invoke(_gameplayScene);
@@ -26,6 +27,7 @@ public class MainMenuUI : MonoBehaviour
     
     public void QuitGame()
     {
+        KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.UIButtonClick);
         Debug.Log("QUIT!"); 
 
         #if UNITY_EDITOR

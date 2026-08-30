@@ -27,10 +27,15 @@ public class PlayerHealth : MonoBehaviour , IDamagable
             Die();
             Debug.Log("Player died");
         }
+        else
+        {
+            KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.PlayerHurt, transform.position);
+        }
     }
 
     private void Die()
     {
+        KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.PlayerDie, transform.position);
         OnDie?.Invoke(new Empty());
     }
 }

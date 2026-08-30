@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.DoctorStateMachine
   _target: {fileID: 0}
   _knockedOutStateSO: {fileID: 11400000, guid: e8c39fe09d678044bab3ae80f9f200ec, type: 2}
+  _isFemale: 1
   _initialState: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
 --- !u!61 &2103998871520375317
 BoxCollider2D:
