@@ -20,6 +20,8 @@ public class PlayerDash : MonoBehaviour
     [Header("References")]
     [SerializeField] private AdrenalinSystem adrenalinSystem;
     [SerializeField] private VoidEventChannelSO OnPlayerDash;
+    [SerializeField] private Transform dashVFXPosition;
+
 
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
@@ -65,7 +67,7 @@ public class PlayerDash : MonoBehaviour
         OnPlayerDash?.Invoke(new Empty());
         lastDashTime = Time.time;
         
-        KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.PlayerDash, transform.position);
+        KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.PlayerDash, dashVFXPosition.position);
         
         float startTime = Time.time;
         bool hitNPC = false;

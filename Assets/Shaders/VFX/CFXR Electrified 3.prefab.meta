@@ -10,6 +10,5 @@ AssetOrigin:
   productId: 109565
   packageName: Cartoon FX Remaster Free
   packageVersion: R 1.5.0
-  assetPath: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Electrified
-    3.prefab
+  assetPath: Assets/Shaders/VFX/CFXR Electrified 3.prefab
   uploadId: 836238
