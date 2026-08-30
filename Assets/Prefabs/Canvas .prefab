@@ -669,8 +669,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Doctor Remaining: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 70105a8a0a4d44335b7ad578bd131ca9, type: 2}
+  m_sharedMaterial: {fileID: 809408666895779560, guid: 70105a8a0a4d44335b7ad578bd131ca9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2081,8 +2081,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Time :'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 70105a8a0a4d44335b7ad578bd131ca9, type: 2}
+  m_sharedMaterial: {fileID: 809408666895779560, guid: 70105a8a0a4d44335b7ad578bd131ca9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
