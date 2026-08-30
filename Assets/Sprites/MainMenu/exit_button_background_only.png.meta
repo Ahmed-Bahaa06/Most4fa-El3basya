@@ -1,0 +1,1430 @@
+fileFormatVersion: 2
+guid: 4bde295a5145b4fcfac631b9d1be844e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1331643383892798452
+    second: exit_button_background_only_0
+  - first:
+      213: -3885802480254091816
+    second: exit_button_background_only_1
+  - first:
+      213: -9115636470087434584
+    second: exit_button_background_only_2
+  - first:
+      213: -3319596113798889060
+    second: exit_button_background_only_3
+  - first:
+      213: 2544414838696653039
+    second: exit_button_background_only_4
+  - first:
+      213: -7292388251833309610
+    second: exit_button_background_only_5
+  - first:
+      213: 5272622672323546789
+    second: exit_button_background_only_6
+  - first:
+      213: -1932132572742778637
+    second: exit_button_background_only_7
+  - first:
+      213: 1762616731089583208
+    second: exit_button_background_only_8
+  - first:
+      213: -2403629466048629390
+    second: exit_button_background_only_9
+  - first:
+      213: 2509508483562253294
+    second: exit_button_background_only_10
+  - first:
+      213: -2905073343991878230
+    second: exit_button_background_only_11
+  - first:
+      213: -985030141226248986
+    second: exit_button_background_only_12
+  - first:
+      213: 3633716047222831295
+    second: exit_button_background_only_13
+  - first:
+      213: 441384821473760526
+    second: exit_button_background_only_14
+  - first:
+      213: 7129351148672295950
+    second: exit_button_background_only_15
+  - first:
+      213: -300719764785084944
+    second: exit_button_background_only_16
+  - first:
+      213: -3078631258260196863
+    second: exit_button_background_only_17
+  - first:
+      213: -681260570662663597
+    second: exit_button_background_only_18
+  - first:
+      213: -3851300244818798006
+    second: exit_button_background_only_19
+  - first:
+      213: -910955618087321527
+    second: exit_button_background_only_20
+  - first:
+      213: 9191719304604245206
+    second: exit_button_background_only_21
+  - first:
+      213: -5343593579432739575
+    second: exit_button_background_only_22
+  - first:
+      213: -5925734875968155145
+    second: exit_button_background_only_23
+  - first:
+      213: -3489067642137916402
+    second: exit_button_background_only_24
+  - first:
+      213: -8978219205482383477
+    second: exit_button_background_only_25
+  - first:
+      213: 5079307362372779542
+    second: exit_button_background_only_26
+  - first:
+      213: -6719421728379403108
+    second: exit_button_background_only_27
+  - first:
+      213: 5988584508174049338
+    second: exit_button_background_only_28
+  - first:
+      213: 1161960228170038081
+    second: exit_button_background_only_29
+  - first:
+      213: 6207659214397145192
+    second: exit_button_background_only_30
+  - first:
+      213: -8350003877072345180
+    second: exit_button_background_only_31
+  - first:
+      213: 108296329843740578
+    second: exit_button_background_only_32
+  - first:
+      213: 4195961434943473768
+    second: exit_button_background_only_33
+  - first:
+      213: 284733524972923628
+    second: exit_button_background_only_34
+  - first:
+      213: -5445216609606429975
+    second: exit_button_background_only_35
+  - first:
+      213: -4337792517908654087
+    second: exit_button_background_only_36
+  - first:
+      213: 3749957663415912749
+    second: exit_button_background_only_37
+  - first:
+      213: -7118215223367978804
+    second: exit_button_background_only_38
+  - first:
+      213: 8312769157713928340
+    second: exit_button_background_only_39
+  - first:
+      213: 2708157060830694412
+    second: exit_button_background_only_40
+  - first:
+      213: 1900466644415181601
+    second: exit_button_background_only_41
+  - first:
+      213: 3063085596255248322
+    second: exit_button_background_only_42
+  - first:
+      213: -7886633443600517148
+    second: exit_button_background_only_43
+  - first:
+      213: -3272469690573112528
+    second: exit_button_background_only_44
+  - first:
+      213: 4681117755184825302
+    second: exit_button_background_only_45
+  - first:
+      213: -2683711108930874473
+    second: exit_button_background_only_46
+  - first:
+      213: -6506652070217311907
+    second: exit_button_background_only_47
+  - first:
+      213: 7245577389713838723
+    second: exit_button_background_only_48
+  - first:
+      213: 524694122291821697
+    second: exit_button_background_only_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: exit_button_background_only_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 2051
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbed603a92fa7210800000000000000
+      internalID: 1331643383892798452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 734
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd7f196b3bd21ac0800000000000000
+      internalID: -3885802480254091816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_2
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aeb7da5de0ce7180800000000000000
+      internalID: -9115636470087434584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_3
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 70
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9100472cec6ee1d0800000000000000
+      internalID: -3319596113798889060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 68
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe03fbd90d39f4320800000000000000
+      internalID: 2544414838696653039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_5
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 70
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6566e3d858b3cca90800000000000000
+      internalID: -7292388251833309610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_6
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae048a826e1c2940800000000000000
+      internalID: 5272622672323546789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 52
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f084b679afaf25e0800000000000000
+      internalID: -1932132572742778637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 28
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c31c30492167810800000000000000
+      internalID: 1762616731089583208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27572805cb794aed0800000000000000
+      internalID: -2403629466048629390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_10
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 46
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebae8b7ba093d220800000000000000
+      internalID: 2509508483562253294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_11
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 49
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad68e47f2b1fa7d0800000000000000
+      internalID: -2905073343991878230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_12
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 51
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e418233e487452f0800000000000000
+      internalID: -985030141226248986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_13
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 62
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb87a512e7d8d6230800000000000000
+      internalID: 3633716047222831295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_14
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 50
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e055135182d102600800000000000000
+      internalID: 441384821473760526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_15
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04a2a7c81b80f260800000000000000
+      internalID: 7129351148672295950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 50
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5cb0b97f0a3dbf0800000000000000
+      internalID: -300719764785084944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 33
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102bcf09e218645d0800000000000000
+      internalID: -3078631258260196863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_18
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 48
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a0c26de1dab86f0800000000000000
+      internalID: -681260570662663597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_19
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 36
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a533815de6d8ac0800000000000000
+      internalID: -3851300244818798006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_20
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 48
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94042c911b2ab53f0800000000000000
+      internalID: -910955618087321527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_21
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 18
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc590af10c8f8f70800000000000000
+      internalID: 9191719304604245206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_22
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 46
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d7ad973fdb7d5b0800000000000000
+      internalID: -5343593579432739575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_23
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f156c4b68f83cda0800000000000000
+      internalID: -5925734875968155145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_24
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c4f012777549fc0800000000000000
+      internalID: -3489067642137916402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_25
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 48
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87f1a58335f66380800000000000000
+      internalID: -8978219205482383477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_26
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 52
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e714f72235d7640800000000000000
+      internalID: 5079307362372779542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_27
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9487eff981dfb2a0800000000000000
+      internalID: -6719421728379403108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_28
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 44
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a302f1d91e9bb1350800000000000000
+      internalID: 5988584508174049338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 32
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf433dbac102010800000000000000
+      internalID: 1161960228170038081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_30
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 30
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86082d87a29062650800000000000000
+      internalID: 6207659214397145192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_31
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 42
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e7f9c6b3de1c80800000000000000
+      internalID: -8350003877072345180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_32
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 31
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af80de20feb08100800000000000000
+      internalID: 108296329843740578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_33
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 34
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8684b05a1bc0b3a30800000000000000
+      internalID: 4195961434943473768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_34
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceae7a3e1a393f300800000000000000
+      internalID: 284733524972923628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_35
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 23
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e21a53f754be64b0800000000000000
+      internalID: -5445216609606429975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_36
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 32
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f715b400b01dc3c0800000000000000
+      internalID: -4337792517908654087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_37
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 31
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c8a270a68a0430800000000000000
+      internalID: 3749957663415912749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_38
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0bf50e7f4073d90800000000000000
+      internalID: -7118215223367978804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_39
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 15
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490ac598183ec5370800000000000000
+      internalID: 8312769157713928340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_40
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 15
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c87c69f7e459520800000000000000
+      internalID: 2708157060830694412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_41
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 34
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12378df0850df5a10800000000000000
+      internalID: 1900466644415181601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_42
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 17
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfd861fe14428a20800000000000000
+      internalID: 3063085596255248322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_43
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7b9701bac0d8290800000000000000
+      internalID: -7886633443600517148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_44
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b382b972ad592d0800000000000000
+      internalID: -3272469690573112528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_45
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3c095fbcba6f040800000000000000
+      internalID: 4681117755184825302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_46
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793d76027fa81cad0800000000000000
+      internalID: -2683711108930874473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_47
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 25
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5913a57a6ab3b5a0800000000000000
+      internalID: -6506652070217311907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_48
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 14
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382de7a4f367d8460800000000000000
+      internalID: 7245577389713838723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_button_background_only_49
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 15
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c70f63686184700800000000000000
+      internalID: 524694122291821697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      exit_button_background_only_0: 1331643383892798452
+      exit_button_background_only_1: -3885802480254091816
+      exit_button_background_only_10: 2509508483562253294
+      exit_button_background_only_11: -2905073343991878230
+      exit_button_background_only_12: -985030141226248986
+      exit_button_background_only_13: 3633716047222831295
+      exit_button_background_only_14: 441384821473760526
+      exit_button_background_only_15: 7129351148672295950
+      exit_button_background_only_16: -300719764785084944
+      exit_button_background_only_17: -3078631258260196863
+      exit_button_background_only_18: -681260570662663597
+      exit_button_background_only_19: -3851300244818798006
+      exit_button_background_only_2: -9115636470087434584
+      exit_button_background_only_20: -910955618087321527
+      exit_button_background_only_21: 9191719304604245206
+      exit_button_background_only_22: -5343593579432739575
+      exit_button_background_only_23: -5925734875968155145
+      exit_button_background_only_24: -3489067642137916402
+      exit_button_background_only_25: -8978219205482383477
+      exit_button_background_only_26: 5079307362372779542
+      exit_button_background_only_27: -6719421728379403108
+      exit_button_background_only_28: 5988584508174049338
+      exit_button_background_only_29: 1161960228170038081
+      exit_button_background_only_3: -3319596113798889060
+      exit_button_background_only_30: 6207659214397145192
+      exit_button_background_only_31: -8350003877072345180
+      exit_button_background_only_32: 108296329843740578
+      exit_button_background_only_33: 4195961434943473768
+      exit_button_background_only_34: 284733524972923628
+      exit_button_background_only_35: -5445216609606429975
+      exit_button_background_only_36: -4337792517908654087
+      exit_button_background_only_37: 3749957663415912749
+      exit_button_background_only_38: -7118215223367978804
+      exit_button_background_only_39: 8312769157713928340
+      exit_button_background_only_4: 2544414838696653039
+      exit_button_background_only_40: 2708157060830694412
+      exit_button_background_only_41: 1900466644415181601
+      exit_button_background_only_42: 3063085596255248322
+      exit_button_background_only_43: -7886633443600517148
+      exit_button_background_only_44: -3272469690573112528
+      exit_button_background_only_45: 4681117755184825302
+      exit_button_background_only_46: -2683711108930874473
+      exit_button_background_only_47: -6506652070217311907
+      exit_button_background_only_48: 7245577389713838723
+      exit_button_background_only_49: 524694122291821697
+      exit_button_background_only_5: -7292388251833309610
+      exit_button_background_only_6: 5272622672323546789
+      exit_button_background_only_7: -1932132572742778637
+      exit_button_background_only_8: 1762616731089583208
+      exit_button_background_only_9: -2403629466048629390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
