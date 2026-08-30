@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f79f4ea161ccc9d43b144f9dcbbc40ef, type: 3}
   m_Name: MainMenuGameSceneSO
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Scenes.GameSceneSO
-  _sceneAsset: {fileID: 102900000, guid: 1ab250138ff460c4987ce6c6ed961bdc, type: 3}
-  _sceneName: MainMenu 1
+  _sceneAsset: {fileID: 102900000, guid: 6be86bfc3fb3e41e997327d280e91851, type: 3}
+  _sceneName: MainMenu
