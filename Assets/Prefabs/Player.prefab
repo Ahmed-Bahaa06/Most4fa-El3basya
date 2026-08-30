@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 584937124413618855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: -1.75, z: 0}
+  m_LocalPosition: {x: -0.09, y: -1.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -314,12 +314,12 @@ MonoBehaviour:
   dashVelocity: 25
   dashDuration: 0.15
   dashCooldown: 1
-  dashRecoveryTime: 1
+  dashRecoveryTime: 0
   dashHitboxSize: {x: 1, y: 1}
   dashHitAdrenalineReward: 20
   adrenalinSystem: {fileID: 4723328702408991658}
   OnPlayerDash: {fileID: 11400000, guid: 8925b5c2ff5ce4fefa34864bd4a85d4c, type: 2}
-  dashVFXPosition: {fileID: 0}
+  dashVFXPosition: {fileID: 2909637523493121757}
 --- !u!114 &4723328702408991658
 MonoBehaviour:
   m_ObjectHideFlags: 0

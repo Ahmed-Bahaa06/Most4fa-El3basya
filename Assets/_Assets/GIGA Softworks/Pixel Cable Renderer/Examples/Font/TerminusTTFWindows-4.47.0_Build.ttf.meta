@@ -1,13 +1,14 @@
 fileFormatVersion: 2
-guid: cbe5d7690d5584892a2f6d1fb4ac87c9
+guid: 40a4eabaf0132384487303a03fb964ae
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -2
+  forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
+  fontName: Terminus (TTF) for Windows
   fontNames:
   - Terminus (TTF) for Windows
   fallbackFontReferences: []

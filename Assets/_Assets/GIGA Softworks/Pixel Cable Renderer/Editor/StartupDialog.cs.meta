@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f125882204ac334d8bf51b590504094
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - selectorImage1: {fileID: 2800000, guid: b48719a98194a4348ae3cffd4d9926df, type: 3}
+  - selectorImage2: {fileID: 2800000, guid: 46cb9cf90e2697c44ad38e99e2fc87ae, type: 3}
+  - selectorImage3: {fileID: 2800000, guid: 486f0860fbe87b642a76dbe530712866, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
