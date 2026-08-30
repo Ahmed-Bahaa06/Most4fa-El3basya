@@ -28,12 +28,8 @@ public class MainMenuUI : MonoBehaviour
     public void QuitGame()
     {
         KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.UIButtonClick);
-        Debug.Log("QUIT!"); 
 
-        #if UNITY_EDITOR
-            EditorApplication.ExitPlaymode();
-        #else
-            Application.Quit(); // original code to quit Unityplayer
-        #endif
+        Debug.Log("QUIT!"); 
+        Application.Quit();
     }
 }
