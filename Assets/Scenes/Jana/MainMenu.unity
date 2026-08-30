@@ -758,7 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45542d1ee2a5444e8e4786a497d4bb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
-  _gameplayScene: {fileID: 11400000, guid: d6aebddf76686bd41ab65b567a0f8b52, type: 2}
+  _nextSceneToLoad: {fileID: 11400000, guid: 6339291b3637e1b4691b33e96ef24982, type: 2}
   _loadEventChannel: {fileID: 11400000, guid: 5494b6247421c2348a93cee7b1373a20, type: 2}
 --- !u!114 &223530515
 MonoBehaviour:

@@ -9,15 +9,15 @@ using KhosaryCode.Events;
 public class MainMenuUI : MonoBehaviour
 {
     [Header("Scene Loading")]
-    [SerializeField] private GameSceneSO _gameplayScene;
+    [SerializeField] private GameSceneSO _nextSceneToLoad;
     [SerializeField] private LoadEventChannelSO _loadEventChannel;
 
     public void PlayGame()
     {
         KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.UIButtonClick);
-        if (_gameplayScene != null && _loadEventChannel != null)
+        if (_nextSceneToLoad != null && _loadEventChannel != null)
         {
-            _loadEventChannel.Invoke(_gameplayScene);
+            _loadEventChannel.Invoke(_nextSceneToLoad);
         }
         else
         {

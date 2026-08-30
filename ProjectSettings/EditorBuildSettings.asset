@@ -12,10 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/BootStrapper.unity
     guid: dd81d06c5652a574abbe0be7c97ff53b
   - enabled: 1
-    path: Assets/Scenes/Joy/Joy_MainMenu 1.unity
-    guid: 1ab250138ff460c4987ce6c6ed961bdc
+    path: Assets/Scenes/Jana/MainMenu.unity
+    guid: 6be86bfc3fb3e41e997327d280e91851
   - enabled: 1
-    path: Assets/Scenes/Joy/Joy_GameScene 1.unity
-    guid: 2a054e6198e0af44f86cf9d19bb950f8
+    path: Assets/Scenes/Ahmed Scenes/CutScene.unity
+    guid: 27aef29b84598ea488491a726ecbbd05
+  - enabled: 1
+    path: Assets/Scenes/Joy/GamePlayLoop.unity
+    guid: 9b2c9f5d53cdb1340a9a7478ad926f49
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 70a99df67c5c79d45a4ac197e9d0fbae, type: 3}

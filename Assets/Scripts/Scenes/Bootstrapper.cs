@@ -17,6 +17,17 @@ namespace KhosaryCode.Scenes
 
         private void Start()
         {
+#if UNITY_EDITOR
+            // If we are playing in the editor and started from a different scene (e.g. testing Gameplay),
+            // AutoBootstrapper loads us additively. We do NOT want to interrupt the test by forcing a Main Menu load.
+            // Since SceneLoader moves this object to DontDestroyOnLoad in Awake, gameObject.scene.name becomes "DontDestroyOnLoad".
+            // So we just check if the active scene is the BootStrapper itself.
+            if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name != "BootStrapper")
+            {
+                return;
+            }
+#endif
+
             if (_mainMenuScene != null && _loadEventChannel != null)
             {
                 _loadEventChannel.Invoke(_mainMenuScene);
