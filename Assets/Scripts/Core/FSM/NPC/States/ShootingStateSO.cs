@@ -45,6 +45,12 @@ namespace KhosaryCode.AI
                     if (npc is SecurityStateMachine guard && guard.Weapon != null)
                     {
                         guard.Weapon.Fire(direction);
+
+                        var officerVisual = npc.GetComponentInChildren<OfficerVisual>();
+                        if (officerVisual != null)
+                        {
+                            officerVisual.PlayAttackAnimation();
+                        }
                     }
                     else
                     {

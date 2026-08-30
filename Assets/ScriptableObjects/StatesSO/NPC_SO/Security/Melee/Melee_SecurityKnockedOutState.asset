@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Melee_SecurityKnockedOutState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.KnockedOutStateSO
   stateColor: {r: 0, g: 0, b: 0, a: 1}
+  _onDoctorKnockedOutChannel: {fileID: 0}
+  _onOfficerKnockedOutChannel: {fileID: 11400000, guid: 024079773262f8345a5440e5b13329a8, type: 2}

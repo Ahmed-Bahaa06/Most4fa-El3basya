@@ -64,6 +64,12 @@ namespace KhosaryCode.AI
             {
                 damagable.TakeDamage(meleeDamage);
                 Debug.Log($"[{npc.gameObject.name}] melee attacked Player for {meleeDamage} damage!");
+
+                var officerVisual = npc.GetComponentInChildren<OfficerVisual>();
+                if (officerVisual != null)
+                {
+                    officerVisual.PlayAttackAnimation();
+                }
             }
         }
     }
