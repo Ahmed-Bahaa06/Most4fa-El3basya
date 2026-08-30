@@ -56,7 +56,8 @@ namespace KhosaryCode.Core
 
         private void Update()
         {
-            if (Keyboard.current != null && Keyboard.current.pKey.wasPressedThisFrame)
+            if (Keyboard.current != null && 
+               (Keyboard.current.pKey.wasPressedThisFrame || Keyboard.current.escapeKey.wasPressedThisFrame))
             {
                 TogglePause();
             }
