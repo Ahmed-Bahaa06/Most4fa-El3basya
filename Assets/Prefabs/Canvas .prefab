@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8050696331075698519}
   - component: {fileID: 973735425039891435}
   - component: {fileID: 7179519027138750880}
+  - component: {fileID: 1155748700632277783}
+  - component: {fileID: 8872882572345662094}
   m_Layer: 5
   m_Name: retry
   m_TagString: Untagged
@@ -28,16 +30,16 @@ RectTransform:
   m_GameObject: {fileID: 153107009085297603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 2.3999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3214776329517845584}
   m_Father: {fileID: 3496888364277066589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -135.1}
+  m_SizeDelta: {x: 384, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8050696331075698519
 CanvasRenderer:
@@ -96,7 +98,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -106,7 +108,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 534151706531314270, guid: 412ca29368a9fef458b09c5dc7bd749f, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -133,6 +135,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1155748700632277783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153107009085297603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0700e8bb620fab1429171b53dd2f309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverAnimation
+  rotate: 0
+  rotateValue: 15
+  scale: 1
+  scaleValue: 1.05
+  animationTime: 0.15
+--- !u!114 &8872882572345662094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153107009085297603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &156467574688403336
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,8 +258,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.9
-  m_fontSizeBase: 17.9
+  m_fontSize: 36.9
+  m_fontSizeBase: 36.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -285,7 +318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3458404964804930447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -483,6 +516,8 @@ GameObject:
   - component: {fileID: 7837701848067895869}
   - component: {fileID: 5745819918698016556}
   - component: {fileID: 4159280573886838069}
+  - component: {fileID: 2520332512299916418}
+  - component: {fileID: 7112043137236276735}
   m_Layer: 5
   m_Name: retry (1)
   m_TagString: Untagged
@@ -499,7 +534,7 @@ RectTransform:
   m_GameObject: {fileID: 314363111518709054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 2.3999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6679609809578239877}
@@ -507,8 +542,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -202}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 50, y: -234.2}
+  m_SizeDelta: {x: 384, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7837701848067895869
 CanvasRenderer:
@@ -567,7 +602,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -577,7 +612,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 534151706531314270, guid: 412ca29368a9fef458b09c5dc7bd749f, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -616,6 +651,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &2520332512299916418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314363111518709054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0700e8bb620fab1429171b53dd2f309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverAnimation
+  rotate: 0
+  rotateValue: 15
+  scale: 1
+  scaleValue: 1.05
+  animationTime: 0.15
+--- !u!114 &7112043137236276735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314363111518709054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &321715397027158369
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +867,7 @@ GameObject:
   - component: {fileID: 3459141678277794795}
   - component: {fileID: 685930576638129958}
   - component: {fileID: 1376962862667404710}
+  - component: {fileID: 2859335363751454612}
   m_Layer: 5
   m_Name: mainmenu (1)
   m_TagString: Untagged
@@ -922,6 +989,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2859335363751454612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264023484491083017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &1302809287151639324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,9 +1200,9 @@ RectTransform:
   - {fileID: 4166108135428444330}
   m_Father: {fileID: 5876055286982739965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.80002, y: -192.55}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4266801354084098796
@@ -1375,6 +1456,7 @@ GameObject:
   - component: {fileID: 1898388270111259556}
   - component: {fileID: 9140631149340265524}
   - component: {fileID: 4484958720177301641}
+  - component: {fileID: 1601714013469097745}
   m_Layer: 5
   m_Name: retry
   m_TagString: Untagged
@@ -1496,6 +1578,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1601714013469097745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108614334532728531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &2123891558073649670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +1625,7 @@ RectTransform:
   m_Father: {fileID: 6609083009479068605}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1583,6 +1679,8 @@ GameObject:
   - component: {fileID: 3514294728842830397}
   - component: {fileID: 5642358258277860536}
   - component: {fileID: 1925415160202812931}
+  - component: {fileID: 6805852658991057079}
+  - component: {fileID: 5385740556578702097}
   m_Layer: 5
   m_Name: rssume
   m_TagString: Untagged
@@ -1599,16 +1697,16 @@ RectTransform:
   m_GameObject: {fileID: 2206031123085607315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 2.3999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5891279528460263929}
   m_Father: {fileID: 3496888364277066589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -36}
+  m_SizeDelta: {x: 384, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3514294728842830397
 CanvasRenderer:
@@ -1638,7 +1736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 534151706531314270, guid: 412ca29368a9fef458b09c5dc7bd749f, type: 3}
+  m_Sprite: {fileID: -1531428139019901847, guid: c15df3048d4235141ad0cd4df75edc1e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1667,7 +1765,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1677,7 +1775,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 534151706531314270, guid: 412ca29368a9fef458b09c5dc7bd749f, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -1691,7 +1789,50 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5642358258277860536}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: KhosaryCode.Core.GameManager, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6805852658991057079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206031123085607315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0700e8bb620fab1429171b53dd2f309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverAnimation
+  rotate: 0
+  rotateValue: 15
+  scale: 1
+  scaleValue: 1.05
+  animationTime: 0.15
+--- !u!114 &5385740556578702097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206031123085607315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &2373144677952931159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,8 +1925,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.9
-  m_fontSizeBase: 17.9
+  m_fontSize: 36.9
+  m_fontSizeBase: 36.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2806,8 +2947,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280992743
-  m_fontColor: {r: 0.90588236, g: 0.7647059, b: 0.16470589, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2824,8 +2965,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.9
-  m_fontSizeBase: 17.9
+  m_fontSize: 36.9
+  m_fontSizeBase: 36.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3740,8 +3881,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4166108135428444330}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3815,9 +3956,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5876055286982739965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.80002, y: -66.275}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &7059012271248679071
@@ -3953,7 +4094,7 @@ RectTransform:
   m_Father: {fileID: 7594103134831772080}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4007,6 +4148,8 @@ GameObject:
   - component: {fileID: 5616646834450329578}
   - component: {fileID: 8273507892999675795}
   - component: {fileID: 6898255757649934258}
+  - component: {fileID: 7429274369218315245}
+  - component: {fileID: 826866852360603732}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -4023,7 +4166,7 @@ RectTransform:
   m_GameObject: {fileID: 4869823716401801437}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.92, y: 2.92, z: 2.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3757127140139857732}
@@ -4031,7 +4174,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 156}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 467.2, y: 87.6}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5616646834450329578
 CanvasRenderer:
@@ -4139,6 +4282,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7429274369218315245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869823716401801437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
+--- !u!114 &826866852360603732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869823716401801437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0700e8bb620fab1429171b53dd2f309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverAnimation
+  rotate: 0
+  rotateValue: 15
+  scale: 1
+  scaleValue: 1.05
+  animationTime: 0.15
 --- !u!1 &4893870154364697722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4273,6 +4447,7 @@ GameObject:
   - component: {fileID: 4731119791299869661}
   - component: {fileID: 7410974652246397093}
   - component: {fileID: 7042072726920546668}
+  - component: {fileID: 6980363165370847832}
   m_Layer: 5
   m_Name: mainmenu
   m_TagString: Untagged
@@ -4394,6 +4569,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6980363165370847832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5172246155773102985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &5172905988642990079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,6 +4730,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5876055286982739965}
   - component: {fileID: 5428400303574604944}
+  - component: {fileID: 3000531194535764305}
+  - component: {fileID: 515968247518627974}
   m_Layer: 5
   m_Name: SETTINGS
   m_TagString: Untagged
@@ -4597,6 +4788,34 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &3000531194535764305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292832626812868834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7083e9ee24ed9f64eb6a36c515a244c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.VolumeSettingsUI
+  _backgroundVolumeSlider: {fileID: 4266801354084098796}
+  _sfxVolumeSlider: {fileID: 2620728270586704632}
+--- !u!114 &515968247518627974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292832626812868834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7083e9ee24ed9f64eb6a36c515a244c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.VolumeSettingsUI
+  _backgroundVolumeSlider: {fileID: 4266801354084098796}
+  _sfxVolumeSlider: {fileID: 2620728270586704632}
 --- !u!1 &5394918800310073546
 GameObject:
   m_ObjectHideFlags: 0
@@ -4704,9 +4923,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5876055286982739965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.80002, y: -268.825}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &7736625037886029233
@@ -4821,6 +5040,7 @@ GameObject:
   - component: {fileID: 6414044341640176620}
   - component: {fileID: 6396686806506356689}
   - component: {fileID: 3091624582019150046}
+  - component: {fileID: 7661895768532287195}
   m_Layer: 5
   m_Name: mainmenu
   m_TagString: Untagged
@@ -4942,6 +5162,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7661895768532287195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413999521222624601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &5437299478988695931
 GameObject:
   m_ObjectHideFlags: 0
@@ -5158,7 +5392,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 7
-  m_Spacing: 63.5
+  m_Spacing: 27.1
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -5198,8 +5432,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7535828983265197892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5253,6 +5487,7 @@ GameObject:
   - component: {fileID: 4395145664447055838}
   - component: {fileID: 8642089493727376227}
   - component: {fileID: 2304483087914604286}
+  - component: {fileID: 4935677923843132642}
   m_Layer: 5
   m_Name: retry
   m_TagString: Untagged
@@ -5374,6 +5609,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4935677923843132642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133608720222889318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &6429063972387556161
 GameObject:
   m_ObjectHideFlags: 0
@@ -5386,6 +5635,7 @@ GameObject:
   - component: {fileID: 6658554536153177820}
   - component: {fileID: 7437924865273466513}
   - component: {fileID: 4012447192904770657}
+  - component: {fileID: 9127356610376119561}
   m_Layer: 5
   m_Name: retry
   m_TagString: Untagged
@@ -5507,6 +5757,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &9127356610376119561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6429063972387556161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &6478559754316068668
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,8 +5863,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.9
-  m_fontSizeBase: 17.9
+  m_fontSize: 36.9
+  m_fontSizeBase: 36.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6073,7 +6337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1810163901027373476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6384,6 +6648,8 @@ GameObject:
   - component: {fileID: 6920086559179791237}
   - component: {fileID: 7546314069676617748}
   - component: {fileID: 2741186557222539281}
+  - component: {fileID: 2637210130524614073}
+  - component: {fileID: 6475775141188399879}
   m_Layer: 5
   m_Name: mainmenu (1)
   m_TagString: Untagged
@@ -6400,16 +6666,16 @@ RectTransform:
   m_GameObject: {fileID: 8549375038579049288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.3999999, y: 2.3999999, z: 2.3999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9181167867597233068}
   m_Father: {fileID: 3496888364277066589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -295.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -333.3}
+  m_SizeDelta: {x: 384, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6920086559179791237
 CanvasRenderer:
@@ -6468,7 +6734,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6478,7 +6744,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 534151706531314270, guid: 412ca29368a9fef458b09c5dc7bd749f, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -6505,6 +6771,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2637210130524614073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8549375038579049288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0700e8bb620fab1429171b53dd2f309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverAnimation
+  rotate: 0
+  rotateValue: 15
+  scale: 1
+  scaleValue: 1.05
+  animationTime: 0.15
+--- !u!114 &6475775141188399879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8549375038579049288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &8648621208983816341
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,9 +7037,9 @@ RectTransform:
   - {fileID: 7535828983265197892}
   m_Father: {fileID: 5876055286982739965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.80002, y: -395.1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2620728270586704632

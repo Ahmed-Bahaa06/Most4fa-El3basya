@@ -161,6 +161,20 @@ MonoBehaviour:
   scale: 1
   scaleValue: 1.05
   animationTime: 0.15
+--- !u!114 &49732497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49732490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &319062914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6951988120958362231, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
@@ -218,6 +232,20 @@ MonoBehaviour:
   scale: 1
   scaleValue: 1.05
   animationTime: 1
+--- !u!114 &745269057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745269049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &807341328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5941245822878666107, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
@@ -260,6 +288,20 @@ MonoBehaviour:
   scale: 1
   scaleValue: 1.05
   animationTime: 0.15
+--- !u!114 &1451179358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451179351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &1509810791 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6561834499373727169, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
@@ -401,6 +443,20 @@ MonoBehaviour:
   scale: 1
   scaleValue: 1.05
   animationTime: 0.15
+--- !u!114 &1952022581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952022574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &1984424330 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4698486986929800847, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
@@ -458,6 +514,20 @@ MonoBehaviour:
   scale: 1
   scaleValue: 1.05
   animationTime: 1
+--- !u!114 &2083708015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083708007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &2088592949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1917189246900751885, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
@@ -480,6 +550,20 @@ MonoBehaviour:
   scale: 1
   scaleValue: 1.05
   animationTime: 0.15
+--- !u!114 &2088592956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088592949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7701cdf1c4ef3e3498f972f9803dd201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.UIButtonSound
+  _playHoverSound: 1
+  _playClickSound: 1
 --- !u!1 &2111167577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,15 +1134,27 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 237297009070343734, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1952022579}
+    - targetCorrespondingSourceObject: {fileID: 237297009070343734, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1952022581}
     - targetCorrespondingSourceObject: {fileID: 99854738903839710, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1451179356}
+    - targetCorrespondingSourceObject: {fileID: 99854738903839710, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1451179358}
     - targetCorrespondingSourceObject: {fileID: 1917189246900751885, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2088592954}
+    - targetCorrespondingSourceObject: {fileID: 1917189246900751885, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2088592956}
     - targetCorrespondingSourceObject: {fileID: 4687348850958102204, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 49732495}
+    - targetCorrespondingSourceObject: {fileID: 4687348850958102204, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 49732497}
     - targetCorrespondingSourceObject: {fileID: 6951988120958362231, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 319062918}
@@ -1071,6 +1167,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3855235642019772116, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 745269055}
+    - targetCorrespondingSourceObject: {fileID: 3855235642019772116, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 745269057}
     - targetCorrespondingSourceObject: {fileID: 3585793251206109416, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1640047571}
@@ -1080,6 +1179,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8931098307031123946, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2083708013}
+    - targetCorrespondingSourceObject: {fileID: 8931098307031123946, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2083708015}
     - targetCorrespondingSourceObject: {fileID: 5941245822878666107, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 807341332}

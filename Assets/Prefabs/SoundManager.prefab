@@ -142,8 +142,12 @@ MonoBehaviour:
     PitchRange: {x: 0.95, y: 1.05}
   _uiButtonClick:
     Clips:
+    - {fileID: 8300000, guid: 0f7fa07772161c141a089a780f63201c, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _uiButtonHover:
+    Clips:
     - {fileID: 8300000, guid: aac212d7c5752da4ab74b0f7e107aa51, type: 3}
-    - {fileID: 8300000, guid: 6f7b8342b12cfff469908e9ef978ba31, type: 3}
     Volume: 1
     PitchRange: {x: 0.95, y: 1.05}
   _vfxSounds:
@@ -180,7 +184,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 56268654b97c9d74f8e32cdbec318b6c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
