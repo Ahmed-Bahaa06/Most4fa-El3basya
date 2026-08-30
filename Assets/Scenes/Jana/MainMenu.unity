@@ -652,6 +652,7 @@ GameObject:
   - component: {fileID: 223530511}
   - component: {fileID: 223530510}
   - component: {fileID: 223530514}
+  - component: {fileID: 223530515}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -759,6 +760,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
   _gameplayScene: {fileID: 11400000, guid: d6aebddf76686bd41ab65b567a0f8b52, type: 2}
   _loadEventChannel: {fileID: 11400000, guid: 5494b6247421c2348a93cee7b1373a20, type: 2}
+--- !u!114 &223530515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223530509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7083e9ee24ed9f64eb6a36c515a244c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.UI.VolumeSettingsUI
+  _backgroundVolumeSlider: {fileID: 1725445967}
+  _sfxVolumeSlider: {fileID: 2105839626}
 --- !u!1 &234791518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3207,8 +3222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LampFlickerAlpha
   minAlpha: 0.05
   maxAlpha: 1
-  minTime: 0.05
-  maxTime: 0.1
+  minTime: 0.01
+  maxTime: 0.05
 --- !u!1 &1700426288
 GameObject:
   m_ObjectHideFlags: 0
