@@ -10,12 +10,28 @@ namespace KhosaryCode.UI
 
         [SerializeField] private float lerpSpeed = 0.05f;
 
-        /// <summary>
-        /// Call this method via a FloatEventListener UnityEvent hook.
-        /// </summary>
-        void Awake()
+        private void Start()
         {
-            _healthSlider.value = _healthSlider.maxValue;
+            // Auto-sync maxValue from the PlayerHealth component in the scene
+            PlayerHealth playerHealth = Object.FindAnyObjectByType<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                float maxHealth = playerHealth.MaxHealth;
+                if (_healthSlider != null)
+                {
+                    _healthSlider.maxValue = maxHealth;
+                    _healthSlider.value = maxHealth;
+                }
+                if (_easeHealthSlider != null)
+                {
+                    _easeHealthSlider.maxValue = maxHealth;
+                    _easeHealthSlider.value = maxHealth;
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[HealthBarUI] Could not find PlayerHealth in scene. Make sure maxValue is set manually on the sliders.");
+            }
         }
 
         private void Update()
@@ -26,6 +42,10 @@ namespace KhosaryCode.UI
             }
         }
 
+        /// <summary>
+        /// Called via FloatEventListener when the player takes damage.
+        /// Receives the damage amount and subtracts it from the slider.
+        /// </summary>
         public void DecreaseHealth(float value)
         {
             if (_healthSlider != null)

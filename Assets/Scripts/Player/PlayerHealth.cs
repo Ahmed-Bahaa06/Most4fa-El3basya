@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour , IDamagable
     [SerializeField] private FloatEventChannelSO OnTakeDamage;
     [SerializeField] private VoidEventChannelSO OnDie;
 
+    public float MaxHealth => maxHealth;
+
     private void Start()
     {
         health = new Health(maxHealth);

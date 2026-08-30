@@ -31,8 +31,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1542423603303003415}
   m_Father: {fileID: 0}
@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.DoctorStateMachine
   _target: {fileID: 0}
   _knockedOutStateSO: {fileID: 11400000, guid: e8c39fe09d678044bab3ae80f9f200ec, type: 2}
+  _isFemale: 0
   _initialState: {fileID: 11400000, guid: a6dcd352ce4bc4742a7d7f1fde10e88a, type: 2}
 --- !u!61 &-7287808577722720068
 BoxCollider2D:
@@ -224,7 +225,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2158081566848578465}
