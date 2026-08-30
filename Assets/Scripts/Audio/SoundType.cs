@@ -26,6 +26,7 @@ namespace KhosaryCode.Audio
 
         // UI
         UIButtonClick,
+        UIButtonHover,
         
         // General
         VFX

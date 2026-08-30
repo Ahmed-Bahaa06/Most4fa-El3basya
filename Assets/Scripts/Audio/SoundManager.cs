@@ -37,6 +37,7 @@ namespace KhosaryCode.Audio
 
         [Header("UI & VFX Sounds")]
         [SerializeField] private SoundGroup _uiButtonClick = new SoundGroup(1f);
+        [SerializeField] private SoundGroup _uiButtonHover = new SoundGroup(1f);
         [SerializeField] private SoundGroup _vfxSounds = new SoundGroup(1f);
 
         [Header("BackgroundSounds")]
@@ -173,7 +174,7 @@ namespace KhosaryCode.Audio
             source.volume = group.Volume * SFXVolume;
             source.pitch = Random.Range(group.PitchRange.x, group.PitchRange.y);
             
-            if (type == SoundType.UIButtonClick)
+            if (type == SoundType.UIButtonClick || type == SoundType.UIButtonHover)
             {
                 source.spatialBlend = 0f; // 2D sound for UI
             }
@@ -218,6 +219,7 @@ namespace KhosaryCode.Audio
                 case SoundType.FemaleDoctorSpotPlayer: return _femaleDoctorSpotPlayer;
 
                 case SoundType.UIButtonClick: return _uiButtonClick;
+                case SoundType.UIButtonHover: return _uiButtonHover;
                 case SoundType.VFX: return _vfxSounds;
                 
                 default: return default;

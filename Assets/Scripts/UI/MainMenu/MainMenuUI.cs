@@ -14,7 +14,6 @@ public class MainMenuUI : MonoBehaviour
 
     public void PlayGame()
     {
-        KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.UIButtonClick);
         if (_nextSceneToLoad != null && _loadEventChannel != null)
         {
             _loadEventChannel.Invoke(_nextSceneToLoad);
@@ -27,9 +26,12 @@ public class MainMenuUI : MonoBehaviour
     
     public void QuitGame()
     {
-        KhosaryCode.Audio.SoundManager.Instance.PlaySound(KhosaryCode.Audio.SoundType.UIButtonClick);
-
         Debug.Log("QUIT!"); 
-        Application.Quit();
+
+        #if UNITY_EDITOR
+            EditorApplication.ExitPlaymode();
+        #else
+            Application.Quit(); // original code to quit Unityplayer
+        #endif
     }
 }
