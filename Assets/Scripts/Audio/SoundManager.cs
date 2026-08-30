@@ -39,6 +39,10 @@ namespace KhosaryCode.Audio
         [SerializeField] private SoundGroup _uiButtonClick = new SoundGroup(1f);
         [SerializeField] private SoundGroup _vfxSounds = new SoundGroup(1f);
 
+        [Header("BackgroundSounds")]
+        [SerializeField] private SoundGroup _ambientSound =  new SoundGroup(1f);
+         [SerializeField] private SoundGroup _flickerSound = new SoundGroup(1f);
+
         private void Awake()
         {
             if (Instance != null && Instance != this)

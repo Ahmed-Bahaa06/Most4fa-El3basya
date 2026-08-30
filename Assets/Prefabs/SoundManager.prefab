@@ -150,3 +150,13 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 336cdf467b9feae48add8552a6eede20, type: 3}
     Volume: 1
     PitchRange: {x: 0.95, y: 1.05}
+  _ambientSound:
+    Clips:
+    - {fileID: 8300000, guid: 75acfd3ca9f1f464188daf0f2480967c, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}
+  _flickerSound:
+    Clips:
+    - {fileID: 8300000, guid: bfdeedeb26cb849ccbe03afa209585b4, type: 3}
+    Volume: 1
+    PitchRange: {x: 0.95, y: 1.05}

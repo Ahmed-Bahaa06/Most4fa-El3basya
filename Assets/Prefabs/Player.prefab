@@ -265,7 +265,7 @@ MonoBehaviour:
   adrenalinSystem: {fileID: 4723328702408991658}
   wallLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
 --- !u!114 &245461697210295281
 MonoBehaviour:
   m_ObjectHideFlags: 0
