@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 6a7f53bf0ae2640bba369f3079670802
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8042720279450570401
+    second: mstshfy_alabbasya_logo_transparent_0
+  - first:
+      213: -5871028994743996384
+    second: mstshfy_alabbasya_logo_transparent_1
+  - first:
+      213: 8923618350552440741
+    second: mstshfy_alabbasya_logo_transparent_2
+  - first:
+      213: 6953282260107001308
+    second: mstshfy_alabbasya_logo_transparent_3
+  - first:
+      213: -1091059468607769054
+    second: mstshfy_alabbasya_logo_transparent_4
+  - first:
+      213: -3291522498823184072
+    second: mstshfy_alabbasya_logo_transparent_5
+  - first:
+      213: -5667072850473604545
+    second: mstshfy_alabbasya_logo_transparent_6
+  - first:
+      213: -5039862687635783182
+    second: mstshfy_alabbasya_logo_transparent_7
+  - first:
+      213: -4018344659210244910
+    second: mstshfy_alabbasya_logo_transparent_8
+  - first:
+      213: 5093387354400041338
+    second: mstshfy_alabbasya_logo_transparent_9
+  - first:
+      213: 4008696688687575810
+    second: mstshfy_alabbasya_logo_transparent_10
+  - first:
+      213: -2628881732536318954
+    second: mstshfy_alabbasya_logo_transparent_11
+  - first:
+      213: -1269823090846910925
+    second: mstshfy_alabbasya_logo_transparent_12
+  - first:
+      213: 7669923412655041152
+    second: mstshfy_alabbasya_logo_transparent_13
+  - first:
+      213: 4307166179117884111
+    second: mstshfy_alabbasya_logo_transparent_14
+  - first:
+      213: 4719078799354121024
+    second: mstshfy_alabbasya_logo_transparent_15
+  - first:
+      213: -5267062560232028504
+    second: mstshfy_alabbasya_logo_transparent_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 145
+        width: 391
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae4b746b7b7d9f60800000000000000
+      internalID: 8042720279450570401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 380
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020f34e3c3ae58ea0800000000000000
+      internalID: -5871028994743996384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 414
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afd5d74c9f07db70800000000000000
+      internalID: 8923618350552440741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 88
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddf3b020650f7060800000000000000
+      internalID: 6953282260107001308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 105
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226bec8a137cbd0f0800000000000000
+      internalID: -1091059468607769054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 51
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831207ff9b92252d0800000000000000
+      internalID: -3291522498823184072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 77
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa24794438a51b0800000000000000
+      internalID: -5667072850473604545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 25
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f149b2869fce0ab0800000000000000
+      internalID: -5039862687635783182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 25
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc6fa292d8fb38c0800000000000000
+      internalID: -4018344659210244910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 43
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a792b7a10d85fa640800000000000000
+      internalID: 5093387354400041338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 25
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203f18d3660c1a730800000000000000
+      internalID: 4008696688687575810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 27
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614c8af1ef5548bd0800000000000000
+      internalID: -2628881732536318954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 26
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3363b7e60aea06ee0800000000000000
+      internalID: -1269823090846910925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a61c1f4ba017a60800000000000000
+      internalID: 7669923412655041152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 201
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2e5eec1d026cb30800000000000000
+      internalID: 4307166179117884111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b449e4a298d7140800000000000000
+      internalID: 4719078799354121024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mstshfy_alabbasya_logo_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 201
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a64c9fe182a7e6b0800000000000000
+      internalID: -5267062560232028504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mstshfy_alabbasya_logo_transparent_0: 8042720279450570401
+      mstshfy_alabbasya_logo_transparent_1: -5871028994743996384
+      mstshfy_alabbasya_logo_transparent_10: 4008696688687575810
+      mstshfy_alabbasya_logo_transparent_11: -2628881732536318954
+      mstshfy_alabbasya_logo_transparent_12: -1269823090846910925
+      mstshfy_alabbasya_logo_transparent_13: 7669923412655041152
+      mstshfy_alabbasya_logo_transparent_14: 4307166179117884111
+      mstshfy_alabbasya_logo_transparent_15: 4719078799354121024
+      mstshfy_alabbasya_logo_transparent_16: -5267062560232028504
+      mstshfy_alabbasya_logo_transparent_2: 8923618350552440741
+      mstshfy_alabbasya_logo_transparent_3: 6953282260107001308
+      mstshfy_alabbasya_logo_transparent_4: -1091059468607769054
+      mstshfy_alabbasya_logo_transparent_5: -3291522498823184072
+      mstshfy_alabbasya_logo_transparent_6: -5667072850473604545
+      mstshfy_alabbasya_logo_transparent_7: -5039862687635783182
+      mstshfy_alabbasya_logo_transparent_8: -4018344659210244910
+      mstshfy_alabbasya_logo_transparent_9: 5093387354400041338
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

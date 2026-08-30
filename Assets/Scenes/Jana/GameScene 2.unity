@@ -439,7 +439,9 @@ MonoBehaviour:
   baseMoveSpeed: 5
   currentMoveSpeed: 0
   adrenalinSystem: {fileID: 56086758}
-  animator: {fileID: 0}
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!212 &56086755
 SpriteRenderer:
   serializedVersion: 3
