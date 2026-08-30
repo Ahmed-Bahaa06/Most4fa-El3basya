@@ -43,6 +43,11 @@ namespace KhosaryCode.Audio
         [SerializeField] private SoundGroup _ambientSound =  new SoundGroup(1f);
          [SerializeField] private SoundGroup _flickerSound = new SoundGroup(1f);
 
+        [Header("Background Audio (Loops)")]
+        [SerializeField] private AudioSource _ambientSource;
+        [SerializeField] private AudioSource _flickerSource;
+        [SerializeField] private string _cutsceneSceneName = "Cutscene";
+
         private void Awake()
         {
             if (Instance != null && Instance != this)
@@ -55,6 +60,61 @@ namespace KhosaryCode.Audio
             DontDestroyOnLoad(gameObject);
             
             InitializePool();
+        }
+
+        private void Start()
+        {
+            // Load saved volumes (default to 1f if they haven't been saved yet)
+            SetBackgroundVolume(PlayerPrefs.GetFloat("BGM_Volume", 1f));
+            SetSFXVolume(PlayerPrefs.GetFloat("SFX_Volume", 1f));
+        }
+
+        private void OnEnable()
+        {
+            UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        private void OnDisable()
+        {
+            UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+        }
+
+        private void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+        {
+            bool isCutscene = scene.name.Contains(_cutsceneSceneName, System.StringComparison.OrdinalIgnoreCase);
+
+            if (isCutscene)
+            {
+                if (_ambientSource != null) _ambientSource.Pause();
+                if (_flickerSource != null) _flickerSource.Pause();
+            }
+            else
+            {
+                if (_ambientSource != null && !_ambientSource.isPlaying) _ambientSource.Play();
+                if (_flickerSource != null && !_flickerSource.isPlaying) _flickerSource.Play();
+            }
+        }
+
+        [Header("Volume Control")]
+        [Range(0.0001f, 1f)] public float BackgroundVolume = 1f;
+        [Range(0.0001f, 1f)] public float SFXVolume = 1f;
+
+        public void SetBackgroundVolume(float volume)
+        {
+            BackgroundVolume = Mathf.Clamp01(volume);
+            if (_ambientSource != null) _ambientSource.volume = BackgroundVolume;
+            if (_flickerSource != null) _flickerSource.volume = BackgroundVolume;
+            
+            PlayerPrefs.SetFloat("BGM_Volume", BackgroundVolume);
+            PlayerPrefs.Save();
+        }
+
+        public void SetSFXVolume(float volume)
+        {
+            SFXVolume = Mathf.Clamp01(volume);
+            
+            PlayerPrefs.SetFloat("SFX_Volume", SFXVolume);
+            PlayerPrefs.Save();
         }
 
         private void InitializePool()
@@ -110,7 +170,7 @@ namespace KhosaryCode.Audio
             source.transform.position = position;
             
             source.clip = clip;
-            source.volume = group.Volume;
+            source.volume = group.Volume * SFXVolume;
             source.pitch = Random.Range(group.PitchRange.x, group.PitchRange.y);
             
             if (type == SoundType.UIButtonClick)
