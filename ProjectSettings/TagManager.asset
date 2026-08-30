@@ -50,6 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 2604545047
     locked: 0
+  - name: WalkBehind
+    uniqueID: 2003243781
+    locked: 0
   - name: Decorations
     uniqueID: 3906232977
     locked: 0
