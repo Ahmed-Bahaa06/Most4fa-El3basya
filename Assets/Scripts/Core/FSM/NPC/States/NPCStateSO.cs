@@ -11,7 +11,7 @@ namespace KhosaryCode.AI
         { 
             if (npc.SpriteRenderer != null)
             {
-                npc.SpriteRenderer.color = stateColor;
+                //npc.SpriteRenderer.color = stateColor;
             }
         }
         public virtual void OnUpdate(NPCStateMachine npc) { }

@@ -7,13 +7,20 @@ namespace KhosaryCode.AI
     [CreateAssetMenu(fileName = "KnockedOutState", menuName = "KhosaryCode/FSM/NPC States/KnockedOut State")]
     public class KnockedOutStateSO : NPCStateSO
     {
-        [SerializeField] private VoidEventChannelSO _onDoctorKnockedOutChannel;
+        [SerializeField] private DoctorDeathEventChannelSO _onDoctorKnockedOutChannel;
+        [SerializeField] private OfficerDeathEventChannelSO _onOfficerKnockedOutChannel;
 
         public override void OnEnter(NPCStateMachine stateMachine)
         {
             if (stateMachine is DoctorStateMachine && _onDoctorKnockedOutChannel != null)
             {
-                _onDoctorKnockedOutChannel.RaiseEvent();
+                Debug.Log($"[KnockedOutStateSO] Raising event for Doctor instance: {stateMachine.gameObject.name}");
+                _onDoctorKnockedOutChannel.RaiseEvent(stateMachine.gameObject);
+            }
+            else if (stateMachine is SecurityStateMachine && _onOfficerKnockedOutChannel != null)
+            {
+                Debug.Log($"[KnockedOutStateSO] Raising event for Officer/Security instance: {stateMachine.gameObject.name}");
+                _onOfficerKnockedOutChannel.RaiseEvent(stateMachine.gameObject);
             }
 
             if (stateMachine.Agent != null)
@@ -32,11 +39,11 @@ namespace KhosaryCode.AI
             }
 
             // Play Knockout Animation here if you have one on the Animator
-            var animator = stateMachine.GetComponentInChildren<Animator>();
-            if (animator != null)
-            {
-                animator.SetTrigger("KnockedOut");
-            }
+            //var animator = stateMachine.GetComponentInChildren<Animator>();
+            //if (animator != null)
+            //{
+            //    animator.SetTrigger("KnockedOut");
+            //}
 
             // Disable all colliders on the NPC so they can't be hit again or block the path
             Collider2D[] colliders = stateMachine.GetComponentsInChildren<Collider2D>();
@@ -48,7 +55,7 @@ namespace KhosaryCode.AI
             // Change color to black to visually indicate they are knocked out
             if (stateMachine.SpriteRenderer != null)
             {
-                stateMachine.SpriteRenderer.color = Color.black;
+                //stateMachine.SpriteRenderer.color = Color.black;
             }
         }
 

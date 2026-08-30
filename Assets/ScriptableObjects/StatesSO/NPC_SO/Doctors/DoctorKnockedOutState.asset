@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1416c16f252253b4ea9e644ec0a9e57e, type: 3}
   m_Name: DoctorKnockedOutState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.KnockedOutStateSO
-  stateColor: {r: 0, g: 0, b: 0, a: 1}
-  _onDoctorKnockedOutChannel: {fileID: 11400000, guid: 55d2f82ecb12ee5468e0aa9db102d4f1, type: 2}
+  stateColor: {r: 1, g: 1, b: 1, a: 1}
+  _onDoctorKnockedOutChannel: {fileID: 11400000, guid: fad9d5503d4aab049b37b25266a9b91a, type: 2}

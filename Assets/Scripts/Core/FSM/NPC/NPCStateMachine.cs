@@ -25,6 +25,19 @@ namespace KhosaryCode.AI
             SpriteRenderer = GetComponentInChildren<SpriteRenderer>();
         }
 
+        protected virtual void Start()
+        {
+            // If target is null, or is a prefab asset (has no valid scene), or is inactive in the scene:
+            if (_target == null || !_target.gameObject.scene.IsValid() || !_target.gameObject.activeInHierarchy)
+            {
+                GameObject player = GameObject.FindWithTag("Player");
+                if (player != null)
+                {
+                    _target = player.transform;
+                }
+            }
+        }
+
         public void Initialize(NPCStateSO startingState)
         {
             CurrentState = startingState;
@@ -75,7 +88,10 @@ namespace KhosaryCode.AI
                 if (SpriteRenderer != null)
                 {
                     var anim = GetComponentInChildren<Animator>();
-                    if (anim != null) anim.speed = 0f;
+                    if (anim != null)
+                    {
+                        anim.speed = (Time.timeScale == 0f) ? 0f : 1f;
+                    }
                 }
                 
                 if (Time.timeScale == 0f) return;
