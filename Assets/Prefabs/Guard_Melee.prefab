@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.OfficerVisual
   onOfficerKnockedOut: {fileID: 11400000, guid: 024079773262f8345a5440e5b13329a8, type: 2}
+  _attackTriggerName: Slash
 --- !u!1 &8176237778883980786
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,8 +286,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.SecurityStateMachine
   _target: {fileID: 1298487972996143335, guid: 5d61919ca2505864982c57500b8b6219, type: 3}
-  _knockedOutStateSO: {fileID: 11400000, guid: 60e0a787da8b38b4cbc1d7814ccb05ef, type: 2}
-  _initialState: {fileID: 11400000, guid: 8819a18c65cc97c4a943718506b23798, type: 2}
+  _knockedOutStateSO: {fileID: 11400000, guid: 1b6a1cfb4f04f3a488afd47f11958e4d, type: 2}
+  _isFemale: 0
+  _initialState: {fileID: 11400000, guid: 9d4eeb649e3c0524791966dbcd317dc6, type: 2}
 --- !u!50 &7923211922316585089
 Rigidbody2D:
   serializedVersion: 5
