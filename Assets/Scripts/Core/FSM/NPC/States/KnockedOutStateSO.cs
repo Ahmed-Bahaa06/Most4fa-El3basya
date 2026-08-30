@@ -8,6 +8,7 @@ namespace KhosaryCode.AI
     public class KnockedOutStateSO : NPCStateSO
     {
         [SerializeField] private DoctorDeathEventChannelSO _onDoctorKnockedOutChannel;
+        [SerializeField] private OfficerDeathEventChannelSO _onOfficerKnockedOutChannel;
 
         public override void OnEnter(NPCStateMachine stateMachine)
         {
@@ -15,6 +16,11 @@ namespace KhosaryCode.AI
             {
                 Debug.Log($"[KnockedOutStateSO] Raising event for Doctor instance: {stateMachine.gameObject.name}");
                 _onDoctorKnockedOutChannel.RaiseEvent(stateMachine.gameObject);
+            }
+            else if (stateMachine is SecurityStateMachine && _onOfficerKnockedOutChannel != null)
+            {
+                Debug.Log($"[KnockedOutStateSO] Raising event for Officer/Security instance: {stateMachine.gameObject.name}");
+                _onOfficerKnockedOutChannel.RaiseEvent(stateMachine.gameObject);
             }
 
             if (stateMachine.Agent != null)

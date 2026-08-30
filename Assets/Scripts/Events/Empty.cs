@@ -11,4 +11,8 @@ namespace KhosaryCode.Events
     {
         public GameObject Instance;
     }
+    public struct OfficerDeathData
+    {
+        public GameObject Instance;
+    }
 }
