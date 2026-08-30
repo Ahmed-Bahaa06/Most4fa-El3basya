@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Combat.Projectile
   speed: 15
-  damage: 10
+  damage: 15
   lifetime: 3
   rotationOffset: 90
 --- !u!50 &2161177933908035885

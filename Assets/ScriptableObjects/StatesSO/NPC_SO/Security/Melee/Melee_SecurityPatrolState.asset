@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Melee_SecurityPatrolState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.PatrolStateSO
   stateColor: {r: 0, g: 1, b: 1, a: 1}
+  movementSpeed: 3
   patrolDuration: 4
-  sightRange: 10
+  sightRange: 12
   stateWhenFinished: {fileID: 11400000, guid: 9d4eeb649e3c0524791966dbcd317dc6, type: 2}
   stateWhenPlayerSpotted: {fileID: 11400000, guid: 8eeebdd492c72024495e85baef64a81a, type: 2}

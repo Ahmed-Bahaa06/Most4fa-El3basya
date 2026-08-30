@@ -44,13 +44,13 @@ namespace KhosaryCode.UI
 
         /// <summary>
         /// Called via FloatEventListener when the player takes damage.
-        /// Receives the damage amount and subtracts it from the slider.
+        /// Receives the exact current health and sets the slider to it.
         /// </summary>
-        public void DecreaseHealth(float value)
+        public void DecreaseHealth(float currentHealth)
         {
             if (_healthSlider != null)
             {
-                _healthSlider.value -= value;
+                _healthSlider.value = currentHealth;
             }
         }
     }

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Gun_SecurityIdleState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.IdleStateSO
   stateColor: {r: 1, g: 0, b: 0, a: 1}
-  idleDuration: 2
+  movementSpeed: 3
+  idleDuration: 1.5
   sightRange: 10
   stateWhenFinished: {fileID: 11400000, guid: f5a79c3dc2864b04fa280272dc9d56e6, type: 2}
   stateWhenPlayerSpotted: {fileID: 11400000, guid: 8e7e151b18ff200428882c76d378b1df, type: 2}

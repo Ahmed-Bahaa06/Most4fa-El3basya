@@ -22,7 +22,8 @@ public class PlayerHealth : MonoBehaviour , IDamagable
         health.Damage(damageAmount);
         Debug.Log("Current Health is: " + health.GetHealth());
     
-        OnTakeDamage?.Invoke(damageAmount);
+        // Pass the CURRENT health to the UI, not the damage amount, to prevent desyncs!
+        OnTakeDamage?.Invoke(health.GetHealth());
 
         if (health.GetHealth() <= 0)
         {

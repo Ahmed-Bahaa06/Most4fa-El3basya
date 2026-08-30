@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Gun_SecurityShootingState
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.AI.ShootingStateSO
   stateColor: {r: 0, g: 1, b: 0, a: 1}
-  attackRange: 10
-  fireRate: 1
+  movementSpeed: 3
+  attackRange: 15
+  fireRate: 0.7
   stateWhenPlayerLost: {fileID: 11400000, guid: f5a79c3dc2864b04fa280272dc9d56e6, type: 2}

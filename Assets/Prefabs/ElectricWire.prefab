@@ -165,9 +165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ElectricWire
   adrenalineBoost: 40
-  healthDamage: 15
+  healthDamage: 10
   _onAdrenalinIncrease: {fileID: 11400000, guid: 227bcb025089199478c389c022223a2c, type: 2}
-  _onPlayerDamage: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
 --- !u!61 &7512651262959498234
 BoxCollider2D:
   m_ObjectHideFlags: 0

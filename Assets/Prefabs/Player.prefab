@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b16cefaad5743b8ba56a0792689e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 100
+  maxHealth: 150
   OnTakeDamage: {fileID: 11400000, guid: 0ab1f4d82e4414188b73fa0f4e6eb5ee, type: 2}
   OnDie: {fileID: 11400000, guid: 3ee82a462143b473c924ceb230e26d09, type: 2}
 --- !u!114 &4746381763106501156

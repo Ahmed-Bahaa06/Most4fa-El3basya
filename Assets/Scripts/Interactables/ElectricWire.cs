@@ -8,7 +8,6 @@ public class ElectricWire : MonoBehaviour,IInteractable
     [SerializeField] private float healthDamage = 15f;
 
     [SerializeField] private FloatEventChannelSO _onAdrenalinIncrease;
-    [SerializeField] private FloatEventChannelSO _onPlayerDamage;
 
     public void Interact()
     {
@@ -19,7 +18,16 @@ public class ElectricWire : MonoBehaviour,IInteractable
      {
         KhosaryCode.VisualFeedbacks.VFXManager.Instance.PlayVFX(KhosaryCode.VisualFeedbacks.VFXType.ElectricWireShock, transform.position);
         _onAdrenalinIncrease?.Invoke(adrenalineBoost);
-        _onPlayerDamage?.Invoke(healthDamage);
+        
+        PlayerHealth playerHealth = FindAnyObjectByType<PlayerHealth>();
+        if (playerHealth != null)
+        {
+            playerHealth.TakeDamage(healthDamage);
+        }
+        else
+        {
+            Debug.LogWarning("[ElectricWire] PlayerHealth not found!");
+        }
         Destroy(gameObject);
     }
 }
