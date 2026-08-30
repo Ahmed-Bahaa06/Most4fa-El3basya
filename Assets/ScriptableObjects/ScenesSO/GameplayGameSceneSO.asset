@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f79f4ea161ccc9d43b144f9dcbbc40ef, type: 3}
   m_Name: GameplayGameSceneSO
   m_EditorClassIdentifier: Assembly-CSharp::KhosaryCode.Scenes.GameSceneSO
-  _sceneAsset: {fileID: 102900000, guid: 2a054e6198e0af44f86cf9d19bb950f8, type: 3}
-  _sceneName: GameScene 1
+  _sceneAsset: {fileID: 102900000, guid: 9b2c9f5d53cdb1340a9a7478ad926f49, type: 3}
+  _sceneName: GamePlayLoop
