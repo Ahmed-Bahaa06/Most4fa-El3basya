@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: 8fc29c3911be34375ad4663e4f362044
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4149041859189478305
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_0"
+  - first:
+      213: -9173499145485237261
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_1"
+  - first:
+      213: -4652631663125509715
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_2"
+  - first:
+      213: -7805034310262894635
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_3"
+  - first:
+      213: -2194958339056032616
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_4"
+  - first:
+      213: -4406471683692862715
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_5"
+  - first:
+      213: -1733413218310433632
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_6"
+  - first:
+      213: 1041303131553976617
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_7"
+  - first:
+      213: 4532335100785688738
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_8"
+  - first:
+      213: -242109876027322618
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_9"
+  - first:
+      213: -4212515043793783594
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_10"
+  - first:
+      213: 6079360223217893851
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_11"
+  - first:
+      213: 4507040346687651820
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_12"
+  - first:
+      213: 1326570526249499152
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_13"
+  - first:
+      213: -3698657419547664264
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_14"
+  - first:
+      213: -7064627096489948787
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_15"
+  - first:
+      213: 3378697582246002787
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_16"
+  - first:
+      213: -2612392575249966954
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_17"
+  - first:
+      213: 6330251271027336225
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_18"
+  - first:
+      213: 1452134378769745534
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_19"
+  - first:
+      213: -3436437249666435899
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_20"
+  - first:
+      213: 2670400446052934782
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_21"
+  - first:
+      213: -6158142232975601258
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_22"
+  - first:
+      213: 3733354083457441016
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_23"
+  - first:
+      213: 7249900961930390
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_24"
+  - first:
+      213: -3835980708623237686
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_25"
+  - first:
+      213: -8516467263398030502
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_26"
+  - first:
+      213: 8752608716343515127
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_27"
+  - first:
+      213: 5298049533563891043
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_28"
+  - first:
+      213: 1099482607373211316
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_29"
+  - first:
+      213: -8116458925351681393
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_30"
+  - first:
+      213: 9135678856360219634
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_31"
+  - first:
+      213: -5546132918674988845
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_32"
+  - first:
+      213: 7537531055822467179
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_33"
+  - first:
+      213: -6074916340480453070
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_34"
+  - first:
+      213: -1512027673281777563
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_35"
+  - first:
+      213: -691022684897312882
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_36"
+  - first:
+      213: 8433314102662380969
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_37"
+  - first:
+      213: -4141137095759844073
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_38"
+  - first:
+      213: 5391680312842700234
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_39"
+  - first:
+      213: -7666394307174414103
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_40"
+  - first:
+      213: 6714964879584744607
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_41"
+  - first:
+      213: -3683385592654017779
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_42"
+  - first:
+      213: 6214249745152974965
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_43"
+  - first:
+      213: -3124701544579607136
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_44"
+  - first:
+      213: 2198596296511137477
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_45"
+  - first:
+      213: -6694255970792361623
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_46"
+  - first:
+      213: 8025977940094836351
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_47"
+  - first:
+      213: -3284603133218735686
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_48"
+  - first:
+      213: -7103435681466059333
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_49"
+  - first:
+      213: -2052025029284117515
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_50"
+  - first:
+      213: 2004320179630294730
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_51"
+  - first:
+      213: -273400588617895254
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_52"
+  - first:
+      213: 835157443188993002
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_53"
+  - first:
+      213: -5569745694621605769
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_54"
+  - first:
+      213: -1491850222311055381
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_55"
+  - first:
+      213: -6853809160192218972
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_56"
+  - first:
+      213: -7959684225837983510
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_57"
+  - first:
+      213: -7874369719856014193
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_58"
+  - first:
+      213: -7918879738214143298
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_59"
+  - first:
+      213: -3032020821634268438
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_60"
+  - first:
+      213: -6700197749158739298
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_61"
+  - first:
+      213: -3730536554295903779
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_62"
+  - first:
+      213: -2652452739593420387
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_63"
+  - first:
+      213: 7481206220807844892
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_64"
+  - first:
+      213: 3863939036904881841
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_65"
+  - first:
+      213: 1198592227975836872
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_66"
+  - first:
+      213: -2311937762493795618
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_67"
+  - first:
+      213: -6936436709855867417
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_68"
+  - first:
+      213: -2557086160174989000
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_69"
+  - first:
+      213: 300702360165975851
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_70"
+  - first:
+      213: 692246641630277656
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_71"
+  - first:
+      213: 399314062492873768
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_72"
+  - first:
+      213: 1669818690349720355
+    second: "\u2014Pngtree\u2014comic style black speed line_7947595_73"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3173f969b549930800000000000000
+      internalID: 4149041859189478305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_1"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 837
+        width: 329
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3c006612f21b080800000000000000
+      internalID: -9173499145485237261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_2"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 884
+        width: 191
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da94ba037288e6fb0800000000000000
+      internalID: -4652631663125509715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_3"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 908
+        width: 159
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df4b0dc5a2fea390800000000000000
+      internalID: -7805034310262894635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_4"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 954
+        width: 86
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894a8cf1501f981e0800000000000000
+      internalID: -2194958339056032616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_5"
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 917
+        width: 83
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5036ba4a95119d2c0800000000000000
+      internalID: -4406471683692862715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_6"
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 939
+        width: 64
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4d3a9acdda1f7e0800000000000000
+      internalID: -1733413218310433632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_7"
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1034
+        width: 25
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921d6cb5ea3737e00800000000000000
+      internalID: 1041303131553976617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_8"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1086
+        width: 18
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a08d55c2c616ee30800000000000000
+      internalID: 4532335100785688738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_9"
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 928
+        width: 18
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f07cab95ad3acf0800000000000000
+      internalID: -242109876027322618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_10"
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 947
+        width: 19
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4bea3f2e32a85c0800000000000000
+      internalID: -4212515043793783594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_11"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 913
+        width: 30
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1ca86c9e93e5450800000000000000
+      internalID: 6079360223217893851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_12"
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1133
+        width: 12
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefbba4e0593c8e30800000000000000
+      internalID: 4507040346687651820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_13"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 920
+        width: 70
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aba9a7ddce86210800000000000000
+      internalID: 1326570526249499152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_14"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 931
+        width: 92
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870aff95caabbacc0800000000000000
+      internalID: -3698657419547664264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_15"
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 884
+        width: 191
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d890e13f51765fd90800000000000000
+      internalID: -7064627096489948787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_16"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 859
+        width: 244
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3608e39cc8b83ee20800000000000000
+      internalID: 3378697582246002787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_17"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6989b5a3bcaeebbd0800000000000000
+      internalID: -2612392575249966954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_18"
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 804
+        width: 363
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124ac8cedf199d750800000000000000
+      internalID: 6330251271027336225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_19"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 341
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7604b41684072410800000000000000
+      internalID: 1452134378769745534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_20"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 310
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c436b847825f40d0800000000000000
+      internalID: -3436437249666435899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_21"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 304
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74a70bae0b2f0520800000000000000
+      internalID: 2670400446052934782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_22"
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 736
+        width: 318
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691982f2442e98aa0800000000000000
+      internalID: -6158142232975601258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_23"
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 763
+        width: 316
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc1c3d32c98fc330800000000000000
+      internalID: 3733354083457441016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_24"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 718
+        width: 246
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c1e7b1fb1c91000800000000000000
+      internalID: 7249900961930390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_25"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 283
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdb2419edbd3cac0800000000000000
+      internalID: -3835980708623237686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_26"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 234
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53dae7652e6fc980800000000000000
+      internalID: -8516467263398030502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_27"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 662
+        width: 168
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f794a31143877970800000000000000
+      internalID: 8752608716343515127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_28"
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 657
+        width: 292
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36def720bf3768940800000000000000
+      internalID: 5298049533563891043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_29"
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 684
+        width: 283
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b653392b95224f00800000000000000
+      internalID: 1099482607373211316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_30"
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 673
+        width: 261
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f824d583c9b8c5f80800000000000000
+      internalID: -8116458925351681393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_31"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 646
+        width: 114
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d567548378ce70800000000000000
+      internalID: 9135678856360219634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_32"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 253
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0e641ce7d2803b0800000000000000
+      internalID: -5546132918674988845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_33"
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 611
+        width: 272
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60f5c94f80ba9860800000000000000
+      internalID: 7537531055822467179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_34"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 595
+        width: 272
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236527d46cf81bba0800000000000000
+      internalID: -6074916340480453070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_35"
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 595
+        width: 272
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560ba7b97d2340be0800000000000000
+      internalID: -1512027673281777563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_36"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 571
+        width: 272
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f75fe778ef866f0800000000000000
+      internalID: -691022684897312882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_37"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 227
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adbb78ae76290570800000000000000
+      internalID: 8433314102662380969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_38"
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 548
+        width: 287
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71daa0980c9b786c0800000000000000
+      internalID: -4141137095759844073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_39"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 114
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5c47d9da813da40800000000000000
+      internalID: 5391680312842700234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_40"
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 508
+        width: 168
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8cac4fefe7b9590800000000000000
+      internalID: -7666394307174414103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_41"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 463
+        width: 261
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f945fd60bf8503d50800000000000000
+      internalID: 6714964879584744607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_42"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 433
+        width: 283
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bc013a15cf1ecc0800000000000000
+      internalID: -3683385592654017779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_43"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 287
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570a76df7337d3650800000000000000
+      internalID: 6214249745152974965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_44"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 246
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5d7362084d2a4d0800000000000000
+      internalID: -3124701544579607136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_45"
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 382
+        width: 304
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6290adeabf28e10800000000000000
+      internalID: 2198596296511137477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_46"
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 433
+        width: 283
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961326989a93913a0800000000000000
+      internalID: -6694255970792361623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_47"
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 459
+        width: 280
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e597eb960026f60800000000000000
+      internalID: 8025977940094836351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_48"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 292
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9bc585adeba62d0800000000000000
+      internalID: -3284603133218735686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_49"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 316
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5716122e68b6d90800000000000000
+      internalID: -7103435681466059333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_50"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f34f43ab1eb583e0800000000000000
+      internalID: -2052025029284117515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_51"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 344
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6c2038596c0db10800000000000000
+      internalID: 2004320179630294730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_52"
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 244
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa23c0afc9fa43cf0800000000000000
+      internalID: -273400588617895254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_53"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 171
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebadcc0543179b00800000000000000
+      internalID: 835157443188993002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_54"
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 116
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77061deecc944b2b0800000000000000
+      internalID: -5569745694621605769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_55"
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 83
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befdf018022eb4be0800000000000000
+      internalID: -1491850222311055381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_56"
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 83
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8ac60c1e062e0a0800000000000000
+      internalID: -6853809160192218972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_57"
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 164
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae895aa6e55898190800000000000000
+      internalID: -7959684225837983510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_58"
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 0
+        width: 191
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cd3e1c57e98b290800000000000000
+      internalID: -7874369719856014193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_59"
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 213
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba25b885dc7a1290800000000000000
+      internalID: -7918879738214143298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_60"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c6e680291ce5d0800000000000000
+      internalID: -3032020821634268438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_61"
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 34
+        width: 359
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92858475ad1403a0800000000000000
+      internalID: -6700197749158739298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_62"
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 246
+        width: 316
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd93593e4c87a3cc0800000000000000
+      internalID: -3730536554295903779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_63"
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 277
+        width: 310
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91c5016948903bd0800000000000000
+      internalID: -2652452739593420387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_64"
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 208
+        width: 308
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14b1b2bb6592d760800000000000000
+      internalID: 7481206220807844892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_65"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 70
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1befa7005187f9530800000000000000
+      internalID: 3863939036904881841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_66"
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 12
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c43b0be74142a010800000000000000
+      internalID: 1198592227975836872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_67"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 0
+        width: 19
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2febbaad85aefd0800000000000000
+      internalID: -2311937762493795618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_68"
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 0
+        width: 18
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edcf0e2093dcbf90800000000000000
+      internalID: -6936436709855867417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_69"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 18
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831c3b27fa7638cd0800000000000000
+      internalID: -2557086160174989000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_70"
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 18
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2780d0143f4c2400800000000000000
+      internalID: 300702360165975851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_71"
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 64
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810745327aa5b9900800000000000000
+      internalID: 692246641630277656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_72"
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 86
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824b4b03606aa8500800000000000000
+      internalID: 399314062492873768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014comic style black speed line_7947595_73"
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 0
+        width: 150
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3236a9570436c2710800000000000000
+      internalID: 1669818690349720355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014comic style black speed line_7947595_0": 4149041859189478305
+      "\u2014Pngtree\u2014comic style black speed line_7947595_1": -9173499145485237261
+      "\u2014Pngtree\u2014comic style black speed line_7947595_10": -4212515043793783594
+      "\u2014Pngtree\u2014comic style black speed line_7947595_11": 6079360223217893851
+      "\u2014Pngtree\u2014comic style black speed line_7947595_12": 4507040346687651820
+      "\u2014Pngtree\u2014comic style black speed line_7947595_13": 1326570526249499152
+      "\u2014Pngtree\u2014comic style black speed line_7947595_14": -3698657419547664264
+      "\u2014Pngtree\u2014comic style black speed line_7947595_15": -7064627096489948787
+      "\u2014Pngtree\u2014comic style black speed line_7947595_16": 3378697582246002787
+      "\u2014Pngtree\u2014comic style black speed line_7947595_17": -2612392575249966954
+      "\u2014Pngtree\u2014comic style black speed line_7947595_18": 6330251271027336225
+      "\u2014Pngtree\u2014comic style black speed line_7947595_19": 1452134378769745534
+      "\u2014Pngtree\u2014comic style black speed line_7947595_2": -4652631663125509715
+      "\u2014Pngtree\u2014comic style black speed line_7947595_20": -3436437249666435899
+      "\u2014Pngtree\u2014comic style black speed line_7947595_21": 2670400446052934782
+      "\u2014Pngtree\u2014comic style black speed line_7947595_22": -6158142232975601258
+      "\u2014Pngtree\u2014comic style black speed line_7947595_23": 3733354083457441016
+      "\u2014Pngtree\u2014comic style black speed line_7947595_24": 7249900961930390
+      "\u2014Pngtree\u2014comic style black speed line_7947595_25": -3835980708623237686
+      "\u2014Pngtree\u2014comic style black speed line_7947595_26": -8516467263398030502
+      "\u2014Pngtree\u2014comic style black speed line_7947595_27": 8752608716343515127
+      "\u2014Pngtree\u2014comic style black speed line_7947595_28": 5298049533563891043
+      "\u2014Pngtree\u2014comic style black speed line_7947595_29": 1099482607373211316
+      "\u2014Pngtree\u2014comic style black speed line_7947595_3": -7805034310262894635
+      "\u2014Pngtree\u2014comic style black speed line_7947595_30": -8116458925351681393
+      "\u2014Pngtree\u2014comic style black speed line_7947595_31": 9135678856360219634
+      "\u2014Pngtree\u2014comic style black speed line_7947595_32": -5546132918674988845
+      "\u2014Pngtree\u2014comic style black speed line_7947595_33": 7537531055822467179
+      "\u2014Pngtree\u2014comic style black speed line_7947595_34": -6074916340480453070
+      "\u2014Pngtree\u2014comic style black speed line_7947595_35": -1512027673281777563
+      "\u2014Pngtree\u2014comic style black speed line_7947595_36": -691022684897312882
+      "\u2014Pngtree\u2014comic style black speed line_7947595_37": 8433314102662380969
+      "\u2014Pngtree\u2014comic style black speed line_7947595_38": -4141137095759844073
+      "\u2014Pngtree\u2014comic style black speed line_7947595_39": 5391680312842700234
+      "\u2014Pngtree\u2014comic style black speed line_7947595_4": -2194958339056032616
+      "\u2014Pngtree\u2014comic style black speed line_7947595_40": -7666394307174414103
+      "\u2014Pngtree\u2014comic style black speed line_7947595_41": 6714964879584744607
+      "\u2014Pngtree\u2014comic style black speed line_7947595_42": -3683385592654017779
+      "\u2014Pngtree\u2014comic style black speed line_7947595_43": 6214249745152974965
+      "\u2014Pngtree\u2014comic style black speed line_7947595_44": -3124701544579607136
+      "\u2014Pngtree\u2014comic style black speed line_7947595_45": 2198596296511137477
+      "\u2014Pngtree\u2014comic style black speed line_7947595_46": -6694255970792361623
+      "\u2014Pngtree\u2014comic style black speed line_7947595_47": 8025977940094836351
+      "\u2014Pngtree\u2014comic style black speed line_7947595_48": -3284603133218735686
+      "\u2014Pngtree\u2014comic style black speed line_7947595_49": -7103435681466059333
+      "\u2014Pngtree\u2014comic style black speed line_7947595_5": -4406471683692862715
+      "\u2014Pngtree\u2014comic style black speed line_7947595_50": -2052025029284117515
+      "\u2014Pngtree\u2014comic style black speed line_7947595_51": 2004320179630294730
+      "\u2014Pngtree\u2014comic style black speed line_7947595_52": -273400588617895254
+      "\u2014Pngtree\u2014comic style black speed line_7947595_53": 835157443188993002
+      "\u2014Pngtree\u2014comic style black speed line_7947595_54": -5569745694621605769
+      "\u2014Pngtree\u2014comic style black speed line_7947595_55": -1491850222311055381
+      "\u2014Pngtree\u2014comic style black speed line_7947595_56": -6853809160192218972
+      "\u2014Pngtree\u2014comic style black speed line_7947595_57": -7959684225837983510
+      "\u2014Pngtree\u2014comic style black speed line_7947595_58": -7874369719856014193
+      "\u2014Pngtree\u2014comic style black speed line_7947595_59": -7918879738214143298
+      "\u2014Pngtree\u2014comic style black speed line_7947595_6": -1733413218310433632
+      "\u2014Pngtree\u2014comic style black speed line_7947595_60": -3032020821634268438
+      "\u2014Pngtree\u2014comic style black speed line_7947595_61": -6700197749158739298
+      "\u2014Pngtree\u2014comic style black speed line_7947595_62": -3730536554295903779
+      "\u2014Pngtree\u2014comic style black speed line_7947595_63": -2652452739593420387
+      "\u2014Pngtree\u2014comic style black speed line_7947595_64": 7481206220807844892
+      "\u2014Pngtree\u2014comic style black speed line_7947595_65": 3863939036904881841
+      "\u2014Pngtree\u2014comic style black speed line_7947595_66": 1198592227975836872
+      "\u2014Pngtree\u2014comic style black speed line_7947595_67": -2311937762493795618
+      "\u2014Pngtree\u2014comic style black speed line_7947595_68": -6936436709855867417
+      "\u2014Pngtree\u2014comic style black speed line_7947595_69": -2557086160174989000
+      "\u2014Pngtree\u2014comic style black speed line_7947595_7": 1041303131553976617
+      "\u2014Pngtree\u2014comic style black speed line_7947595_70": 300702360165975851
+      "\u2014Pngtree\u2014comic style black speed line_7947595_71": 692246641630277656
+      "\u2014Pngtree\u2014comic style black speed line_7947595_72": 399314062492873768
+      "\u2014Pngtree\u2014comic style black speed line_7947595_73": 1669818690349720355
+      "\u2014Pngtree\u2014comic style black speed line_7947595_8": 4532335100785688738
+      "\u2014Pngtree\u2014comic style black speed line_7947595_9": -242109876027322618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
