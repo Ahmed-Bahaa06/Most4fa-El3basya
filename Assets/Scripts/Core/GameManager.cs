@@ -12,6 +12,7 @@ namespace KhosaryCode.Core
         [Header("Event Channels")]
         [SerializeField] private VoidEventChannelSO _onGameStartChannel;
         [SerializeField] private VoidEventChannelSO _onGamePausedChannel;
+        [SerializeField] private VoidEventChannelSO _onGameResumedChannel;
         [SerializeField] private VoidEventChannelSO _onGameOverChannel;
         [SerializeField] private VoidEventChannelSO _onGameWinChannel;
         [SerializeField] private IntEventChannelSO _onDoctorCountChangedChannel;
@@ -54,13 +55,16 @@ namespace KhosaryCode.Core
             StartGame();
         }
 
-        private void Update()
+        private void OnEnable()
         {
-            if (Keyboard.current != null && 
-               (Keyboard.current.pKey.wasPressedThisFrame || Keyboard.current.escapeKey.wasPressedThisFrame))
-            {
-                TogglePause();
-            }
+            if (GameInputManager.Instance != null)
+                GameInputManager.Instance.OnPause += TogglePause;
+        }
+
+        private void OnDisable()
+        {
+            if (GameInputManager.Instance != null)
+                GameInputManager.Instance.OnPause -= TogglePause;
         }
 
         public void HandleDoctorKnockedOut()
@@ -129,9 +133,16 @@ namespace KhosaryCode.Core
         public void TogglePause()
         {
             _stateMachine.TogglePause();
-            if (_onGamePausedChannel != null)
+
+            // Fire the correct event based on the NEW state after the toggle
+            bool isPausedNow = _stateMachine.CurrentState is KhosaryCode.Core.FSM.GameManager.States.PauseStateSO;
+            if (isPausedNow)
             {
-                _onGamePausedChannel.RaiseEvent();
+                _onGamePausedChannel?.RaiseEvent();
+            }
+            else
+            {
+                _onGameResumedChannel?.RaiseEvent();
             }
         }
     }

@@ -34,8 +34,8 @@ public class PlayerVisual : MonoBehaviour
             animator.SetFloat("InputY", 0f);
 
             // Keep updating facing direction so visual matches dash direction
-            lastInputX = playerMovement.FacingDirection.x;
-            lastInputY = playerMovement.FacingDirection.y;
+            lastInputX = playerMovement.CardinalFacing.x;
+            lastInputY = playerMovement.CardinalFacing.y;
             animator.SetFloat("LastInputX", lastInputX);
             animator.SetFloat("LastInputY", lastInputY);
 
@@ -63,9 +63,9 @@ public class PlayerVisual : MonoBehaviour
         }
         else
         {
-            // Sync with PlayerMovement's facing direction when idle
-            lastInputX = playerMovement.FacingDirection.x;
-            lastInputY = playerMovement.FacingDirection.y;
+            // Sync with PlayerMovement's cardinal facing direction when idle
+            lastInputX = playerMovement.CardinalFacing.x;
+            lastInputY = playerMovement.CardinalFacing.y;
 
             // Reset to normal speed when idle so the idle animation isn't affected
             animator.speed = 1f;
@@ -87,8 +87,8 @@ public class PlayerVisual : MonoBehaviour
             // Update facing direction immediately before playing animation
             if (playerMovement != null)
             {
-                lastInputX = playerMovement.FacingDirection.x;
-                lastInputY = playerMovement.FacingDirection.y;
+                lastInputX = playerMovement.CardinalFacing.x;
+                lastInputY = playerMovement.CardinalFacing.y;
                 animator.SetFloat("LastInputX", lastInputX);
                 animator.SetFloat("LastInputY", lastInputY);
             }

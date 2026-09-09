@@ -15,7 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     public Vector2 MoveInput => moveInput;
     public bool IsMoving => moveInput.sqrMagnitude > 0.01f;
+    /// <summary>Raw normalized direction including diagonals. Used by dash.</summary>
     public Vector2 FacingDirection { get; private set; } = Vector2.down;
+    /// <summary>Cardinal-snapped facing (4 directions only). Used by the animator.</summary>
+    public Vector2 CardinalFacing { get; private set; } = Vector2.down;
     /// <summary>Ratio of current speed to base speed (1.0 = normal, > 1.0 = adrenaline boosted).</summary>
     public float CurrentSpeedRatio => baseMoveSpeed > 0f ? currentMoveSpeed / baseMoveSpeed : 1f;
     
@@ -73,13 +76,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateFacingDirection(Vector2 input)
     {
+        // Raw normalized direction — supports diagonals (used by dash)
+        FacingDirection = input.normalized;
+
+        // Cardinal snap — used by the animator (only 4 directions)
         if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
         {
-            FacingDirection = input.x > 0 ? Vector2.right : Vector2.left;
+            CardinalFacing = input.x > 0 ? Vector2.right : Vector2.left;
         }
         else
         {
-            FacingDirection = input.y > 0 ? Vector2.up : Vector2.down;
+            CardinalFacing = input.y > 0 ? Vector2.up : Vector2.down;
         }
     }
 
