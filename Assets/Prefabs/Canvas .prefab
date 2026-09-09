@@ -2802,7 +2802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
   animationType: 6
   animationTime: 1
-  delay: 1.5
+  delay: 0.5
 --- !u!1 &3305144300815324959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,9 +3150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38a694928f299844b2e759533843ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
-  animationType: 5
-  animationTime: 1
-  delay: 1
+  animationType: 1
+  animationTime: 0.5
+  delay: 0.5
 --- !u!1 &3544373696858548910
 GameObject:
   m_ObjectHideFlags: 0
@@ -3622,7 +3622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
   animationType: 5
   animationTime: 1
-  delay: 1.5
+  delay: 0.5
 --- !u!1 &3803837424321184067
 GameObject:
   m_ObjectHideFlags: 0
@@ -6248,7 +6248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
   animationType: 5
   animationTime: 1
-  delay: 1.5
+  delay: 0.5
 --- !u!1 &7027028607502988894
 GameObject:
   m_ObjectHideFlags: 0
@@ -6801,9 +6801,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38a694928f299844b2e759533843ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
-  animationType: 5
-  animationTime: 1
-  delay: 1
+  animationType: 1
+  animationTime: 0.5
+  delay: 0.5
 --- !u!1 &8343578366242765083
 GameObject:
   m_ObjectHideFlags: 0
@@ -6892,9 +6892,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38a694928f299844b2e759533843ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
-  animationType: 5
-  animationTime: 1
-  delay: 1
+  animationType: 1
+  animationTime: 0.5
+  delay: 0.5
 --- !u!1 &8454793320480005955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6947,7 +6947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
   animationType: 6
   animationTime: 1
-  delay: 1.5
+  delay: 1
 --- !u!1 &8490636830490418462
 GameObject:
   m_ObjectHideFlags: 0
@@ -7583,7 +7583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIAnimation
   animationType: 6
   animationTime: 1
-  delay: 1.5
+  delay: 1
 --- !u!1 &9078199643747997920
 GameObject:
   m_ObjectHideFlags: 0

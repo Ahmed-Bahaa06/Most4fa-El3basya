@@ -1119,7 +1119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8556964236905174415, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       propertyPath: m_text
-      value: 'Pause: ESC / P'
+      value: 'Pause: ESC'
       objectReference: {fileID: 0}
     - target: {fileID: 8735580909311258711, guid: 97de3a8da5c836347bec12a8d8232be0, type: 3}
       propertyPath: m_AnchorMax.y
